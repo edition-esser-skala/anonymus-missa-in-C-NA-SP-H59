@@ -3,8 +3,6 @@
 \include "../definitions.ly"
 
 \paper {
-	% #(set-paper-size "a4" 'landscape)
-	% indent = 1\cm
 	#(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
@@ -105,7 +103,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }
