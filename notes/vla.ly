@@ -96,3 +96,103 @@ KyrieViola = {
 		q-\critnote r r\fermata \bar "|." %90 finis
 	}
 }
+
+GloriaViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/4 \tempoGloria
+		<g e'>8\pE q q q q q
+		q q q q q q
+		<a f'> q q q q q
+		q q q q q q
+		<g e'> q q q q q %5
+		<g f'> q q q q q
+		<g e'>4 r r
+		<g d'> r r
+		<g e'>8\fE q q q q q
+		q q q q q q %10
+		<a f'> q q q q q
+		q q q q q q
+		<g e'> q q q q q
+		d' h d h d h
+		c g c g c g %15
+		d' h d h d h
+		c g c g c g
+		h g h g h g
+		c c h h c c
+		d d d d c c %20
+		h4 <g d'> r
+		q\pE r r
+		c r r
+		<h d>8\fE q q q q q
+		<c d> q q q q q %25
+		<h d>4\pE r r
+		<c d> r r
+		<h d>8\fE q q q q q
+		<c d> q q q q q
+		<h d>4 g' g %30
+		g8 g g g g g
+		c, c e e g g
+		c16 h c h c h a g fis e d c
+		h8 h h h h h
+		c4 r r %35
+		d8 d d d d d
+		d d d d d d
+		g,4\p g' r8. g16
+		d4 d' r
+		g,8\fE g16 a h a g fis e d c h %40
+		a8 a'16 h c h a g fis e d c
+		h h d d h h d d h h d d
+		c c e e c c e e c c e e
+		g8 h16 c d c h a g f e d
+		c4 c' r8. c,16 %45
+		f4 f r8. f16
+		<g g,>4 q q
+		c8 c h h b b
+		f f g g a a
+		<e g,> q q q q q %50
+		<f g,> q q q q q
+		<e g,>4\p r r
+		<f g,> r r
+		c\f <g e' c'> q
+		g-\critnote <g d' h'> q %55
+		<e' c'>\p r r
+		<d h'> r r
+		c\f <g e' c'> q
+		g <g d' h'> q
+		c8 d e c d e %60
+		f g a g f e
+		d e fis d e fis
+		g4 g8 f e d
+		e\p g, e' g, e' g,
+		e' g, e' g, e' g, %65
+		g'\f g g g g g
+		g4 g, d'16 c h a
+		h8\p g h g h g
+		h g h g h g
+		<g f'>\fE q q q q q %70
+		e'16 f e d c4 g'16 f e d
+		c c c c c c c c c c c c
+		as as as as as as as as as as as as
+		a a a a a a a a a a a a
+		h8 h h h c c %75
+		f4 g f
+		e8\p g, e' g, e' g,
+		e' g, e' g, e' g,
+		g'\fE g g g g g
+		g4 g, d'16 c h a %80
+		h8\p g h g h g
+		h g h g h g
+		h\f g h g h g
+		e'16 f e d c4 g'16 f e d
+		<e g,> q q q q q q q q q q q %85
+		as, as as as as as as as as as as as
+		a a a a a a a a a a a a
+		h8 h h h c c
+		f f g g f f
+		e c-! d-! e-! f-! g-! %90
+		a-! h-! c-! d-! e-! f-!
+		g,4^\critnote f d
+		<e g,> r r\fermata \bar "||"
+	}
+}

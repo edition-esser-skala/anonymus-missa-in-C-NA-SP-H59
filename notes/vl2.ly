@@ -96,3 +96,103 @@ KyrieViolinoII = {
 		c r r\fermata \bar "|." %90 finis
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		e8\p c e c e c
+		e\fz c e c e c
+		f\p c f c f c
+		f\fz c f c f c
+		e\p c e c g'( e) %5
+		d( h) d( h) d'( h)
+		c\f e d c h a
+		g f e d c d
+		e c e c e c
+		e\fz c e c e c %10
+		f c f c f c
+		f\fz c f c f c
+		e c e c e c
+		f g, f' g, f' g,
+		e' g, e' g, e' g, %15
+		f' g, f' g, f' g,
+		e' g, e' g, e' g,
+		d' g, d' g, d' g,
+		e' g d g c, g'
+		h, h d g, c c %20
+		<d h>4 q r
+		h'8\p g h g d' h
+		c a c a fis' c
+		d\f h' a g fis e
+		d c h a g a %25
+		h\p g h g d' h
+		a fis a fis a' fis
+		g\f h a g fis e
+		d c h a g a
+		g d' c h a g %30
+		f e d g, d' g,
+		c c' e c e c
+		r a c a c a
+		r h d h d h
+		<g g,> q4 q q8 %35
+		h, d h d h d
+		r d c8 d c8 d
+		h\p a c h a' g
+		fis eis g fis h a
+		<d, h>\f q4 q q8 %40
+		<c d> q4 q q8
+		<d g,> q4 q q8
+		c c'16 d e d c h a g f e
+		d8 d'16 e f e d c h a g f
+		e8 e'16 f g f e d c h a g %45
+		f8 f'16 g a g f e d c h a
+		g8 d'16 e f e d f e d c h
+		c c c c g-\critnote g g g c c c c
+		f, f f f e e e e es es es es
+		<e g,>8 q4 q q8 %50
+		<f g,> q q q q q
+		e\p c e c g' e
+		d h d h d' h
+		c\f e d c h a
+		g f e d cis d %55
+		e\p c e c g' e
+		d h d h d' h
+		c\f e d c h a
+		g f e d cis d
+		<c' g'>16 q q q q q q q q q q q %60
+		<c f> q q q q q q q q q <cis? f> <cis f>
+		<d a'> q q q q q q q q q q q
+		<d g>4 <h d,> r
+		g8\p e g e g e
+		g e g e g e %65
+		e\fE e g g c c
+		d4\f h d,16 c h a
+		d8\p h d h d h
+		d h d h d h
+		g'\fE g c c d d %70
+		e16 f e d c4 g16 f e d
+		<e g,> q q q q q q q q q q q
+		<c es> q q q q q q q q q q q
+		q q q q q q q q q q q q
+		<f! g,> <f g,> q q q q q q g8 g %75
+		f a g e g, d'
+		g\p e g e g e
+		g e g e g e
+		e4\f g c
+		d16 e d c h8 g d h %80
+		d\p h d h d h
+		d h d h d h
+		d\f h d h d h
+		e16 f e d c d e f g f e d
+		<e g,> q q q q q q q q q q q %85
+		<c es> q q q q q q q q q q q
+		q q q q q q q q q q q q
+		<d g,> q q q q q q q <e g,> q q q
+		f8 a g e d <f g,>
+		e c-! d-! e-! f-! g-! %90
+		a-! h-! c-! d-! e-! f-!
+		<e, g,>8.( d32 e) f8 a g, f'
+		<e g,>4 r r\fermata \bar "||"
+	}
+}

@@ -176,6 +176,179 @@ KyrieBassoLyrics = \lyricmode {
 	son. %89 finis
 }
 
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*8 %8
+		\mvTr c4.\fE^\tuttiE c8 c4
+		c2 c4 %10
+		c c r
+		c4. c8 c c
+		c4 c r
+		g'2 g4
+		c c, r %15
+		g'2 g4
+		c8. c,16 c4 r
+		g'2 f4
+		e( d) c
+		h2( c4) %20
+		g r r
+		R2.*2
+		g'2.
+		d2 d4 %25
+		g, r r
+		R2.
+		r4 g' g
+		d4. d8 d4
+		g, g' g %30
+		g2 g4
+		c, c' c
+		c8. c,16 c4 r
+		h'2.
+		c2 c4 %35
+		d2.
+		d,
+		g4 r r
+		R2.
+		g4 g g %40
+		a8. a16 a4 r
+		h2 h8 h
+		c4 c, e8 c
+		g'2 g4
+		c8. c,16 c4 r %45
+		f2 d8 d
+		g4 g g8 g
+		c4( h) b
+		a g fis
+		g2.( %50
+		g,)
+		c4 r r
+		R2.
+		r4 c c'8 c
+		g2. %55
+		c,4 r r
+		R2.
+		r4 c c'
+		g2.
+		c,4 e c %60
+		f f, f'8([ e)]
+		d2 d4
+		g r r
+		R2.*2 %65
+		c4 h c
+		g g, r
+		R2.*2
+		g'2 g4 %70
+		c8. c,16 c4 r
+		c2.
+		c
+		c(
+		h2) c4 %75
+		f( g g,)
+		c r r
+		R2.
+		c'4 h c
+		g g, r %80
+		R2.*2
+		g'2 g4
+		c c, r
+		c2. %85
+		c2 c4
+		c2.(
+		h4) g c
+		f( g g,)
+		c r r %90
+		R2.
+		e8 e16 e f4( g)
+		c, r r\fermata \bar "||" %93 finis
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	Glo -- ri -- a %9
+	in ex -- %10
+	cel -- sis,
+	in ex -- cel -- sis
+	De -- o.
+	Et in
+	ter -- ra %15
+	pax ho --
+	mi -- ni -- bus
+	bo -- nae
+	vo -- lun --
+	ta -- %20
+	tis.
+
+	Lau -- %24
+	da -- mus %25
+	te,
+
+	be -- ne --
+	di -- ci -- mus
+	te, ad -- o -- %30
+	ra -- mus
+	te, ad -- o --
+	ra -- mus te,
+	glo --
+	ri -- fi -- %35
+	ca --
+	mus
+	te.
+
+	Gra -- ti -- as %40
+	a -- gi -- mus,
+	a -- gi -- mus
+	ti -- bi pro -- pter
+	ma -- gnam
+	glo -- ri -- am, %45
+	glo -- ri -- am
+	tu -- am, pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- %50
+
+	am.
+
+	Do -- mi -- ne
+	De -- %55
+	us,
+
+	Rex coe --
+	le --
+	stis, De -- us %60
+	Pa -- ter o --
+	mni -- po --
+	tens,
+
+	Do -- mi -- ne %66
+	Fi -- li
+
+	u -- ni -- %70
+	ge -- ni -- te,
+	Je --
+	su,
+	Je --
+	su %75
+	Chri --
+	ste,
+
+	Do -- mi -- ne
+	De -- us, %80
+
+	A -- gnus %83
+	De -- i,
+	Fi -- %85
+	li -- us,
+	Fi --
+	li -- us
+	Pa --
+	tris, %90
+
+	Fi -- li -- us Pa --
+	tris. %93 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

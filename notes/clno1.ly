@@ -69,3 +69,92 @@ KyrieClarinoI = {
 		e-\critnote r r\fermata \bar "|." %90 finis
 	}
 }
+
+GloriaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		R2.*8 %8
+		c'4\fE r r
+		r8 c16 c c8 c c c %10
+		c4 r r
+		r8 c16 c c8 c c c
+		c4 r r
+		g r r
+		r r8 \pa g16 g g8 g %15
+		g4 \pd r r
+		r r8 \pa g16 g g8 g
+		g4 \pd r r
+		c d e
+		f2 e4 %20
+		d \pao g, r
+		R2.*2
+		d'4\fE r r
+		\pa d d d \pd %25
+		d r r
+		R2.
+		r4 \pa d\fE d
+		d8 d d d d d \pd
+		d4 r r %30
+		d2 d4
+		e r8 e16 e e8 e
+		fis4 r8 fis16 fis fis8 fis
+		g4 r r
+		e r r %35
+		\pao d r r
+		\pa d8 d16 d d8 d d d \pd
+		d4 r r
+		R2.
+		\pao g,4\fE g' g %40
+		g^\critnote \pao d r
+		\pao g, d' d
+		c r r
+		R2.*4 %47
+		c4 r r
+		c c c
+		e2. %50
+		d
+		c4 r r
+		R2.
+		g4\fE c e
+		g2 f4 %55
+		e r r
+		R2.
+		g,4\fE c e
+		g2 f4
+		e8 c16 c c8 c c c %60
+		c4 r r
+		\pa d8 d16 d d8 d d d
+		d4 \pd g r
+		g,\p c c
+		c e r %65
+		c\f d e
+		f8^\critnote d16 d \pa d8 g, g g
+		g4\pE \pd d' r8. d16
+		d4 g r
+		d\fE e f %70
+		f \pa e8 c g e
+		c c16 c c8 c c c \pd
+		c' c16 c c8 c c c
+		\pa c4 c c \pd
+		f2 e4 %75
+		f e d
+		c2\p c4
+		c e r
+		g,8[\f g'16 g] g8 g g g
+		g4 d8[ g,16 g] \pa g8 g %80
+		g4\pE d' \pd r8. d16
+		d4 \pa g r \pd
+		d\fE e f
+		g \pa e8 c g e
+		c c16 c c8 c c c %85
+		c c16 c c8 c c c
+		c c' c c fis fis \pd
+		g4 f e
+		f e d
+		c8 c16 c c4 r
+		e8 e16 e e4 r
+		e f d
+		c r r\fermata \bar "||"
+	}
+}

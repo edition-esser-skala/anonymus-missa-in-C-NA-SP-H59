@@ -96,3 +96,98 @@ KyrieOboeII = {
 		c r r\fermata \bar "|." %90 finis
 	}
 }
+
+GloriaOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		e'8\p c e c e c
+		e\fz g g2
+		f8\p c f c f c
+		f\fz a a4. f8
+		e4\p r g,8 e %5
+		d4 r d'8 h
+		c4 r r
+		d2 f4
+		e\f e8 c e c
+		e4 r r %10
+		f8 c f c f c
+		f4 r r
+		e8 c e c e c
+		d2 r4
+		c2 r4 %15
+		h2.
+		c4 r r
+		h2.
+		c4 h c
+		d2 c4 %20
+		h g r
+		h2\p d8 h
+		a2 fis'4
+		g r r
+		R2. %25
+		h,2\pE d8 h
+		a2 fis'4
+		g r r
+		R2.
+		r4 d2\fE %30
+		d2.
+		c
+		a
+		h
+		R2.*3 %37
+		h4\pE c d
+		fis g a
+		g\f h, r %40
+		r fis'2
+		g4 d h
+		c2.
+		d
+		c %45
+		c
+		h4 r g
+		e r r
+		R2.
+		e' %50
+		d
+		e4\pE r g,8 e
+		d4 r d'8 h
+		c4 r r
+		R2. %55
+		e,2\pE g8 e
+		h'2 d8 h
+		c2.\fE
+		d
+		c8 g' g2 %60
+		f2.
+		d
+		d4 h r
+		R2.*2 %65
+		e,4\fE g c
+		e16 d c h h4 r
+		R2.*2
+		h4\fE c d %70
+		e16 f e d c4 r
+		e,2.
+		c'
+		a!
+		h4 d c %75
+		d c h
+		c r r
+		R2.
+		e,4\fE g c
+		d16 e d c h4 r %80
+		R2.*2
+		h4\fE c d
+		e16 f e d c4 r
+		g2. %85
+		c
+		a!
+		h4 d c
+		d c h
+		c8 c,-! d-! e-! f-! g-! %90
+		a-! h-! c-! d-! e-! d-!
+		e8.(\trillE d32 e) f4 d
+		c r r\fermata \bar "||" %93 finis
+	}
+}

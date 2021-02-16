@@ -193,6 +193,179 @@ KyrieSopranoLyrics = \lyricmode {
 	son. %89 finis
 }
 
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*8 %8
+		\mvTr g'4.\fE^\tuttiE g8 g4
+		g( c4.) h8 %10
+		h8([ a)] a4 r
+		a4. c8 h a
+		\appoggiatura a g4 g r
+		g2 a8([ h)]
+		c8.([ d16)] e4 r %15
+		g,2 a8([ h)]
+		c8. d16 e4 r
+		g,2 a8([ h)]
+		c4( d) e
+		f2( e4) %20
+		d r r
+		R2.*2
+		d2.
+		fis2 fis4 %25
+		g r r
+		R2.
+		r4 d d
+		fis4. fis8 fis4
+		g g g, %30
+		a2 h4
+		c e e
+		fis8. fis16 fis4 r
+		g2.
+		e2 e4 %35
+		d2.
+		fis
+		g4 r r
+		R2.
+		g4 g g %40
+		g8. fis16 fis8 r r4
+		f2^\critnote f8 f
+		e4 e c8 c
+		h2 h4
+		c8. d16 e4 r %45
+		f2 a,8 a
+		h8.([ c16)] d4 d8 d
+		e([ c d c)] d[( e)]
+		f4 g a
+		c,2.( %50
+		d)
+		c4 r r
+		R2.
+		r4 g g8 g
+		h2. %55
+		c4 r r
+		R2.
+		r4 g g
+		h2.
+		c4 c c %60
+		c c c8([ cis)]
+		d2 d4
+		d r r
+		R2.*2 %65
+		c4 d e
+		g8([ f)] f4 r
+		R2.*2
+		d4( e) f %70
+		f8. e16 e4 r
+		g2.
+		as
+		fis(
+		g4 f) e %75
+		d( c h)
+		c r r
+		R2.
+		c4 d e
+		g8([ f)] f4 r %80
+		R2.*2
+		d4( e) f
+		f8([ e)] e4 r
+		g2. %85
+		as2^\critnote as4
+		fis2.(
+		g4) f e
+		e16([ d f d] c4 h)
+		c r r %90
+		R2.
+		g'8 g16 g a4( h,)
+		c r r\fermata \bar "||" %93 finis
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	Glo -- ri -- a %9
+	in __ ex -- %10
+	cel -- sis,
+	in ex -- cel -- sis
+	De -- o.
+	Et in
+	ter -- ra %15
+	pax ho --
+	mi -- ni -- bus
+	bo -- nae
+	vo -- lun --
+	ta -- %20
+	tis.
+
+	Lau -- %24
+	da -- mus %25
+	te,
+
+	be -- ne --
+	di -- ci -- mus
+	te, ad -- o -- %30
+	ra -- mus
+	te, ad -- o --
+	ra -- mus te,
+	glo --
+	ri -- fi -- %35
+	ca --
+	mus
+	te.
+
+	Gra -- ti -- as %40
+	a -- gi -- mus,
+	a -- gi -- mus
+	ti -- bi pro -- pter
+	ma -- gnam
+	glo -- ri -- am, %45
+	glo -- ri -- am
+	tu -- am, pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- %50
+
+	am.
+
+	Do -- mi -- ne
+	De -- %55
+	us,
+
+	Rex coe --
+	le --
+	stis, De -- us %60
+	Pa -- ter o --
+	mni -- po --
+	tens,
+
+	Do -- mi -- ne %66
+	Fi -- li
+
+	u -- ni -- %70
+	ge -- ni -- te,
+	Je --
+	su,
+	Je --
+	su %75
+	Chri --
+	ste,
+
+	Do -- mi -- ne
+	De -- us, %80
+
+	A -- gnus %83
+	De -- i,
+	Fi -- %85
+	li -- \xE us,
+	Fi --
+	li -- us \x
+	Pa --
+	tris, %90
+
+	Fi -- li -- us Pa --
+	tris. %93 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

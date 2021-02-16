@@ -89,3 +89,93 @@ KyrieCornoI = {
 		e r r\fermata \bar "|." %90 finis
 	}
 }
+
+GloriaCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		c'2.\pE
+		c4 c c
+		c2.
+		c4 c c
+		c2 r4 %5
+		d2.
+		e4 r e
+		f r d
+		c2.\fE
+		c %10
+		r4 c c
+		c2 r4
+		r c c
+		g2.
+		g4 r r %15
+		g2.
+		g4 r r
+		g2.
+		c4 d e
+		f2 e4 %20
+		d g r
+		g2.\pE
+		fis
+		g4 r r
+		R2. %25
+		g\pE
+		fis
+		g4 r r
+		R2.*3 %31
+		r4 e\fE e
+		r fis fis
+		g2.
+		e %35
+		d
+		\pa d
+		g,4 \pd r r
+		R2.*9 %47
+		c2.\fE
+		c
+		e %50
+		d
+		c\pE
+		d
+		e4 r r
+		R2. %55
+		c\pE
+		d
+		e4 r r
+		R2.
+		c\fE %60
+		c4 r r
+		\pao d2.
+		d4 r r
+		c2.\pE
+		c %65
+		c4\fE d e
+		f d d
+		g,4\pE r r
+		g2.
+		d'4\fE e f %70
+		g e r
+		c2.
+		c
+		c2 r4
+		d2 e4 %75
+		f e d
+		c2.\pE
+		c
+		c4\fE d e
+		f d d %80
+		g,\pE r r
+		g2.
+		d'4\fE e f
+		g e r
+		c2. %85
+		c
+		c2 r4
+		d2 e4
+		f e d
+		c r r %90
+		R2.
+		r4 r d
+		c^\critnote r r\fermata \bar "||" %93 finis
+	}
+}

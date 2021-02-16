@@ -187,6 +187,179 @@ KyrieTenoreLyrics = \lyricmode {
 	son. %89 finis
 }
 
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*8 %8
+		\mvTr c4.\fE^\tuttiE c8 c4
+		c2 c4 %10
+		c c r
+		c4. c8 c c
+		c4 c r
+		h2 d4
+		c c r %15
+		h2 d4
+		c8. c16 c4 r
+		h2 d4
+		c( h) c
+		d2( c4) %20
+		h r r
+		R2.*2
+		h2.
+		c2 c4 %25
+		h r r
+		R2.
+		r4 h h
+		c4. c8 c4
+		h h h %30
+		d2 d4
+		c c c
+		d8. d16 d4 r
+		d2.
+		c2 c4 %35
+		d2.
+		c
+		h4 r r
+		R2.
+		h4 h h %40
+		c8. c16 c4 r
+		d2 d8^\critnote d
+		c4 c c8 c
+		d2 d4
+		c8.^\critnote g16 g4 r %45
+		a2 a8 a
+		g4 g h8 h
+		c2 c4
+		c c c
+		\once \tieDashed g2.~ %50
+		g
+		g4 r r
+		R2.
+		r4 g g8 g
+		g2. %55
+		g4 r r
+		R2.
+		r4 g g
+		g2.
+		g4 b b %60
+		a a a
+		c2 c4
+		h! r r
+		R2.*2 %65
+		e4 d c
+		c8([ h)] d4 r
+		R2.*2
+		h4( c) d %70
+		d8.^\critnote c16 c4 r
+		c2.
+		c^\critnote
+		a!(
+		g4 d') c %75
+		a( g2)
+		g4 r r
+		R2.
+		e'4 d c
+		c8([^\critnote h)] d4 r %80
+		R2.*2
+		h4( c) d
+		d8([ c)] c4 r
+		c2. %85
+		c2 c4
+		a!2.(
+		g4) d' c
+		a( g2)
+		g4 r r %90
+		R2.
+		c8 c16 c a4( g)
+		g r r\fermata \bar "||" %93 finis
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	Glo -- ri -- a %9
+	in ex -- %10
+	cel -- sis,
+	in ex -- cel -- sis
+	De -- o.
+	Et in
+	ter -- ra %15
+	pax ho --
+	mi -- ni -- bus
+	bo -- nae
+	vo -- lun --
+	ta -- %20
+	tis.
+
+	Lau -- %24
+	da -- mus %25
+	te,
+
+	be -- ne --
+	di -- ci -- mus
+	te, ad -- o -- %30
+	ra -- mus
+	te, ad -- o --
+	ra -- mus te,
+	glo --
+	ri -- fi -- %35
+	ca --
+	mus
+	te.
+
+	Gra -- ti -- as %40
+	a -- gi -- mus,
+	a -- gi -- mus
+	ti -- bi pro -- pter
+	ma -- gnam
+	glo -- ri -- am, %45
+	glo -- ri -- am
+	tu -- am, pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- %50
+
+	am.
+
+	Do -- mi -- ne
+	De -- %55
+	us,
+
+	Rex coe --
+	le --
+	stis, De -- us %60
+	Pa -- ter o --
+	mni -- po --
+	tens,
+
+	Do -- mi -- ne %66
+	Fi -- li
+
+	u -- ni -- %70
+	ge -- ni -- te,
+	Je --
+	su,
+	Je --
+	su %75
+	Chri --
+	ste,
+
+	Do -- mi -- ne
+	De -- us, %80
+
+	A -- gnus %83
+	De -- i,
+	Fi -- %85
+	li -- us,
+	Fi --
+	li -- us
+	Pa --
+	tris, %90
+
+	Fi -- li -- us Pa --
+	tris. %93 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

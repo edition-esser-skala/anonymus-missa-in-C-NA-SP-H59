@@ -97,6 +97,106 @@ KyrieViolinoI = {
 	}
 }
 
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		g'8\p e g e g e
+		g(\fz c) c4. h8
+		a\p f a f a f
+		a(\fz c) c4. a8
+		g8\p e g e e'( c) %5
+		h( g) h( g) f' d
+		e\f g f e d c
+		h a g f e f
+		g e g e g e
+		g(\fz c) c4. h8 %10
+		a f a f a f
+		a(\fz c) c4. a8
+		g e g e g e
+		g2 a8( h)
+		\once \slurDashed c16( h c d) e4 r %15
+		g,2 \once \slurDashed a8( h)
+		c16( h c d) e4 r
+		g,4. g8 a h
+		c c d d e e
+		f g,, f' f e e %20
+		d4 <d h' g'> r
+		d'8\p h d h h' g
+		fis d fis d c' a
+		h\f d c h a g
+		fis e d c h c %25
+		d\p h d h h' g
+		fis d fis d c' a
+		h\fE d c h a g
+		\once \slurDashed fis e d c h c
+		h f' e d c h %30
+		a g fis f e f
+		e e' g e g e
+		r fis a fis a fis
+		r g h g h g
+		r e fis g dis e %35
+		r d e d c h
+		r a g fis e d
+		g\p fis a g c h
+		a gis h a d c
+		h4\f g' r8. g,16 %40
+		g8. fis16 a'4 r8. fis,16
+		g8 h16 c d c h a g f e d
+		c8 c'16 d e d c h a g f e
+		d8 d'16 e f e d c h a g f
+		e8 e'16 f g f e d c h a g %45
+		f8 f'16 g a g f e d c h a
+		g8 h'16 c d c h a g f e d
+		c8 c d d e e
+		f f g g a a
+		e <e c'>4 q q8 %50
+		g,, <d'' h'>4 q8 g,,[ h'']
+		c,\p g g e e' c
+		h g h g f' d
+		e\f g f e d c
+		h a g f e f %55
+		g\p e g e e' c
+		h g h g f' d
+		e\f g f e d c
+		h a g f e f
+		g <c b'>16 q q q q q q q q q %60
+		<c a'> q q q q q q q q q <cis? a'> <cis a'>
+		d <d c'!> <d c'> q q q q q q q q q
+		<d h'>4 g r
+		g8.(\trill\p fis32 g) c4 r8. e,16
+		e8.(\trill d32 e) g4 r8. c,16\f %65
+		c4 d e
+		g16 f e d d4 r8. h'16\p
+		h8.(\trill a32 h) d4 r8. g,16
+		g8.(\trill fis32 g) h4 r8. g,16\fE
+		d'4 e f %70
+		g16 a g f e4 g,16 f e d
+		c8.(\trill h32 c) e4 r8. c'16
+		es8.(\trill d32 es) as4 r8. as16
+		fis8.(\trill es32 fis) c'4 r8. fis,16
+		g8.(\trill fis32 g) g,8 f' e c' %75
+		a f e c' d, h'
+		g8.(\trill\p f32 g) c4 r8. e,16
+		e8.(\trill d32 e) g4 r8. c,16\fE
+		c16-! g( fis g) d'-! g,( fis g) e'-! g,( fis g)
+		f'16 g f e d4 r8. h'16\pE %80
+		h8.(\trill a32 h) d4 r8. g,16
+		g8.(\trill f32 g) h4 r8. g,16\fE
+		d'-! g,( fis g) e'-! g,( fis g) f'-! g,( fis g)
+		g' a g f e4 g,16 f e d
+		c8.(\trill h32 c) e4 r8. c'16 %85
+		es8.(\trill d32 es) as4 r8. as16
+		fis8.(\trill es32 fis) c'4 r8. fis,16
+		g8.(\trill fis32 g) g,8 f' e c'
+		a f e c g, h'
+		c c,-! d-! e-! f-! g-! %90
+		a-! h-! c-! d-! e-! f-!
+		g8.(\trill f32 g) a4 <h, d,>
+		<c e, g,> r r\fermata \bar "||" %93 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

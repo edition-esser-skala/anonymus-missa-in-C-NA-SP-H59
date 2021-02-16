@@ -185,6 +185,179 @@ KyrieAltoLyrics = \lyricmode {
 	son. %89 finis
 }
 
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoGloria
+		R2.*8 %8
+		\mvTr e4.\fE^\tuttiE e8 e4
+		e2 e4 %10
+		f f r
+		f4. f8 f f
+		\appoggiatura f8 e4^\critnote e r
+		g2 g4
+		g g r %15
+		g2 g4
+		g8. g16 g4 r
+		g2 g4
+		g2 g4
+		g2. %20
+		g4 r r
+		R2.*2
+		d2.
+		d2 d4 %25
+		d r r
+		R2.
+		r4 d d
+		d4. d8 d4
+		d d d %30
+		g( fis) f
+		e g g
+		a8. a16 a4 r
+		g2.
+		g2 g4 %35
+		g2.
+		d
+		d4 r r
+		R2.
+		g4 g g %40
+		a8. a16 a4 r
+		g2 g8 g
+		g4 g e8 e
+		d4( g) f
+		e8. d16 c2 %45
+		c f8 f
+		d4 d g8 g
+		g2 g4
+		f e es
+		e2.( %50
+		f)
+		e4 r r
+		R2.
+		r4 e e8 e
+		f2. %55
+		e4 r r
+		R2.
+		r4 e e
+		f2.
+		e4 g g %60
+		a a a
+		a2 a4
+		h r r
+		R2.*2 %65
+		g4 g g
+		g g r
+		R2.*2
+		g2 g4 %70
+		g8. g16 g4 r
+		e2.
+		es
+		es(
+		d4 g) g %75
+		a8([ f] e4 d)
+		e r r
+		R2.
+		g4 g g
+		g g r %80
+		R2.*2
+		g2 g4
+		g g r
+		e2. %85
+		es2 es4
+		es2.(
+		d4) g g
+		a8([ g16 f] e4 d)
+		e r r %90
+		R2.
+		g8 g16 g f2
+		e4 r r\fermata \bar "||" %93 finis
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	Glo -- ri -- a %9
+	in ex -- %10
+	cel -- sis,
+	in ex -- cel -- sis
+	De -- o.
+	Et in
+	ter -- ra %15
+	pax ho --
+	mi -- ni -- bus
+	bo -- nae
+	vo -- lun --
+	ta -- %20
+	tis.
+
+	Lau -- %24
+	da -- mus %25
+	te,
+
+	be -- ne --
+	di -- ci -- mus
+	te, ad -- o -- %30
+	ra -- mus
+	te, ad -- o --
+	ra -- mus te,
+	glo --
+	ri -- fi -- %35
+	ca --
+	mus
+	te.
+
+	Gra -- ti -- as %40
+	a -- gi -- mus,
+	a -- gi -- mus
+	ti -- bi pro -- pter
+	ma -- gnam
+	glo -- ri -- am, %45
+	glo -- ri -- am
+	tu -- am, pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- %50
+
+	am.
+
+	Do -- mi -- ne
+	De -- %55
+	us,
+
+	Rex coe --
+	le --
+	stis, De -- us %60
+	Pa -- ter o --
+	mni -- po --
+	tens,
+
+	Do -- mi -- ne %66
+	Fi -- li
+
+	u -- ni -- %70
+	ge -- ni -- te,
+	Je --
+	su,
+	Je --
+	su %75
+	Chri --
+	ste,
+
+	Do -- mi -- ne
+	De -- us, %80
+
+	A -- gnus %83
+	De -- i,
+	Fi -- %85
+	li -- us,
+	Fi --
+	li -- us
+	Pa --
+	tris, %90
+
+	Fi -- li -- us Pa --
+	tris. %93 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
