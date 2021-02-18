@@ -191,3 +191,62 @@ GloriaOboeI = {
 		e r r\fermata \bar "||" %93 finis
 	}
 }
+
+QuiTollisOboeI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #94
+		\partial 4 r8.-\critnote c'16\pE a'4 g f
+		e8.(\trillE f32 g) f4 r8. d16^\critnote %95
+		b'4 a g
+		fis8.(\trill g32 a) g4 r8. c,16
+		c'4 b a
+		g r g16 f! e d
+		c4 d e %100
+		f2\fE b4^\critnote
+		a g r
+		R2.*6 %108
+		c,4\pE d e
+		f r r %110
+		es2.
+		f4 es d
+		c r r
+		f g a
+		b r r %115
+		r r8 d, d d
+		f es r4 r
+		r r8 c c c
+		es d r4 f8 fis
+		g h, c d es c %120
+		b4 a r
+		d c b
+		a b r
+		es d c
+		h c r %125
+		f es d
+		c2 es8 c
+		b2^\critnote c4\trill
+		d4 r r
+		R2.*5 %134
+		r4 r r8. c16\pE^\critnote %135
+		a'4 g f
+		e8.(\trill f32 g) f4 r8. d16^\critnote
+		b'4 a g
+		fis8.(\trillE g32 a) g4 r8. c,16
+		c'4 b a %140
+		g r r
+		c, d e
+		f2 d4
+		f2 g4
+		f r r %145
+		r r8 a a a
+		c b r4 r
+		r r8 g g g
+		b a r4 r
+		r r b8 g %150
+		f2 g4\trill
+		f8 r f r f r
+		f2 r4\fermata \bar "||" %153 finis
+	}
+}

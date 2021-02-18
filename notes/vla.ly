@@ -196,3 +196,71 @@ GloriaViola = {
 		<e g,> r r\fermata \bar "||"
 	}
 }
+
+QuiTollisViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #94
+		\partial 4 r4 c,2.\pE
+		c2 a'8 f %95
+		d2.
+		d2 d'4
+		c2.
+		d4 d d,
+		e f g %100
+		a\fE a b8 g
+		c4 c, r
+		c'2.\pE
+		c4 c8 a c a
+		d2. %105
+		d4 d8 b d b
+		c2.
+		d
+		e,4 f g
+		a r r %110
+		c8 c c c a a
+		b4 c d
+		es r r
+		a, b c
+		b8 d b d b d %115
+		b d b d b d
+		a c a c a c
+		a c a c a c
+		b d b d b as
+		g f' es d c g %120
+		b4\trill a r
+		f2.-\critnote
+		f2 r4
+		g2.
+		g4 r r %125
+		b8 b b b b b
+		es es es es es es
+		b d b d c es
+		d b\f des f des b
+		f16 f'\p f f f f f f e e e e %130
+		f f, f f f f f f f f f f
+		f f f f f f f f e e e e
+		f\crescE f f f f f f f f f f f
+		as'4\f as f
+		e!8 c32( h c h) c4 r %135
+		c2.\p
+		c2 c8 a
+		d2.
+		d4^\critnote d r
+		c2. %140
+		d2 b4
+		e,8 e f f g g
+		f f f f d' d
+		c f c f c e
+		f, a f a f a %145
+		f a f a f a
+		g b g b g b
+		g b g b g b
+		f a f a f a
+		d c b a g b %150
+		a c a c g b
+		a-\critnote r f r f r
+		f2 r4\fermata \bar "||" %153 finis
+	}
+}

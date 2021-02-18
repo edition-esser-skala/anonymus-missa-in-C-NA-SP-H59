@@ -392,6 +392,137 @@ GloriaBassFigures = \figuremode {
 	r2. %93 finis
 }
 
+QuiTollisOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #94
+		\partial 4 r4 \mvTr f,\p-\tuttiE g a
+		b a r %95
+		g a b
+		c b r
+		f' g a
+		b b, b
+		c c2 %100
+		f4\fE a, b
+		c c, r
+		f\p g a
+		b a r
+		g a b %105
+		c b r
+		f' g a
+		b2 b,4
+		c2 c4
+		f, r r %110
+		f'2.
+		b,4 c d
+		es r r
+		f2.
+		b,4 b-! b-! %115
+		b-! b-! b-!
+		a-! a-! a-!
+		a-! a-! a-!
+		b-! b-! d-!
+		es-! r c-! %120
+		f-! f,-! r
+		b c d
+		es d r
+		c d es
+		f es r %125
+		b c d
+		es8 es es es es es
+		f f f f f, f
+		b b-!\fE des-! f-! des-! b-!
+		f \clef "treble_8" f'[\pE f f e e] %130
+		f f f f f f
+		f f f f e e
+		f\crescE f f f \clef bass f[ f]
+		des\fE des des des des des
+		c4 c, r %135
+		f\pE g a
+		b a r
+		g a b
+		c b r
+		f' g a %140
+		b2 b,4
+		c c c
+		f d b
+		c2 c4
+		f, f'-! f-! %145
+		f-! f-! f-!
+		e-! e-! e-!
+		e-! e-! e-!
+		f-! f-! a,-!
+		b-! r r %150
+		c-! c-! c-!
+		f-! f,-! f-!
+		f2-\critnote r4\fermata \bar "||" %153 finis
+	}
+}
+
+QuiTollisBassFigures = \figuremode {
+	r4 r <6> q %94
+	<4 2> <6>2 %95
+	r4 <6\\> <6>
+	<4+ 2> <6>2
+	r4 <6> <6>
+	\bo <[5]> <5+> \bc <[6]>
+	<8> \bo <7! [2]> \bc <7- [3]> %100
+	r <6>2
+	<4>4 <3>2
+	r4 <6> q
+	<4 2> <6>2
+	r4 <6\\> <6> %105
+	<4+ 2> <6>2
+	r4 <6> q
+	<3> <6> <[5]>
+	<8> \bo <7! [2]> \bc <7- [3]>
+	r2. %110
+	<7->
+	r4 <6 _-> <6>
+	q2.
+	<8>4 \bo <7! [2]> \bc <7- [3]>
+	<8 3>2. %115
+	r
+	r
+	r
+	r
+	r %120
+	r
+	r4 <6 _-> <6>
+	<4 2> <6>2
+	<_->4 <6!> <6>
+	<4! 2> <6>2 %125
+	r4 <6 _-> <6>
+	q2.
+	<6 4>2 <[7-] 3>4
+	r2.
+	r2 <7- 5>4 %130
+	<5 _!>2.
+	r2 <7- 5>4
+	<_!>2.
+	<6! [5-]>
+	<_!> %135
+	q4 <6> q
+	<4 2> <6>2
+	r4 <6\\> <6>
+	<4+ 2> <6>2
+	r4 <6> q %140
+	\bo <[5]> <5+> \bc <[6]>
+	\bo <8 [6 3]> \bassFigureExtendersOn <7! 5+ 3> \bc <7- [5! 3]> \bassFigureExtendersOff
+	r <6>2
+	\bo <[6] 4>2 \bc <[7] 3>4
+	r2. %145
+	r
+	r
+	r
+	r
+	r %150
+	r
+	r
+	r %153 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

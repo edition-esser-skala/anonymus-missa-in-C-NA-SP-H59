@@ -196,3 +196,71 @@ GloriaViolinoII = {
 		<e g,>4 r r\fermata \bar "||"
 	}
 }
+
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #94
+		\partial 4 r4 c\p b a
+		g8.(\trillE a32 b) c8 a c c %95
+		d4 c b
+		a8.(\trill b32 c) d8 d d c
+		a'4 g f
+		d fis g
+		c, h b %100
+		a8\fE c a c f d
+		c4 g8 c b c
+		\appoggiatura c16 c'4\pE b a
+		g8.(\trill a32 b) c8 a c c
+		d4 c b %105
+		a8.(\trillE b32 c) d8 d d c
+		a4 g f
+		d8 d d d d d
+		c4 h b
+		a r r %110
+		c8 es c es c es
+		d f c f b, f'
+		g4 r r
+		f e es
+		d8 f d f d f %115
+		d f d f d f
+		c f c f c f
+		c f c f c f
+		d f d f d d
+		es as g f es es %120
+		d4 c r
+		f es d
+		c8.(\trillE d32 es) f8 d f f
+		g4 f es
+		d8.(\trillE es32 f) g8 g g f %125
+		d f c f b, f'
+		g es g g g g
+		d f d f es f
+		d b16.\f b32 des16. des32 f16. f32 des16. des32 b16. b32
+		a16\fz a' a a a\p a a a b g g g %130
+		f\fz a a a a\p a a a a a a a
+		a,\fz a' a a a\p a a a b g g g
+		f\cresc f a a g g a a c c a a
+		<f des>\f q q q q q q q q q q q
+		<c e>4 <e g,> r %135
+		c\p b a!
+		g8.(\trillE a32 b) c8 a c c
+		d4 c b
+		a8.(\trill b32 c) d8 d d c
+		a'4 g f %140
+		d fis g
+		c8 c h h b b
+		a a f f f f
+		a, c a c b c
+		a c a c a c %145
+		a c a c a c
+		b c b c b c
+		b c b c b c
+		a c a c a a
+		f' es d c d b %150
+		r a r a r b
+		a r a r a r
+		a2 r4\fermata \bar "||" %153 finis
+	}
+}

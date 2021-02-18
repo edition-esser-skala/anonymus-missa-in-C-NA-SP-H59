@@ -197,6 +197,74 @@ GloriaViolinoI = {
 	}
 }
 
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #94
+		\partial 4 r8. c16\pE a'4 g f
+		e8.(\trillE f32 g) f4 r8. d16^\critnote %95
+		b'4 a g
+		fis8.(\trillE g32 a) g4 r8. c,16
+		c'4 b a
+		d16( fis g fis) g( a b a) \once \slurDashed g( f e d)
+		c4 d e %100
+		f8[\f f, f f] d'16. f,32 f8\trill
+		f4 e r8. c16\p
+		a''4 g f
+		e8.(\trillE f32 g) f4 r8. d16^\critnote
+		b'4 a g %105
+		fis8.(\trillE g32 a) g4 r8. c,16
+		c'4 b a
+		g16( fis g fis) g( a b a) g( f e d)
+		c4 d e
+		f16( g a g) f( e d c) b( a g f) %110
+		es( f a f) es'( c b a) g( f e f)
+		\appoggiatura d16 f'4 es d
+		c16( h c h) c( d es d) c( b a g)
+		f4 g a
+		b r8 f(-. f-. f-.) %115
+		f( b) r d(-. d-. d-.)
+		f( es) r f,(-. f-. f-.)
+		f( c') r c(-. c-. c-.)
+		es( d) r f(-. f-. fis-.)
+		g-! h,( c d) es16( d es c) %120
+		b4\trill a r8. f16
+		d'4 c b
+		a8.(\trill b32 c) b4 r8. g16^\critnote
+		es'4 d c
+		h8.(\trill c32 d) c4 r8. f,16 %125
+		f'4 es d
+		c16( g a h) c( d es d) f( es d c)
+		b2 c4\trill
+		d8 b,16.\f b32 des16. des32 f16. f32 des16. des32 b16. b32
+		f'16\fz c' c c c\p c c c des b b b %130
+		a\fz f' f f f\pE f f f f f f f
+		f,\fz c' c c c\p c c c des b b b
+		a\cresc a f' f e e f f a a f f
+		h,\f h f' f e e f f as as f f
+		c'4 c,, r8. c16\p %135
+		a'!4 g f
+		e8.(\trill f32 g) f4 r8. d16-\critnote
+		b'4 a g
+		fis8.(\trill g32 a) g4 r8. c,16
+		c'4 b a %140
+		d16( fis g fis) g( a b a) g( f e d)
+		c4 d e\trill
+		f b,^\critnote d
+		f,2 g4
+		f r8 c'(-. c-. c-.) %145
+		c( f) r a-. a-. a-.
+		c( b) r c,-. c-. c-.
+		c( g') r g(-. g-. g-.)
+		b( a) r c,(-. c-. cis-.)
+		d-! fis,( g a) b16( a b g) %150
+		f2 g4\trill
+		f8 r f r f r
+		f2 r4\fermata \bar "||" %153 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

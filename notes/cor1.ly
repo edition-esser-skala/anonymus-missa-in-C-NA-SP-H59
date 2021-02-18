@@ -179,3 +179,66 @@ GloriaCornoI = {
 		c^\critnote r r\fermata \bar "||" %93 finis
 	}
 }
+
+QuiTollisCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #94
+		\partial 4 r4 c'2\pE r4
+		d c r %95
+		R2.*2
+		c2.
+		\pao d4 r r
+		g,2. %100
+		c4\fE r r
+		e d r
+		c2.\pE
+		d4 c r
+		R2.*2 %106
+		c2.
+		\pao d
+		g,2 g4
+		e r r %110
+		c'2 r4
+		R2.*2
+		c2.
+		c4 r r %115
+		\once \tieDashed c2.~
+		c~
+		\once \tieDashed c~
+		c2 r4
+		R2. %120
+		c4 \pao c, r
+		c'2.
+		c4 c r
+		R2.*2 %125
+		c2.
+		\pao d4 r r
+		c2.
+		c4 r r
+		c2. %130
+		c4 c c
+		c2.
+		c4 r r
+		R2.
+		g2\fE r4 %135
+		c2\pE r4
+		d c r
+		R2.*2
+		c2. %140
+		\pao d4 r r
+		g,2.
+		e4 r r
+		g2.
+		c4 r r %145
+		e2.
+		f
+		d
+		e4 r r
+		r r g8 d %150
+		c2 d4
+		c e, e
+		e2 r4\fermata \bar "||" %153 finis
+	}
+}
