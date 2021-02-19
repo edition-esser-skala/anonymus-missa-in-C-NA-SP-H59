@@ -158,3 +158,80 @@ GloriaClarinoI = {
 		c r r\fermata \bar "||"
 	}
 }
+
+QuoniamClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #154
+		c'\fE c c
+		c r e %155
+		\pao d2 d4
+		\pao c c r
+		c c c
+		c r r
+		d2 f4 %160
+		e c c
+		c r r
+		d g g
+		g \pao g, r
+		R2. %165
+		d'4\pE d d
+		d r r
+		d d d
+		d8\fE d16 d \pao d4 r
+		d8 d16 d \pao d4 r %170
+		g2.
+		e2 c4
+		d g fis
+		g8 g16 g g4 r
+		g8 g16 g g4 r %175
+		g2 fis4
+		g d d
+		c c c
+		c c c
+		d2 d4 %180
+		\pao c r e
+		e r \pao e
+		d r d
+		\pao d r d
+		c8 c c c c c %185
+		c4 r f
+		e^\critnote d2
+		c8 e,16 e e4 r
+		g\p r r
+		g r8 g16 g g8 g %190
+		g4 r r
+		g r8 g16 g g8 g
+		\pa c\f g16 g g8 g d' d
+		c g16 g g8 g g' g \pd
+		e e e e e e %195
+		c4 r r
+		e2 d4
+		c8 e,16 e e4 r
+		g\p r r
+		g r8 g16 g g8 g %200
+		g4 r r
+		g r8 g16 g g8 g
+		\pa c\f g16 g g8 g d' d
+		c g16 g g8 g g' g \pd
+		e e e e e e %205
+		c4 r r
+		e2 d4
+		c8 c16 c c4 r
+		c8 c16 c c4 r
+		d2^\critnote d4 %210
+		c8 e16 e e8 e e e
+		e4 r r
+		r r d
+		c r \pao e
+		e r e %215
+		d r d
+		\pao d r \pao d
+		e8 g4 g8 g[ f]
+		e g4 g8 g[ f]
+		e4 d2 %220
+		c4 r d
+		e r r\fermata \bar "|." %222 FINIS
+	}
+}

@@ -264,3 +264,80 @@ QuiTollisViolinoII = {
 		a2 r4\fermata \bar "||" %153 finis
 	}
 }
+
+QuoniamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #154
+		<e g,>16\fE q q q q q q q q q q q
+		<e c'> q q q q q q q q q q q %155
+		<d c'> q q q q q q q <d h'> q q q
+		c'8 c d16 c h c e c h c
+		<a c,> q q q q q q q q q q q
+		<g c,> q q q q q q q q q q q
+		<h d,> q q q q q q q q q q q %160
+		c g a h c d e f g a h c
+		a g f e f e d c d c h c
+		h4 <d, h' g'> q
+		q r r
+		h8(\p d) h( d) h( d) %165
+		h( d) h( d) h( d)
+		c( d) c( d) c( d)
+		c( d) c( d) c( d)
+		<d h'>[\f q] <d c'> q4 q8
+		<d h'>[ q] <d c'> q4 q8 %170
+		h'16 h h h h h h h g g g g
+		g g g g e e e e a' a a a
+		<g h,> q q q q q q q <fis a,> q q q
+		<g h,> q q q q q q q q q q q
+		<g, h> q q q q q q q q q q q %175
+		<g a> q q q q q q q <fis a> q q q
+		<g g,> q q q <f g,> q q q q q q q
+		<e g,> q q q q q q q q q q q
+		<e c'> q q q q q q q q q q q
+		<d c'> q q q q q q q <d h'> q q q %180
+		c' c e, e g g c c e e d d
+		c c h h c c h h c c cis cis
+		d d cis cis d d cis cis d d c c
+		h h ais ais h h ais ais h h d d
+		c c c c c, c c c c' c c c %185
+		c4 f16 e d c h a g f
+		<e g,> q q q <f g,> q q q q q q q
+		e8( g) e(\p g) e( g)
+		e( g) e( g) e( g)
+		e( g) e( g) e( g) %190
+		f( g) f( g) f( g)
+		f( g) f( g) f( g)
+		<e g,>[\f q] <f g,> q4 q8
+		<e g,>[ q] <f g,> q4 q8
+		e16 e e e e e e e c c c c %195
+		c c c c a' a a a d d d d
+		<c g> q q q q q q q <g h> q q q
+		e8( g) e(\p g) e( g)
+		e( g) e( g) e( g)
+		e( g) e( g) e( g) %200
+		f( g) f( g) f( g)
+		f( g) f( g) f( g)
+		<e g,>[\f q] <f g,> q4 q8
+		<e g,>[ q] <f g,> q4 q8
+		e16 e e e e e e e c c c c %205
+		c c c c a' a a a d d d d
+		<c g> q q q q q q q <g h> q q q
+		<c e,> q q q q q q q q q q q
+		q q q q q q q q q q q q
+		<c d,> q q q q q q q <h d,> q q q %210
+		c <c e> q q q q q q q q q q
+		q q q q q q q q q q q q
+		<d f> q q q q q q q q q q q
+		e e c, c e e g g c c e e
+		c c h h c c h h c c cis cis %215
+		d d cis cis d d cis cis d d c c
+		h h ais ais h h ais ais h h d d
+		c g g g f e d c h a g f'
+		e g g g f e d c h a g f'
+		e e' e e d d d d g g g g %220
+		<e c>4 r <f, g,>
+		e r r\fermata \bar "|." %222 FINIS
+	}
+}

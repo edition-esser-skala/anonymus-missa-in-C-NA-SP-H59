@@ -264,3 +264,80 @@ QuiTollisViola = {
 		f2 r4\fermata \bar "||" %153 finis
 	}
 }
+
+QuoniamViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #154
+		c4\fE c' r8. c,16
+		a4 a' r8. a16 %155
+		f4 d g
+		c8 c, c c c c
+		c c c c c c
+		c c e e c c
+		g' a h g a h %160
+		c g e g e c
+		f e d e f fis
+		g8. g16 d8. d16 h8. h16
+		g4 r r
+		\slurDashed g8(\p h) g( h) g( h) %165
+		g( h) g( h) g( h)
+		fis( a) fis( a) fis( a)
+		fis( a) fis( a) fis( a) \slurSolid
+		g4\fE r8 d'^\critnote d' d,
+		g4 r8 d d' d, %170
+		g h, h h g g
+		c c c c c c
+		d d d d c c
+		<h d>16 q q q q q q q q q q q
+		<h e> q q q q q q q q q q q %175
+		e e e e e e e e c c c c
+		h h h h h h h h <d g,> q q q
+		<e g,> q q q q q q q q q q q
+		<e c> q q q q q q q q q q q
+		f f f f f f f f f f f f %180
+		e4 r e
+		a8 a a a a a
+		d, d d d d d
+		g g g g g g
+		c, c c c c c %185
+		f f f f f f
+		g g g g f f
+		\slurDashed g,( e') g,(\p e') g,( e')
+		g,( e') g,( e') g,( e')
+		g,( e') g,( e') g,( e') %190
+		g,( h) g( h) g( h)
+		g( h) g( h) g( h) \slurSolid
+		e16\f e g, g f' f g, g f' f g, g
+		e' e g, g f' f g, g d' d h h
+		c c c c c c c c c c c c %195
+		c c c c c c c c f f f f
+		g g g g g g g g f f f f
+		\slurDashed g,8( e') g,(\p e') g,( e')
+		g,( e') g,( e') g,( e')
+		g,( e') g,( e') g,( e') %200
+		g,( h) g( h) g( h)
+		g( h) g( h) g( h) \slurSolid
+		e16\f e g, g f' f g, g f' f g, g
+		e' e g, g f' f g, g d' d h h
+		c c c c c c c c c c c c %205
+		c c c c c c c c f f f f
+		g g g g g g g g f f f f
+		e4 c' r8. c,16
+		a4 a' r8. a16
+		f8 f d d g g %210
+		c c, c' c c c
+		a4 a,8 a' a a
+		f f d d g g
+		c,4 r e
+		a r a, %215
+		d r d
+		g r g,
+		c16 c c' c e e c c h h g g
+		c, c c' c e e c c h h g g
+		c8 c a a f f %220
+		e4 r <h' d, g,>
+		<c e, g,> r r\fermata \bar "|." %222 FINIS
+	}
+}

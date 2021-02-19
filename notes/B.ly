@@ -439,6 +439,153 @@ QuiTollisBassoLyrics = \lyricmode {
 	bis. %145 finis
 }
 
+QuoniamBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoQuoniam \autoBeamOff
+			\set Score.currentBarNumber = #154
+		\mvTr c2\fE^\tuttiE c'4
+		a2 a4 %155
+		f( d) g
+		c c, r
+		c2.
+		c4( e) c
+		g'2 g4 %160
+		c, e c
+		f2 d4
+		g r r
+		R2.*2 %165
+		r4 g\pE g
+		fis fis r
+		r fis fis
+		g8.\fE g16 d4^\critnote d
+		g d d %170
+		g4. g8 h,4
+		c2 c'4
+		d2 d,4
+		g g g
+		e8. e16 e4 r8 e %175
+		c4 a d
+		g8 a h([ g)] a([ h)]
+		c4 c, c'
+		a a8 a a a
+		f f d4( g) %180
+		c, r e
+		a r a,
+		d r d
+		g r g,
+		c c8 c e e %185
+		f2 f4
+		g8 g g4( g,)
+		c r r
+		R2.
+		c'4\p c c %190
+		h8. h16 h4 r8 h
+		h4 h8 h h h
+		c4\fE g2
+		c4 g2
+		c, e4 %195
+		f2 f4
+		g2( g,4)
+		c r r
+		R2.
+		c4\p c c %200
+		h8. h16 h4 r8 h
+		h4 h8 h h h
+		c4\fE g'2
+		c4 g2
+		c, e4 %205
+		f2 f4
+		g2( g,4)
+		c r c'
+		a a8 a a a
+		f f g2 %210
+		c4 r c
+		a a8 a a a
+		f f d4(^\critnote g,)
+		c r e
+		a r a, %215
+		d r d
+		g r g,
+		c c'8 c h g
+		c2 g4
+		c8 c f,4(^\critnote g) %220
+		c, r g'
+		c, r r\fermata \bar "|." %222 finis
+	}
+}
+
+QuoniamBassoLyrics = \lyricmode {
+	Quo -- ni -- %154
+	am tu %155
+	so -- lus
+	san -- ctus,
+	tu
+	so -- lus
+	Do -- mi -- %160
+	nus, so -- lus
+	Do -- mi --
+	nus,
+
+	so -- lus, %166
+	so -- lus,
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al -- %170
+	tis -- si -- mus,
+	Je -- su
+	Chri -- ste.
+	Cum San -- cto
+	Spi -- ri -- tu in %175
+	glo -- ri -- a
+	De -- i Pa -- tris,
+	a -- men, in
+	glo -- ri -- a De -- i
+	Pa -- tris, a -- %180
+	men, a --
+	men, a --
+	men, a --
+	men, in
+	glo -- ri -- a De -- i %185
+	Pa -- tris,
+	a -- men, a --
+	men,
+
+	cum San -- cto %190
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- men,
+	a -- men, %195
+	a -- men,
+	a --
+	men,
+
+	cum San -- cto %200
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- men,
+	a -- men, %205
+	a -- men,
+	a --
+	men, in
+	glo -- ri -- a De -- i
+	Pa -- tris, a -- %210
+	men, in
+	glo -- ri -- a De -- i
+	Pa -- tris, a --
+	men, a --
+	men, a -- %215
+	men, a --
+	men, in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- men, a -- %220
+	men, a --
+	men. %222 FINIS
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

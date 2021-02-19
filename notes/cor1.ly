@@ -242,3 +242,74 @@ QuiTollisCornoI = {
 		e2 r4\fermata \bar "||" %153 finis
 	}
 }
+
+QuoniamCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #154
+		c'2.\fE
+		c4 r r %155
+		d2 d4
+		e c r
+		c2.
+		c2 r4
+		g'2 f4 %160
+		e c c
+		c r r
+		g' g g
+		g2 r4
+		g2\pE r4 %165
+		g g g
+		fis r r
+		fis2.
+		g4\fE^\critnote fis2
+		g4 fis2 %170
+		g4 r r
+		R2.*2
+		r4 g2
+		r4 g2 %175
+		g fis4
+		g d d
+		c r r
+		c2.
+		d2^\critnote d4 %180
+		e r r
+		R2.*5 %186
+		e4^\critnote d2
+		c4 c r
+		g2.\pE
+		g %190
+		g
+		g2 r4
+		e'4\fE^\critnote g2
+		e4 g2
+		e4 e e %195
+		c r r
+		e2 d4
+		c c r
+		g2.\pE
+		g %200
+		g
+		g2 r4
+		e'4\fE^\critnote g2
+		e4 g2
+		e4 e e %205
+		c r r
+		e2 d4
+		c c r
+		r c c
+		d2 d4 %210
+		c e e
+		e r r
+		d2^\critnote d4
+		c r r
+		R2.*2 %216
+		\pao g2 g'4
+		e2 g8 f
+		e2 g8 f
+		e4 d2 %220
+		c4 r d
+		e r r\fermata \bar "|." %222 FINIS
+	}
+}

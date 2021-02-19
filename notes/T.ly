@@ -454,6 +454,153 @@ QuiTollisTenoreLyrics = \lyricmode {
 	bis. %145 finis
 }
 
+QuoniamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \tempoQuoniam \autoBeamOff
+			\set Score.currentBarNumber = #154
+		\mvTr g2\fE^\tuttiE g4
+		a2 a4 %155
+		c2 h4
+		c c r
+		c2.
+		c2 c4
+		h2 d4 %160
+		c c c
+		d2 d4
+		d r r
+		R2.*2 %165
+		r4 h\pE h
+		c c r
+		r c c
+		h8.\fE h16 c4^\critnote c
+		h c c %170
+		h h h
+		c2 e4
+		d2( c4)
+		h r r
+		e e e %175
+		c2 d4
+		d r g,
+		g g8 g g g
+		a2 a4
+		c2( h4) %180
+		c r e,
+		e r a
+		a r a
+		d, r g
+		g g8 g g c %185
+		c2 d4
+		c8 c c4( h)
+		c r r
+		R2.
+		c4\pE c c %190
+		d8. d16 d4 r8 d
+		d4 d8 d d d
+		c4\fE d2
+		c4( d2)
+		c8 g g4 g8 g %195
+		f2 f4
+		g8 g g2
+		g4 r r
+		R2.
+		c4\pE c c %200
+		d8. d16 d4 r8 d
+		d4 d8 d d d
+		c4\fE d2
+		c4( d2)
+		c8 g g4 g8 g %205
+		f2 f4
+		g8 g g2
+		g4 r g
+		c c8 c c c
+		a4(^\critnote g2) %210
+		g4 r g
+		a a8 a a a
+		f a a4(^\critnote g)
+		g r e
+		e r a %215
+		a r a
+		d, r g
+		g c8 c d h
+		c2 h4
+		c8 c c4( h) %220
+		c r h
+		c r r\fermata \bar "|." %222 finis
+	}
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+	Quo -- ni -- %154
+	am tu %155
+	so -- lus
+	san -- ctus,
+	tu
+	so -- lus
+	Do -- mi -- %160
+	nus, so -- lus
+	Do -- mi --
+	nus,
+
+	so -- lus, %166
+	so -- lus,
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al -- %170
+	tis -- si -- mus,
+	Je -- su
+	Chri --
+	ste.
+	Cum San -- cto %175
+	Spi -- ri --
+	tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- %180
+	men, a --
+	men, a --
+	men, a --
+	men, in
+	glo -- ri -- a De -- i %185
+	Pa -- tris,
+	a -- men, a --
+	men,
+
+	cum San -- cto %190
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a --
+	men, in glo -- ri -- a
+	De -- i
+	Pa -- tris, a --
+	men,
+
+	cum San -- cto %200
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a --
+	men, in glo -- ri -- a
+	De -- i
+	Pa -- tris, a --
+	men, in
+	glo -- ri -- a De -- i
+	Pa -- %210
+	tris, in
+	glo -- ri -- a De -- i
+	Pa -- tris, a --
+	men, a --
+	men, a -- %215
+	men, a --
+	men, in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- men, a -- %220
+	men, a --
+	men. %222 FINIS
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

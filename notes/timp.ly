@@ -141,3 +141,73 @@ GloriaTimpani = {
 		c r r\fermata \bar "||"
 	}
 }
+
+QuoniamTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #154
+		c8\fE c16 c c8 c c c
+		c4 r r %155
+		g g g
+		c c r
+		c8 c16 c c8 c c c
+		c4 r r
+		g g g %160
+		c c r
+		R2.
+		g4 g g
+		g g r
+		R2.*4 %168
+		g4\fE r r
+		g r r %170
+		g8 g g g g g
+		c4 r r
+		R2.
+		g8 g16 g g8 g g g
+		g4 r r %175
+		R2.
+		g4 r8 g16 g g8 g
+		c c16 c c8 c c c
+		c4 r r
+		r r g %180
+		c r r
+		R2.*3
+		c8 c16 c c8 c c c %185
+		c4 r r
+		g r8 g16 g g8 g
+		c c16 c c4 r
+		c\p r r
+		c r r %190
+		g r r
+		g r r
+		\mvTr c8\f-\critnote c16 c g4 r8 g
+		c c16 c g4 r8 g
+		c4 r r %195
+		R2.
+		r4 r g
+		c8 c16 c c4 r
+		c\p r r
+		c r r %200
+		g r r
+		g r r
+		c8\f c16 c g4 r8 g
+		c c16 c g4 r8 g
+		c4 r r %205
+		R2.
+		g4 r g
+		c8 c16 c c8 c c c
+		c c16 c c4 r
+		r r g %210
+		c8 c16 c c8 c c c
+		c4 r r
+		r r g
+		c r r
+		R2.*3 %217
+		c4 r8 g16 g g8 g
+		c4 r8 g16 g g8 g
+		c4 r g %220
+		c r g
+		c r r\fermata \bar "|." %222 FINIS
+	}
+}

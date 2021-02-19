@@ -250,3 +250,80 @@ QuiTollisOboeI = {
 		f2 r4\fermata \bar "||" %153 finis
 	}
 }
+
+QuoniamOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #154
+		c'2.\f
+		c %155
+		d
+		e2 r4
+		f2.
+		e
+		f %160
+		e2 r4
+		a4 f d
+		h g' g
+		g r r
+		g2.\pE %165
+		g2 r4
+		fis2.
+		fis2 r4
+		g\fE fis d
+		g fis d %170
+		g2.
+		e4 r r
+		h'2 a4
+		g2.
+		e %175
+		c2 r4
+		r r d
+		c2.
+		c
+		d %180
+		e2 r4
+		a8 gis a gis a g
+		f e f e f fis
+		g fis g fis g f
+		e4 r r %185
+		r a f
+		e d2\trill
+		c4 r r
+		c2.\p
+		c %190
+		f
+		f
+		e4\f d2
+		e4 d2
+		e4 g gis %195
+		a r f
+		e2 d4
+		c r r
+		e2.\pE
+		e %200
+		f
+		f
+		e4\fE d2
+		e4 d2
+		e4 g gis %205
+		a r f
+		e2 d4
+		c2.
+		c
+		d %210
+		e
+		e
+		f4 d h
+		c r r
+		e2. %215
+		f
+		d
+		e8 g4 g8 g[ h]
+		c^\critnote g4 g8 g[ h]
+		c4 c h %220
+		c r h
+		c r r\fermata \bar "|." %222 finis
+	}
+}

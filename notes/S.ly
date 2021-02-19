@@ -460,6 +460,153 @@ QuiTollisSopranoLyrics = \lyricmode {
 	bis. %145 finis
 }
 
+QuoniamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam \autoBeamOff
+			\set Score.currentBarNumber = #154
+		\mvTr c'2\fE^\tuttiE c4
+		c2 c4 %155
+		d( g) f
+		e e r
+		a,2.
+		g4( c) e
+		g2 f4 %160
+		e c c
+		c2 c4
+		h r r
+		R2.*2 %165
+		r4 d\pE d
+		d d r
+		r d d
+		d8.\fE d16 d4 fis
+		g fis^\critnote fis %170
+		g d dis
+		e2 c4
+		h2( a4)
+		g r r
+		h h h %175
+		a( d) c
+		h r g
+		c c8 c c c
+		c2 c4
+		d( g f) %180
+		e r d
+		c r c8([^\critnote cis)]
+		d4 r c
+		h r d
+		c c8 c c c %185
+		c2 f4
+		e8 e d2
+		c4 r r
+		R2.
+		e4\p e e %190
+		f8. f16 f4 r8 f
+		f4 f8 f f f
+		e4\f f2
+		e4( f2)
+		e4 c2( %195
+		a4. cis8) d([ f)]
+		e2( d4)
+		c r r
+		R2.
+		e4\pE e e %200
+		f8. f16 f4 r8 f
+		f4 f8 f f f
+		e4\f f2
+		e4( f2)
+		e4 c2( %205
+		a4. cis8) d([ f)]
+		e2( d4)
+		c r e
+		e e8 e e e
+		d d g2 %210
+		e4 r e
+		e e8 e e e
+		d d f2^\critnote
+		e4^\critnote r d
+		c r c8([^\critnote cis)] %215
+		d4 r c
+		h r d
+		e e8 e d g
+		e2 g4
+		e8 e d2 %220
+		e4 r d
+		c r r\fermata \bar "|." %222 FINIS
+	}
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+	Quo -- ni -- %154
+	am tu %155
+	so -- lus
+	san -- ctus,
+	tu
+	so -- lus
+	Do -- mi -- %160
+	nus, so -- lus
+	Do -- mi --
+	nus,
+
+	so -- lus, %166
+	so -- lus,
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al -- %170
+	tis -- si -- mus,
+	Je -- su
+	Chri --
+	ste.
+	Cum San -- cto %175
+	Spi -- ri --
+	tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- %180
+	men, a --
+	men, a --
+	men, a --
+	men, in
+	glo -- ri -- a De -- i %185
+	Pa -- tris,
+	a -- men, a --
+	men,
+
+	cum San -- cto %190
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a --
+	men, a -- %195
+	men,
+	a --
+	men,
+
+	cum San -- cto %200
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a --
+	men, a -- %205
+	men,
+	a --
+	men, in
+	glo -- ri -- a De -- i
+	Pa -- tris, a -- %210
+	men, in
+	glo -- ri -- a De -- i
+	Pa -- tris, a --
+	men, a --
+	men, a -- %215
+	men, a --
+	men, in
+	glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- men, a -- %220
+	men, a --
+	men. %222 FINIS
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

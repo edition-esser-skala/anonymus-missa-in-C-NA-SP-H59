@@ -674,6 +674,7 @@ tocLabelLong = #(define-music-function
 tempoKyrie = \tempoMarkup "Andante"
 tempoGloria = \tempoMarkup "Allegro"
 	tempoQuiTollis = \tempoMarkup "Andante"
+	tempoQuoniam = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"
