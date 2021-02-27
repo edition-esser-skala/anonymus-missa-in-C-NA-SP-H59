@@ -607,6 +607,252 @@ QuoniamSopranoLyrics = \lyricmode {
 	men. %222 FINIS
 }
 
+CredoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr e2\fE^\tuttiE f
+		g4 e r e
+		d2 e
+		f4 d r2
+		e'4 e8 e d4 d %5
+		c c8 c c4 c
+		c c8 e g4( f)
+		e r f a
+		g e8 e f4 a
+		g r c, h %10
+		a a a h8([ c)]
+		d4 d8 d d4 d8([ e)]
+		fis4 fis8 fis fis4 fis
+		g d d g8 g
+		e4 a, c e8 e %15
+		d2. c4
+		h h a4. a8
+		g4 r r2
+		r4 d' a h
+		c c r2 %20
+		r4 a' d, e
+		f c8 a^\critnote h!4 cis
+		d2 d4 d
+		d2 d
+		d1 %25
+		cis4 g'8 g g4 g
+		fis? fis fis fis
+		f f f f
+		e e e e
+		d d8 d d4 c %30
+		h r r2
+		e,2 f
+		g4 e r e
+		d2 e
+		f4 d r g %35
+		c( e) f a
+		g e f a
+		g( c,) d( e)
+		f e8 e f2
+		e e %40
+		e1
+		d2 d
+		g1
+		e2 d
+		e( d) %45
+		c4 r r d
+		e e8 e d2
+		c4 r r2\fermata \bar "||" %48 finis
+	}
+}
+
+CredoSopranoLyrics = \lyricmode {
+	Cre -- do,
+	cre -- do in
+	u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po -- %5
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae, vi -- si --
+	bi -- li -- um o -- mni --
+	um et in -- %10
+	vi -- si -- bi -- li --
+	um. Et in u -- num
+	Do -- mi -- num Je -- sum
+	Chri -- stum, Fi -- li -- um
+	De -- i, Fi -- li -- um %15
+	De -- i
+	u -- ni -- ge -- ni --
+	tum.
+	De -- um de
+	De -- o, %20
+	lu -- men de
+	lu -- mi -- ne, De -- um
+	ve -- rum de
+	De -- o
+	ve -- %25
+	ro, ge -- ni -- tum non
+	fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem
+	Pa -- tri, per quem
+	o -- mni -- a fa -- cta %30
+	sunt.
+	Cre -- do,
+	cre -- do in
+	u -- num
+	De -- um, qui %35
+	pro -- pter nos
+	ho -- mi -- nes et
+	pro -- pter __
+	no -- stram sa -- lu --
+	tem de -- %40
+	scen --
+	dit, de --
+	scen --
+	dit de
+	coe -- %45
+	lis, de --
+	scen -- dit de coe --
+	lis. %48 finis
+}
+
+EtIncarnatusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #49
+		\partial 4 r4 R2.*10 %58
+		R2.\fermata
+		\mvTr a'2.\pE^\tuttiE %60
+		f'2 f4
+		f( e) h
+		c r dis
+		dis e8([ f)] e([ d)]
+		cis4 d8 f16 f f8 f %65
+		f8. f16 f8 f f f
+		f( e4 d) c8
+		h4 r dis\fE
+		e r dis8. dis16
+		e2\fermata r4 %70
+		c4(\pE d e)
+		f( g) a
+		a( g) f
+		e e( g)
+		g8. f16 f4 r %75
+		r e e8 e
+		e([ d)] d4 r
+		c2 c4
+		c2 c4
+		h8. h16 c4 r %80
+		R2.
+		e
+		f4( e) d
+		c2 e8([ d)]
+		c4 r r %85
+		R2.
+		e2 e4
+		e8([ d)] d4  r
+		c4. c8 c c
+		c2. %90
+		h4 r dis\fE
+		e4. e8 dis dis
+		e4 e,\fermata r
+		a2.\pE
+		f' %95
+		f4( e8.[ d32 c] h8.[ c32 d)]
+		c4 r dis
+		dis8. dis16 e8([ f)] e([ d)]
+		cis4 d f8 f
+		f8([ e)] e4 r %100
+		d8 d f4 gis,
+		a r dis\fE
+		e r cis
+		d dis dis
+		e( d) c %105
+		h(\pE a) gis
+		a r dis\fE
+		e r cis
+		d dis dis
+		e( d) c %110
+		h( a) gis
+		a r e'\pE
+		f2 f4
+		e r a,
+		gis2 gis4 %115
+		a r r
+		R2.\fermata \bar "||" %117 finis
+	}
+}
+
+EtIncarnatusSopranoLyrics = \lyricmode {
+	Et %60
+	in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto ex Ma -- ri -- a %65
+	Vir -- gi -- ne, et ho -- mo
+	fa -- ctus
+	est, ho --
+	mo fa -- ctus
+	est, %70
+	et __
+	in -- car --
+	na -- tus
+	est de __
+	Spi -- ri -- tu, %75
+	Spi -- ri -- tu
+	San -- cto
+	ex Ma --
+	ri -- a
+	Vir -- gi -- ne, %80
+
+	et
+	ho -- mo
+	fa -- ctus
+	est. %85
+
+	Cru -- ci --
+	fi -- xus
+	e -- ti -- am pro
+	no -- %90
+	bis sub
+	Pon -- ti -- o Pi --
+	la -- to,
+	pas --
+	sus, %95
+	pas --
+	sus, sub
+	Pon -- ti -- o Pi --
+	la -- to pas -- sus,
+	pas -- sus %100
+	et se -- pul -- tus
+	est, pas --
+	sus, pas --
+	sus, pas -- sus
+	et __ se -- %105
+	pul -- tus
+	est, pas --
+	sus, pas --
+	sus, pas -- sus
+	et __ se -- %110
+	pul -- tus
+	est, se --
+	pul -- tus
+	est, se --
+	pul -- tus %115
+	est. %116 finis
+}
+
+EtResurrexitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}
+
+EtResurrexitSopranoLyrics = \lyricmode {
+
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

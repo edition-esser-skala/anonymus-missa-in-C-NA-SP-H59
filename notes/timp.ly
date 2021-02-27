@@ -211,3 +211,51 @@ QuoniamTimpani = {
 		c r r\fermata \bar "|." %222 FINIS
 	}
 }
+
+CredoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoCredo
+		c8\fE c16 c c8 c c c c c
+		c4 r r2
+		g8 g16 g g8 g g g g g
+		g4 r r2
+		c4 r r2 %5
+		c8 c16 c c8 c c4 r
+		r2 r4 g
+		c8 c16 c c8 c c4 r
+		c8 c16 c c8 c c4 r
+		c8 c16 c c8 c c4 r %10
+		c8 c16 c c8 c c4 r
+		R1*6 %17
+		g4 r r2
+		g4 r g r
+		c r r2 %20
+		R1*11 %31
+		c8 c16 c c8 c c c c c
+		c4 r r2
+		g8 g16 g g8 g g g g g
+		g4 r r2 %35
+		c4 r c8 c16 c c8 c
+		c4 r c8 c16 c c8 c
+		c4 r r2
+		c4 c c c
+		c8 c16 c c8 c c c c c %40
+		c4 r r2
+		R1
+		g4 r r g
+		c r r2
+		g4 r g8 g16 g g8 g %45
+		c4 r r g8 g16 g
+		c4 r r g8 g16 g
+		c4 r r2\fermata \bar "||" %48 finis
+	}
+}
+
+EtResurrexitTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}

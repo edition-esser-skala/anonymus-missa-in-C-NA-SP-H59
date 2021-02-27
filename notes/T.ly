@@ -601,6 +601,253 @@ QuoniamTenoreLyrics = \lyricmode {
 	men. %222 FINIS
 }
 
+CredoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr c2\fE^\tuttiE d
+		e4 c r c
+		h2 c
+		d4 h r2
+		c4 c8 c d4 h %5
+		c c8 c g4 g
+		f g8 g f4( g)
+		g c8 c c4 c
+		c c8 c c4 c
+		c c c d8 d %10
+		d4 d d d
+		d2 d4 d
+		d d d d
+		d2 h
+		g g %15
+		a2^\critnote a4 a
+		h h8 h e4 c
+		h r r2
+		R1
+		r4 c fis, gis %20
+		a a8 a c4 c
+		c2 a4 a
+		a2 a4 a
+		f2 b
+		h1 %25
+		a4 cis8 cis cis4 cis
+		d d a4. h!8
+		h4 h h h
+		c c c c
+		a a8 a f4 d'^\critnote %30
+		d4^\critnote r r2
+		c^\critnote d
+		e4 c r c
+		h2 c
+		d4 h r h %35
+		c2 c4 c
+		c c c c
+		c2 g
+		a4 c8 c c4(^\critnote d)
+		c2 c %40
+		c1
+		d2 a
+		h1
+		c2 c^\critnote
+		c( h) %45
+		c4 r r h
+		c c8 c c4( h)
+		c r r2\fermata \bar "||" %48 finis
+	}
+}
+
+CredoTenoreLyrics = \lyricmode {
+	Cre -- do,
+	cre -- do in
+	u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po -- %5
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae. Et in u -- num
+	Do -- mi -- num Je -- sum
+	Chri -- stum, Fi -- li -- um %10
+	De -- i u -- ni --
+	ge -- ni --
+	tum.
+	Et ex Pa -- tre
+	na -- tum %15
+	an -- te
+	o -- mni -- a,
+	o -- mni -- a sae -- cu --
+	la.
+
+	Lu -- men de %20
+	lu -- mi -- ne, De -- um
+	ve -- rum de
+	De -- o, de
+	De -- o
+	ve -- %25
+	ro, ge -- ni -- tum non
+	fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem
+	Pa -- tri, per quem
+	o -- mni -- a fa -- cta %30
+	sunt.
+	Cre -- do,
+	cre -- do in
+	u -- num
+	De -- um, qui %35
+	pro -- pter nos
+	ho -- mi -- nes et
+	pro -- pter
+	no -- stram sa -- lu --
+	tem de -- %40
+	scen --
+	dit, de --
+	scen --
+	dit de
+	coe -- %45
+	lis, de --
+	scen -- dit de coe --
+	lis. %48 finis
+}
+
+EtIncarnatusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #49
+		\partial 4 r4 R2.*10 %58
+		R2.\fermata
+		\mvTr c4(\pE^\tuttiE d e) %60
+		f( e) d
+		d2 d4
+		c r c
+		h2 h8 h
+		b4 a8 d16 d d8 d %65
+		d8. d16 d8 d c c
+		d4( gis,) e'8([^\critnote fis)]
+		e4^\critnote r c\fE
+		h r c8. c16
+		h2\fermata r4 %70
+		c2.\pE
+		c2 c4
+		h2 h4
+		c c( e)
+		e8. d16 d4 r %75
+		r c c8 c
+		c([ h)] h4 r
+		a2 a4
+		a2 a4
+		g!8. g16 g4 r %80
+		R2.
+		b
+		h4( c) a!
+		g( c) h
+		c r r %85
+		R2.
+		c2 c4
+		c8([ h)] h4 r
+		a4. a8 a a
+		a2. %90
+		gis4 r c\fE
+		h4. h8 c c
+		h4 h\fermata r
+		c(\pE d) e
+		f( e) d %95
+		d2.
+		c4 r c
+		h8. h16 h4 h
+		b a f8 f
+		gis4 a r %100
+		h8 h gis4 h
+		a r c\fE
+		h r b
+		a c a
+		h( f) e %105
+		d'(\pE c) h
+		a r c\fE
+		h r b
+		a c c
+		h( f)^\critnote e %110
+		d'( c) h
+		c r a\pE
+		h2 h4
+		a r c,
+		h2 h4 %115
+		c r r
+		R2. \fermata \bar "||" %117 finis
+	}
+}
+
+EtIncarnatusTenoreLyrics = \lyricmode {
+	Et __ %60
+	in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto ex Ma -- ri -- a %65
+	Vir -- gi -- ne, et ho -- mo
+	fa -- ctus
+	est, ho --
+	mo fa -- ctus
+	est, %70
+	et
+	in -- car --
+	na -- tus
+	est de __
+	Spi -- ri -- tu, %75
+	Spi -- ri -- tu
+	San -- cto
+	ex Ma --
+	ri -- a
+	Vir -- gi -- ne, %80
+
+	et
+	ho -- mo
+	fa -- ctus
+	est. %85
+
+	Cru -- ci --
+	fi -- xus
+	e -- ti -- am pro
+	no -- %90
+	bis sub
+	Pon -- ti -- o Pi --
+	la -- to,
+	pas -- sus,
+	pas -- sus, %95
+	pas --
+	sus, sub
+	Pon -- ti -- o Pi --
+	la -- to pas -- sus,
+	pas -- sus %100
+	et se -- pul -- tus
+	est, pas --
+	sus, pas --
+	sus, pas -- sus
+	et se -- %105
+	pul -- tus
+	est, pas --
+	sus, pas --
+	sus, pas -- sus
+	et se -- %110
+	pul -- tus
+	est, se --
+	pul -- tus
+	est, se --
+	pul -- tus %115
+	est. %116 finis
+}
+
+EtResurrexitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

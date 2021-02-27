@@ -313,3 +313,118 @@ QuoniamCornoII = {
 		c r r\fermata \bar "|." %222 FINIS
 	}
 }
+
+CredoCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		\mvTr c'2\fE_\critnote d
+		e4 r r c
+		g2 c
+		d4 r r g,
+		e c' g g %5
+		c r r2
+		r4 e, g g
+		c e, c r
+		c c c r
+		c2 c4 r %10
+		d'2 d4 r
+		d r r2
+		fis2 c
+		g4 r r2
+		R1*3 %17
+		r4 g, g2
+		g1
+		c4 r r2 %20
+		R1*2
+		d'2 r
+		d r
+		d1_\critnote %25
+		e4_\critnote r r2
+		R1*5 %31
+		c2 d
+		e4 r r c
+		g2 c
+		d4 r r g, %35
+		c r c,_\critnote c
+		c r c c
+		c r c r
+		c1
+		c4 r r2 %40
+		c'1
+		d_\critnote
+		g,2 d'
+		c4 r r2
+		c g %45
+		e4 r r d'
+		c2_\critnote c4 g
+		e r r2\fermata \bar "||" %48 finis
+	}
+}
+
+EtIncarnatusCornoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #49
+		\partial 4 r4 e\pE r r
+		R2.*2 %51
+		e4 r r
+		R2.*4 %56
+		e2\fE r4
+		e2 r4
+		e2\fermata r4
+		e4\pE r r %60
+		R2.*2
+		e4 r r
+		R2.*4 %67
+		e4\fE r r
+		e r r
+		e2\fermata r4 %70
+		c2.\pE
+		c4 r r
+		R2.
+		c'
+		d2 r4 %75
+		c2 r4
+		e, r r
+		e r r
+		R2.
+		g4 c r %80
+		R2.
+		c,4 r r
+		R2.
+		e2 g4
+		e r_\critnote c' %85
+		d2.
+		c4 r r
+		e, r r
+		e r r
+		R2. %90
+		e2\fE r4
+		e r e
+		e2\fermata r4
+		e\pE r r
+		R2.*2 %96
+		e4 r r
+		R2.*4 %101
+		e4\fE r r
+		R2.*4 %106
+		e4\fE r r
+		R2.*4 %111
+		e4\pE r r
+		d'_\critnote r r
+		e, r r
+		R2. %115
+		c4 c c
+		c2 r4\fermata \bar "||" %117 finis
+	}
+}
+
+EtResurrexitCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}

@@ -341,3 +341,143 @@ QuoniamViola = {
 		<c e, g,> r r\fermata \bar "|." %222 FINIS
 	}
 }
+
+CredoViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoCredo
+		c2\fE d
+		e4 c'8-! h-! a-! g-! f-! e-!
+		d2 c
+		h4 d'8-! c-! h-! a-! g-! f-!
+		e e c' c h h g g %5
+		a, a a' a g g e e
+		f f e e d d h h
+		c c' h c a c f, a
+		g c h c a c f, a
+		g c h c a c g^\critnote g %10
+		fis g a a fis fis e e
+		d4 d8 d c' c a a
+		fis fis d d a' a c, c
+		h d h d h d h d
+		c4 c8 c e4 c8 cis16 cis %15
+		d4 d fis d
+		d16 d d d h h h h c c c c a a a a
+		g4 h h c
+		d8 d d d g g g g
+		c c, c c h h' h h %20
+		a a, a a g g' g g
+		f f, f f e e' e e
+		d d f e d c! b a
+		b b b b b d b a
+		gis gis gis gis gis gis gis gis %25
+		gis( a) cis cis cis cis cis cis
+		d d d d fis? fis fis fis
+		h, h h h d d d d
+		c c c c e e e e
+		f f f f f f f f %30
+		g g g g g, g g g
+		c2 d
+		e4 c'8-! h-! a-! g-! f-! e-!
+		d2 c
+		h8-! g-! g-! g-! g-! g-! g-! g-! %35
+		c4 c'16 c c c a a a a f f f f
+		c4 c'16 c c c a a a a f f f f
+		c8 c e e f f g g
+		f f g g a a f f
+		e4 e' c h %40
+		a8 a c c a a g g
+		fis fis a a d, d e e
+		f f f f g, g g g
+		c-\critnote c c c f f f f
+		g g g g g, g g g %45
+		c g' e c h d h g
+		c4 a' f g
+		c, r r2\fermata \bar "||" %48 finis
+	}
+}
+
+EtIncarnatusViola = {
+	\relative c' {
+		\clef alto
+		\key a \minor \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #49
+		\partial 4 r4 a\p h c
+		d e f4 %50
+		gis,2.
+		a8 a' a a a a
+		a a gis gis e e
+		g g f a,16\f a a8 a
+		d d16 d d8 d d-\critnote d %55
+		h4 gis\p a
+		gis8 gis16\fE gis gis8 gis fis4
+		gis8 gis16 gis gis8 gis fis4
+		gis2\fermata r4
+		a4\p h c %60
+		d e f
+		d2.^\critnote
+		a8 a a a a a
+		a a gis gis e e
+		g4 f8 f16 f f8 f %65
+		d' d16 d d8 d d d
+		d^\critnote e e e e fis
+		e e16\f e e8 e fis4
+		e8 e16 e e8 e fis4
+		e2\fermata r4 %70
+		c\p d e
+		f g a
+		f8( f,) f'( f,) f'( f,)
+		c'16-! d-! e-! d-! c-! e-! a-! g-! f-! e-! d-! c-!
+		\slurDashed h( d) h( d) h( d) h( d) h( d) h( d) \slurSolid %75
+		c-! d-! e-! d-! c-! e-! a-! g-! f-! e-! d-! c-!
+		h( gis) h( gis) h( gis) h( gis) h( gis) h( gis)
+		\slurDashed c( a) c( a) c( a) c( a) c( a) c( a)
+		c( a) c( a) c( a) c( a)c( a) c( a) \slurSolid
+		g2 r4 %80
+		c, c c
+		c'4. des16 des c c des des
+		as4 g d'
+		e8 g e g f d
+		c16-! d-! e-! d-! c-! e-! a-! g-! f-! e-! d-! c-! %85
+		\slurDashed h( d) h( d) h( d) h( d) h( d) h( d) \slurSolid
+		c-! d-! e-! d-! c-! e-! a-! g-! f-! e-! d-! c-!
+		\once \slurDashed h( gis) h( gis) h( gis) h( gis) h( gis) h( gis)
+		c( a) c( a) c( a) c( a) c( a) c( a) \slurSolid
+		dis8 dis dis dis dis dis %90
+		e e16\f e e8 e fis4
+		e8 e16 e e8 e fis4
+		e2\fermata r4
+		a,\pE h c
+		d e f %95
+		d2.
+		c8 a' a a a a
+		a a gis gis e e
+		g g f f d d
+		h4( c) e %100
+		d h h
+		a8 a'16\fE a a8 a a a
+		gis^\critnote g16 g g8 g g g
+		fis f16 f f8 f f f
+		e4 gis, a %105
+		d\pE e e
+		a,8 a'16\f a a8 a a a
+		gis g16^\critnote g g8 g g g
+		fis f16^\critnote f f8 f f f
+		e4 d c %110
+		d e e
+		\slurDashed c16(\p a) c( a) c( a) c( a) c( a) c( a)
+		f( d) f( d) f( d) f( d) f( d) f( d)
+		e( c) e( c) e( c) e( c) e( c) e( c)
+		f( d) f( d) f( d) f( d) f( d) f( d) \slurSolid %115
+		e8 c c4 c
+		c2 r4\fermata \bar "||" %117 finis
+	}
+}
+
+EtResurrexitViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}

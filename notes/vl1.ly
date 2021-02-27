@@ -342,6 +342,146 @@ QuoniamViolinoI = {
 	}
 }
 
+CredoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		e2\fE f
+		g8-! g-! c-! h-! a-! g-! f-! e-!
+		d2 e
+		f8-! h-! d-! c-! h-! a-! g-! f-!
+		e4 e'8.(\trill d32 e) d4 g8.(\trill f32 g) %5
+		c,4 e16( d c h) c8 e g c
+		a8.( c,16) g'8.( c,16) f8.(\trill e32 f) g8 f
+		e4 e8.(\trill d32 e) f4 a
+		g e8.(\trill d32 e) f4 a
+		g c,8.(\trill h32 c) c'4 h %10
+		a c,8.(\trill h32 c) a'4 g
+		<fis a,>8 q4 q q q8
+		<d d'> q4 q q q8~
+		q4 d8.(\trill cis32 d) g4 h,
+		e8 a, a2 a'8( g) %15
+		g( fis) fis( e) e( d) d( c)
+		h4 <h g'> <a g'> <d, a' fis'>
+		g' r r2
+		r4 d' a h
+		c c8.(\trill h32 c) fis,4 gis %20
+		a4 a8.(\trill gis32 a) d,4 e
+		f f8.(\trill e32 f) h,!4 cis
+		<d f,>8 q4 q q q8
+		d16 d cis cis d d e e f f e e f f e e
+		d d cis cis d d e e f f e e f f d d %25
+		cis cis b' b e, e g g cis, cis b' b e, e g g
+		d d d' d fis, fis a a d, d d' d fis, fis a a
+		g, g f'! f h, h d d g, g f' f h, h d d
+		c c c' c e, e g g c, c c' c e, e g g
+		a gis a gis a gis a gis a g f e d c h a %30
+		h c d cis d cis d cis d c h a g f e d
+		e2 f
+		g8-! g-! c-! h-! a-! g-! f-! e-!
+		d2 e
+		f8-! h-! d-! c-! h-! a-! g-! f-! %35
+		e4 e'8.(\trill d32 e) f4 a
+		g e8.(\trill d32 e) f4 a
+		g c,16 c c c d d d d e e e e
+		f f f f g g g g a a a a h h h h
+		c c, c' c, c' c, c' c, c' c, c' c, c' c, c' c, %40
+		c' e, c' e, c' e, c' e, c' e, c' e, c' e, c' e,
+		c' d, c' d, c' d, c' d, c' d, c' d, c' d, c' d,
+		h'8 d, g h d d, g h
+		c g e c a' f d a
+		g2 d'\trill %45
+		c4 c' d^\critnote h
+		c c, c h^\critnote
+		<c e, g,> r r2\fermata \bar "||" %48 finis
+	}
+}
+
+EtIncarnatusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #49
+		\partial 4 e4\p a2.
+		f'~ %50
+		f8. dis16 e8.( d32 c) h8.( c32 d)
+		c16( h) c( h) a8 c'\f a dis,
+		\once \slurDashed dis4( e8) f(\p e d)
+		cis4 d8 f16\f f f8 f
+		gis^\critnote gis16 gis gis8 gis a a %55
+		h8. e,,16\pE e8 e d' c
+		h e'16\fE e e8 e dis dis
+		e e16 e e8 e dis dis
+		e2\fermata r4
+		a,,2.\p %60
+		f'
+		f4 e8.( d32 c) h8.( c32 d)
+		c16 h c h a8 c'\fz a dis,
+		dis4( e8) f(\pE e d)
+		cis4 d8 f16 f f8 f %65
+		gis^\critnote gis16 gis gis8 gis a a
+		h8. e,,16 d'4 c\trill
+		h8 e'16\fE e e8 e dis dis
+		e e,16 e e8 e dis dis
+		e2\fermata r4 %70
+		e8.(\pE d!32 c!) h8.( c32 d) c4
+		\once \tieDashed a'2.~
+		a4 g8( f) e16( d c h)
+		c4 r8 c'-! c-! c-!
+		c16( h a g) \appoggiatura g8 f4 r %75
+		e r8 c'-! c-! c-!
+		d d32(\f c h c) d4 r
+		c8\p c32(\f h a h) c8 a,\pE a a
+		a' a32(\f gis a h) c8 c\pE c c
+		h4\trill c16-! g( fis g) a-! g( fis g) %80
+		f-! e( dis e) d( c h c) g e d c
+		b2.\trill
+		h4 c8 cis d-! a'-!
+		c,2 \appoggiatura e8 d4
+		c r8 c'' c c %85
+		c16 h a g \appoggiatura g8 f4 r
+		e r8 c' c c
+		d-\parenthesize-! d32(\f c h c) d4 r
+		c8-!\pE c32(\fE h a h) c8 a,\p a a
+		a' a32(\f gis a h) c8 dis,\pE dis dis %90
+		e e'16\fE e e8 e dis dis
+		e e,16 e e8 e dis dis
+		e2\fermata r4
+		a,2.\p
+		f'~ %95
+		f8. dis16 e8.( d32 c) h8.( c32 d)
+		c16( h) c( h) a8 a'\f a( dis,)
+		dis4( e8) f-!\p e( d)
+		cis4( d8) f-! d( h)
+		\once \slurDashed gis4( a8) a'32( gis a h) c8 c %100
+		r h r d r gis,
+		a c16\f c c8 c c c
+		h b16 b b8 b b b
+		a a16 a a8 a a a
+		gis4 f! e %105
+		r8 d\pE r c r h
+		a c'16\f c c8 c c c
+		h b16 b b8 b b b
+		a a16 a a8 a a a
+		gis4 d' c %110
+		r8 h r a r gis
+		a(\p e) r e-! c( a)
+		f'( d) r d-! h( gis)
+		a( e) r e-\parenthesize-! \once \slurDashed c( a)
+		f'( d) r d-\parenthesize-! \once \slurDashed h( gis) %115
+		a4 a a
+		a2 r4\fermata \bar "||" %117 finis
+	}
+}
+
+EtResurrexitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

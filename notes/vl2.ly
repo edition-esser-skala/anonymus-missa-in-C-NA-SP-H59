@@ -341,3 +341,143 @@ QuoniamViolinoII = {
 		e r r\fermata \bar "|." %222 FINIS
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c8(\fE h) c-! g-! d'( c) d-! g,-!
+		e'-! e-! a-! g-! f-! e-! d-! c-!
+		h( a) h-! g-! c( h) c-! g-!
+		d'-! d-! f-! e-! d-! f-! e-! d-!
+		<e g,>16 q q q q q q q <d g,> q q q q q q q %5
+		<c e> q q q q q q q <e g,> q q q q q q q
+		c c c c <e c'> q q q <d c'> q q q <d h'> q q q
+		c' c c c c c c c c c c c c c c c
+		c c, c c c c c c c c c c c c c c
+		c c c c <e g,> q q q <c e> q q q q q q q %10
+		c d c d c d c d c d c d c d c d
+		<c d>8 q4 q q q8
+		<a fis'> q4 q q q8
+		h8 d h d h d h d
+		c e c e c e c e %15
+		a, a' a c fis, a fis a
+		<h d>16 q q q <g h> q q q e e e e c c c c
+		h4 g' d e
+		<f! g,>8 <f g,>4 q q q8
+		e16 e e e e' e e e d d d d d, d d d %20
+		c c c c c' c c c b b b b b, b b b
+		a a a a a' a a a g g g g g, g g g
+		<a d> q q q q q q q q q q q q q q q
+		<b d> q q q q q q q q q q q q q q q
+		f' f f f f f f f f f f f f f f f %25
+		e e e e e e e e e e e e e e e e
+		<fis c'!> <fis c'> q q q q q q q q q q q q q q
+		<f h> q q q q q q q q q q q q q q q
+		<e c'> q q q q q q q <e g,> q q q q q q q
+		<c f>8 q4 q q q8~ %30
+		<g f'> q4 q q q8
+		c( h) c-! g-! d'( c) d-! g,-!
+		e'-! e-! a-! g-! f-! e-! d-! c-!
+		h( a) h-! g-! c( h) c-! g-!
+		d'-! d-! f-! e-! d-! f-! e-! h-! %35
+		c16 c' c c c c c c c c c c c c c c
+		c c, c c c c c c c c c c c c c c
+		c c c c c' c c c h h h h b b b b
+		a a a a e e e e f f f f d d d d
+		c e c e c e c e c e c e c e c e %40
+		e c' e, c' e, c' e, c' e, c' e, c' e, c' e, c'
+		d, c' d, c' d, c' d, c' d, c' d, c' d, c' d, c'
+		<d, h'>8 <d g,>4 q q q8
+		<e g,>16 q q q q q q q <c a'> q q q q q q q
+		g e' g, e' g, e' g, e' <f h> q q q q q q q %45
+		<e c'>4 <c' e> <g d'> <f d'>
+		<c' e> e, <d a> <d g,>
+		<e g,> r r2\fermata \bar "||" %48 finis
+	}
+}
+
+EtIncarnatusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #49
+		\partial 4 r4 c\p d e
+		f g a %50
+		h,2.
+		c8 c' c c c c
+		c c h h gis? gis
+		b b a a16\f a a8 a
+		f f16 f f8 f f-\critnote f %55
+		e h\pE h h h' a
+		<gis h,> q16\fE q q8 q <a c>4
+		<gis h>8 <gis h,>16 q q8 q <a c>4
+		<gis h>2\fermata r4
+		c,\p d e %60
+		f g a
+		h,2.
+		c8 c' c c c c
+		h-\critnote h h h gis gis
+		b b a a16 a a8 a %65
+		f f16 f f8 f f f
+		f-\critnote h, h h h' a
+		<gis h,> q16\fE q q8 q <a c>4
+		<gis h>8 <gis h,>16 q q8 q <a c>4
+		<gis h>2\fermata r4 %70
+		e4\p f! g!
+		a8.( g32 f) e8.( f32 g) f16( e d c)
+		h2 <h f'>4
+		e16-! f-! g-! f-! e-! g-! c-! h-! a-! g-! f-! e-!
+		g( f) g( f) g( f) g( f) g( f) g( f) %75
+		e-! f-! g-! f-! e-! g-! c-! h-! a-! g-! f-! e-!
+		f( d) f( d) f( d) f( d) f( d) f( d)
+		e( c) e( c) e( c) e( c) e( c) e( c)
+		dis( c) dis( c) dis( c) dis( c) dis( c) dis( c)
+		d4 c r %80
+		r16 <e g,> q q r q q q r q q q
+		r q q q r q q q r q q q
+		<f as,>4 <g g,> a,8 d
+		g, c g c g d'
+		e16-! f-! g-! f-! e-! g-! c-! h-! a-! g-! f-! e-! %85
+		f( d) f( d) g( f) g( f) g( f) g( f)
+		e-! f-! g-! f-! e-! g-! c-! h-! a-! g-! f-! e-!
+		f( d) f( d) f( d) f( d) f( d) f( d)
+		e( c) e( c) e( c) e( c) e( c) e( c)
+		c( a) c( a) c( a) c( a) c( a) c( a) %90
+		gis8 <h gis'>16\f q q8 q <a' c>4
+		<gis h>8 <gis h,>16 q q8 q <a c>4
+		<gis h>2\fermata r4
+		c,\p d e
+		f g a %95
+		h,2.
+		c8 c' c c c c
+		h h-\critnote h h gis gis
+		b b a a f f
+		f4( e8) c'32( h c d) e8 e %100
+		r d r f r d
+		c dis16\f dis dis8 dis dis dis
+		e cis16 cis cis8 cis cis cis
+		d dis16 dis dis8 dis dis dis
+		h4 gis a %105
+		r8 h\pE r a r gis
+		a dis16\f dis dis8 dis dis dis
+		e cis16 cis cis8 cis cis cis
+		d dis16 dis dis8 dis dis dis
+		e4 f e %110
+		r8 d r c r h
+		e,16(\p c) e( c) e( c) e( c) e( c) e( c)
+		d( h) d( h) d( h) d( h) d( h)d( h)
+		c( a) c( a) c( a) c( a) c( a) c( a)
+		d( h) d( h) d( h) d( h) d( h) d( h) %115
+		a4 a a
+		a2 r4\fermata \bar "||" %117 finis
+	}
+}
+
+EtResurrexitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}

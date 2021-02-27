@@ -675,6 +675,9 @@ tempoKyrie = \tempoMarkup "Andante"
 tempoGloria = \tempoMarkup "Allegro"
 	tempoQuiTollis = \tempoMarkup "Andante"
 	tempoQuoniam = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
+	tempoEtIncarnatus = \tempoMarkup "Andante"
+	tempoEtResurrexit = \tempoMarkup "[Allegro]"
 
 
 \include "notes/ob1.ly"

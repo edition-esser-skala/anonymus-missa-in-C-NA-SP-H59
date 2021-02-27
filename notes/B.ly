@@ -586,6 +586,249 @@ QuoniamBassoLyrics = \lyricmode {
 	men. %222 FINIS
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr c2\fE^\tuttiE c'
+		c4 c, r c
+		g2 g'
+		g4 g, r2
+		c4 c'8 c h4 g %5
+		a, a'8 a e4 c
+		f e8 e d4( g)
+		c, c'8 c a4 f
+		c c'8 c a4 f
+		c c' a g8 g %10
+		fis4 a fis e
+		d2 fis4 a
+		c8([ h)] a([ g)] fis([ e)] d([ c)]
+		h2 h
+		c c %15
+		d d4 d
+		g e8 e c4 d
+		g, g' g g
+		g1
+		c,2 h4 h'8 h %20
+		a4 a8 a g4 g
+		f2 e4 e
+		d( f8[ e)] d([ c!)] b([ a)]
+		b2. a4
+		gis gis gis2 %25
+		a4 a'8 a a4 a
+		d d d d,
+		g g g g
+		c c c c,
+		f f8 f f4 f %30
+		g r r2
+		c, c'
+		c4 c, r c
+		g2 g'
+		g4 g, r g' %35
+		c,( c') a f
+		c c' a f
+		c2 c
+		c4 c8 c c2
+		c4 e' c h %40
+		a c a g
+		fis a d, e
+		f2 f
+		e f4 f
+		g2( g,) %45
+		c4 r r g'
+		c a8 a f4( g)
+		c, r r2\fermata \bar "||" %48 finis
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	Cre -- do,
+	cre -- do in
+	u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po -- %5
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae. Et in u -- num
+	Do -- mi -- num Je -- sum
+	Chri -- stum, Fi -- li -- um %10
+	De -- i u -- ni --
+	ge -- ni -- tum.
+	Et ex Pa -- tre
+	na -- tum
+	an -- te %15
+	o -- mni -- a,
+	o -- mni -- a sae -- cu --
+	la. De -- um de
+	De --
+	o, lu -- men de %20
+	lu -- mi -- ne, De -- um
+	ve -- rum de
+	De -- o, de
+	De -- o,
+	De -- o ve -- %25
+	ro, ge -- ni -- tum non
+	fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem
+	Pa -- tri, per quem
+	o -- mni -- a fa -- cta %30
+	sunt.
+	Cre -- do,
+	cre -- do in
+	u -- num
+	De -- um, qui %35
+	pro -- pter nos
+	ho -- mi -- nes et
+	pro -- pter
+	no -- stram sa -- lu --
+	tem de -- scen -- _ %40
+	_ _ _ _
+	_ _ _ _
+	dit de
+	coe -- lis, de
+	coe -- %45
+	lis, de --
+	scen -- dit de coe --
+	lis. %48 finis
+}
+
+EtIncarnatusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #49
+		\partial 4 r4 R2.*10 %58
+		R2.\fermata
+		R %60
+		\mvTr d4\pE^\tuttiE e f
+		gis,2 gis4
+		a r r
+		R2.
+		r4 r8 d16 d d8 d %65
+		h8. h16 h8^\critnote h a a
+		gis2 a8([ dis)]
+		e4 e2\fE
+		e4 e4. e8
+		e2\fermata r4 %70
+		c'(\pE h b)
+		a( g) f
+		g2 g4
+		c, r r
+		r d' d8 d %75
+		c4 c, r
+		r h' h
+		a a, a'
+		f?2 f4
+		f8. f16 e4 r %80
+		R2.
+		c4.( des8[ c des)]
+		d4( e!) f
+		g2 g,4
+		c r r %85
+		R2.*2
+		r4 h' h
+		a a, a'8 a
+		f4. f8 f4 %90
+		e r fis\fE
+		e4. e8 fis fis
+		e4 e\fermata r
+		a,(\pE h) c
+		d( e) f %95
+		\once \tieDashed gis,2~ gis4
+		a r a'
+		a8. a16 gis4 e
+		g f! d8 d
+		d4 c r %100
+		d8 d h4 e
+		a, r a'\fE
+		gis r g
+		fis f f
+		e( gis,)^\critnote a %105
+		d(\pE e) e,
+		a r a'\fE
+		gis r g
+		fis f f
+		e( gis,) a %110
+		d( e) e,
+		a r a\pE
+		a2 a4
+		a r a
+		a2 a4 %115
+		a r r
+		R2.\fermata \bar "||" %117 finis
+	}
+}
+
+EtIncarnatusBassoLyrics = \lyricmode {
+	Et in -- car -- %61
+	na -- tus
+	est
+
+	ex Ma -- ri -- a %65
+	Vir -- gi -- ne, et ho -- mo
+	fa -- ctus
+	est, ho --
+	mo fa -- ctus
+	est, %70
+	et __
+	in -- car --
+	na -- tus
+	est
+	Spi -- ri -- tu %75
+	San -- cto
+	ex Ma --
+	ri -- a, Ma --
+	ri -- a
+	Vir -- gi -- ne, %80
+
+	et __
+	ho -- mo
+	fa -- ctus
+	est. %85
+
+	Cru -- ci -- %88
+	fi -- xus e -- ti --
+	am pro no -- %90
+	bis sub
+	Pon -- ti -- o Pi --
+	la -- to,
+	pas -- sus,
+	pas -- sus, %95
+	pas --
+	sus, sub
+	Pon -- ti -- o Pi --
+	la -- to pas -- sus,
+	pas -- sus %100
+	et se -- pul -- tus
+	est, pas --
+	sus, pas --
+	sus, pas -- sus,
+	et __ se --  %105
+	pul -- tus
+	est, pas --
+	sus, pas --
+	sus, pas -- sus,
+	et __ se -- %110
+	pul -- tus
+	est, se --
+	pul -- tus
+	est, se --
+	pul -- tus %115
+	est. %116 finis
+}
+
+EtResurrexitBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

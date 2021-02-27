@@ -235,3 +235,60 @@ QuoniamClarinoII = {
 		c r r\fermata \bar "|." %222 FINIS
 	}
 }
+
+CredoClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c2\fE c
+		c4 r r2
+		g g
+		g4 r r2
+		e'4 c' d2 %5
+		c4 r r2
+		r4 c d g,
+		c8 c,16 c c8 c c4 r
+		c8 c16 c c8 c c4 r
+		c8 c16 c c8 c c4 r %10
+		d'8 d16 d d8 d d4 r
+		d r r8 d16 d d8 d
+		d4 r r8 d16 d d8 d
+		g,4 r r2
+		R1*2 %16
+		r4 g c2_\critnote
+		g4 g g g
+		g,1
+		c4 r r2 %20
+		R1*2
+		d'4 d d d
+		d d d d
+		d d d d %25
+		e r r2
+		R1*5 %31
+		c,2 c
+		c4 r r2
+		g g
+		g4 r r2 %35
+		c8 c16 c c8 c c4 r
+		c8 c16 c c8 c c4 r
+		c r c r
+		c8 c c c c c16 c c8 c
+		e4 e2 e4 %40
+		c' c2 c4
+		c1_\critnote
+		g2 g4 g
+		c r r2
+		c g %45
+		e4 r r8 d'_\critnote f d
+		e4 c_\critnote c g8 g16 g
+		e4 r r2\fermata \bar "||" %48 finis
+	}
+}
+
+EtResurrexitClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}

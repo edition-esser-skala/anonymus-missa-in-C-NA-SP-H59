@@ -327,3 +327,62 @@ QuoniamOboeI = {
 		c r r\fermata \bar "|." %222 finis
 	}
 }
+
+CredoOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		\pa e'2\fE f
+		g4 c8 h a g f e
+		d2 e
+		f8 h d c h a g f
+		e4 e\trill d g %5
+		e r r g
+		a g f8.(\trill e32 f) g8 f
+		e4 e\trill f a
+		g e\trillE f a
+		g r c h %10
+		a r a g
+		fis1
+		c'
+		g4^\critnote r r2
+		e4 e2 a8 g %15
+		g fis fis e e d d c
+		h4 g'2 fis4
+		g r r2
+		R1*5 %23
+		d2 d
+		d d %25
+		cis4 r cis cis
+		d r c c
+		h r h h
+		c r c c
+		c2 d4 d %30
+		h2 r
+		e f
+		g4 c8 h a g f e
+		d2 e
+		f8 h d c h a g f %35
+		e4 e\trill f a
+		g e\trill f a
+		g c, d e
+		f g a h
+		c2 c %40
+		c c
+		c c
+		h h
+		c a
+		g d\trill %45
+		c4 c' d^\critnote h
+		c c, c h
+		c r r2\fermata \bar "||" %48 finis
+	}
+}
+
+EtResurrexitOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #118
+	}
+}
