@@ -835,11 +835,224 @@ EtResurrexitAltoNotes = {
 		\clef treble
 		\key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #118
+		\mvTr c4\fE^\tuttiE e g
+		e2 g4
+		g g g %120
+		g g r
+		g2.
+		g4 g g
+		g g g
+		g g r %125
+		r g2
+		g4 g r
+		g g g8 g
+		g4 g8 c c h
+		a4. g8 fis g %130
+		fis4 r8 c' c h
+		a4 r8 a16 a a8 g
+		a4 a8 a b b
+		a4 a a^\critnote
+		g g g %135
+		g r r
+		g r r
+		g g g
+		g2( a4)
+		g r r %140
+		R2.
+		r4 e e
+		e8. e16 e4 r
+		r e e
+		e8. e16 e4 r %145
+		R2.
+		\mvTr a4.\pE^\critnote a8 g fis
+		e8.([ fis16)] g4 a8 a
+		\once \tieDashed g4~ g g
+		g8. g16 g4 g8 g %150
+		e2.
+		d4 fis2
+		fis fis4
+		a\fE a a
+		g g g8 g %155
+		a4. a8 a a
+		g g g4 f!
+		e8 c' c([ h)] a([ g)]
+		f4 r r
+		h h8([ a)] g([ f)] %160
+		e4 e r
+		a8 a a([ g)] f([ e)]
+		d2 d4
+		g8 g g([ f e d)]
+		c4 e e %165
+		g g g8 g
+		g2^\critnote g4
+		h h\fermata r
+		R2.*2 %170
+		f2.\pE
+		f
+		g
+		f4 f f
+		es( d c) %175
+		d^\critnote r r
+		R2.*2
+		c4\fE e!( g)
+		e2 g4 %180
+		g2 g4
+		g8^\critnote g g4 r
+		g g2
+		g g4
+		g2 g4 %185
+		g8 g g4 g
+		g r8 e([ f g)]
+		f4 r8 a4( g8)
+		f4 r8 fis?([ g a)]
+		g4 r^\critnote g %190
+		g g2
+		a4 r f
+		e2 r4
+		es( d) c
+		c8 c' c4( h) %195
+		c g g
+		g g r
+		g g r
+		a f r
+		c( d) es %200
+		d( a') g
+		a8[(^\critnote f] e4 d)
+		e e2
+		f4 f f
+		g2 g4 %205
+		a4. a8 a4
+		a2 a4
+		g( h) c
+		a8^\critnote f e4( d)
+		e r f %210
+		e r g
+		f r es
+		d r g
+		c^\critnote d c
+		c2 c4^\critnote %215
+		g2( f4)
+		e r f
+		e r g
+		f r es
+		d r g %220
+		c^\critnote d c
+		c2 c4^\critnote
+		g2( f4)
+		e r g
+		g r g %225
+		e r r\fermata \bar "|." %226 FINIS
 	}
 }
 
 EtResurrexitAltoLyrics = \lyricmode {
+	Et re -- sur -- %118
+	re -- xit
+	ter -- ti -- a %120
+	di -- e
+	se --
+	cun -- dum, se --
+	cun -- dum Scri --
+	ptu -- ras, %125
+	in
+	coe -- lum,
+	ad dex -- te -- ram
+	Pa -- tris. Et i -- te --
+	rum ven -- tu -- rus %130
+	est cum glo -- ri --
+	a iu -- di -- ca -- re
+	vi -- vos et mor -- tu --
+	os, cu -- ius
+	re -- gni non, %135
+	non,
+	non,
+	non e -- rit
+ 	fi --
+	nis. %140
 
+	Et in
+	Spi -- ri -- tum
+	San -- ctum,
+	Do -- mi -- num %145
+
+	et vi -- vi -- fi --
+	can -- tem, \xE qui ex
+	Pa -- tre
+	Fi -- li -- o -- que pro -- %150
+	ce --
+	dit. Et
+	u -- nam
+	san -- ctam ca --
+	tho -- li -- cam et %155
+	a -- po -- sto -- li --
+	cam Ec -- cle -- si --
+	am. Con -- fi -- te --
+	or \x
+	u -- num ba -- %160
+	ptis -- ma
+	in re -- mis -- si --
+	o -- nem
+	pec -- ca -- to --
+	rum. Et ex -- %165
+	pe -- cto re -- sur --
+	re -- cti --
+	o -- nem
+
+	mor -- %171
+	tu --
+	o --
+	rum, mor -- tu --
+	o -- %175
+	rum,
+
+	et vi -- %179
+	tam ven -- %180
+	tu -- ri
+	sae -- cu -- li,
+	et vi --
+	tam ven --
+	tu -- ri %185
+	sae -- cu -- li, a --
+	men, a --
+	men, a --
+	men, a --
+	men, a -- %190
+	men, a --
+	men, a --
+	men,
+	a -- men,
+	a -- men, a -- %195
+	men, a -- men,
+	a -- men,
+	a -- men,
+	a -- men,
+	a -- men, %200
+	a -- men,
+	a --
+	men, et
+	vi -- tam ven --
+	tu -- ri %205
+	sae -- cu -- li,
+	a -- men,
+	a -- men,
+	a -- men, a --
+	men, a -- %210
+	men, a --
+	men, a --
+	men, a --
+	men, \xE a -- men, \x
+	a -- men, %215
+	a --
+	men, a --
+	men, a --
+	men, a --
+	men, a -- %220
+	men, \xE a -- men, \x
+	a -- men,
+	a --
+	men, a --
+	men, a -- %225
+	men. %226 FINIS
 }
 
 % AltoNotes = {

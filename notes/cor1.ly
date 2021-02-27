@@ -426,5 +426,93 @@ EtResurrexitCornoI = {
 		\clef treble
 		\key c \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #118
+		\pa c4\fE e g \pd
+		c2.
+		c %120
+		d4 r r
+		g2.
+		g
+		g2 f4
+		e r r %125
+		c r e
+		g f f
+		\pao g,2 d'4
+		e e2
+		e4 r r %130
+		fis r r
+		fis r r
+		fis fis g
+		fis r r
+		g2. %135
+		e
+		d
+		g^\critnote
+		g4 r fis
+		g r r %140
+		R2.*12 %152
+		\pa d2.\pE
+		d4\fE \pd r r
+		d2. %155
+		\pao d4 r r
+		d2.
+		e4 r r
+		R2.*6 %164
+		c4 r r %165
+		e r r
+		d d e^\critnote
+		f2\fermata r4
+		c2.\p
+		c %170
+		d
+		d4 r r
+		c2.
+		c4 r r
+		R2. %175
+		g'\fE
+		g,2 r4
+		R2.
+		\pa c,4 e g \pd
+		c2. %180
+		c
+		d4 g g
+		g2 r4
+		f2.
+		f %185
+		e4 c c
+		c r r
+		R2.
+		\pa d
+		d \pd %190
+		e4 r r
+		R2.
+		\pao c4 r r
+		R2.
+		e2 d4 %195
+		c2.
+		d
+		c
+		c
+		c2 r4 %200
+		R2.*2
+		c2.
+		d4 r g
+		e2. %205
+		f4 r r
+		c2.
+		r4 f e
+		d c d
+		c r r %210
+		R2.*3
+		c2.
+		c %215
+		e2 d4
+		c r r
+		R2.*3 %220
+		c2.
+		c4 r r
+		e2 d4
+		e r g
+		e r d %225
+		c r r\fermata \bar "|." %226 FINIS
 	}
 }

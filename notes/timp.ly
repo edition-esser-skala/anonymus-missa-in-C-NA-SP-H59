@@ -257,5 +257,75 @@ EtResurrexitTimpani = {
 		\clef bass
 		\key c \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #118
+		c4\fE r r
+		c8 c16 c c8 c c c
+		c4 c c %120
+		g r8 g16 g g8 g
+		g4 g r
+		g g r
+		g g g
+		c c8 c16 c c8 c %125
+		c4 c r
+		g g g
+		g r8 g16 g g8 g
+		c4 r r
+		R2.*6 %135
+		c8 c16 c c4 r
+		R2.*3
+		g4 r r %140
+		R2.*16 %156
+		g4\fE r8 g16 g g8 g
+		c4 r r
+		R2.*6 %164
+		c8 c16 c c8 c c c %165
+		c c16 c c8 c c c
+		g4 g g
+		g2\fermata r4
+		c\p r r
+		c r r %170
+		R2.*5 %175
+		g8 g16\fE g g4 r
+		g8 g16 g g4 r
+		R2.
+		c4 r r
+		c8 c16 c c8 c c c %180
+		c4 c c
+		g r8 g16 g g8 g
+		g4 g r
+		g g r
+		g g r %185
+		c8 c16 c c8 c c c
+		c4 r r
+		R2.*2
+		g4 r r %190
+		c r r
+		R2.*3
+		g4 g g %195
+		c c r
+		g8-\critnote g16 g g8 g g g
+		c8 c16 c c8 c c c
+		c8 c16 c c8 c c c
+		c8 c16 c c8 c c c %200
+		g4 r r
+		R2.
+		c8 c16 c c4 r
+		g4-\critnote r g
+		c8 c16 c c4 r %205
+		c8 c16 c c4 r
+		R2.*2
+		r4 r g8 g16 g
+		c4 r r %210
+		R2.*3
+		c4 r r
+		c r r %215
+		g8 g16 g g8 g g g
+		c4 r r
+		R2.*3 %220
+		c4 r r
+		c r r
+		g8 g16 g g8 g g g
+		c4 r g
+		c r g %225
+		c r r\fermata \bar "|." %226 FINIS
 	}
 }

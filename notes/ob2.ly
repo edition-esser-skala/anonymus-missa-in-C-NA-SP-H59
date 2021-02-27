@@ -384,5 +384,95 @@ EtResurrexitOboeII = {
 		\clef treble
 		\key c \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #118
+		c4\fE e g
+		e e g
+		c r r %120
+		h2.
+		h4 r d8 h
+		g2 g4
+		f2 d4
+		e r8 c e g %125
+		e2 g4
+		g2 g4
+		g2 d'4
+		c2.
+		c %130
+		a
+		c
+		c2 r4
+		d2 c4
+		h2. %135
+		g
+		g2 r4
+		R2.
+		h!4 d fis,
+		g h dis %140
+		e g h,
+		a r r
+		R2.*3 %145
+		fis2\pE a4
+		d r d
+		e r r
+		R2.
+		cis2 e8 cis %150
+		g'4 r e
+		d r r
+		R2.*4 %156
+		d2.\fE
+		e4 e8 d c h
+		a4 r r
+		d d8 c h a %160
+		g4 r r
+		c c8 h a g
+		f4 r r
+		h g8 f e d
+		c e f g a h %165
+		c d e f d e
+		d2 e4
+		f2\fermata r4
+		R2.*10 %178
+		c,4\fE r r
+		c e g %180
+		e r r
+		d'2.
+		f2 d8 h
+		g2-\critnote g4
+		g2 d'4 %185
+		c e,8 c e g
+		c2 r4
+		a2 r4
+		f'2 fis?8 e
+		d2. %190
+		e
+		c
+		g
+		fis4 r r
+		g2 f4 %195
+		e r r
+		R2.*4 %200
+		r4 f' e
+		d c h
+		c2.
+		h^\critnote
+		c %205
+		c
+		c
+		e4 f e
+		d c h
+		c r r %210
+		R2.*3
+		c4^\critnote d c
+		c c c %215
+		c2 h4
+		e f2
+		e4 g2
+		f4 es2
+		d4 h! g %220
+		c r r
+		c2 c4
+		c2 h4
+		c2 f4
+		e2 d4 %225
+		e r r\fermata \bar "||" %226 FINIS
 	}
 }

@@ -476,8 +476,117 @@ EtIncarnatusViola = {
 
 EtResurrexitViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #118
+		c4\fE e g
+		c, e g
+		c,8 c c c c c %120
+		d4 d8 g, h d
+		g g g g g g
+		g g g g g g
+		g g g g g g
+		c4 c,8 c e g %125
+		c, e c e c e
+		d f d f d f
+		h, d h d h d
+		c4 r8 c e' d
+		c4. h8 a16 g fis e %130
+		<d fis>16 q q q q q q q q q q q
+		q q q q q q q q q q q q
+		q8 q16 q d8 d cis cis
+		d d d d c c
+		h!16 h d d h h d d h h d d %135
+		g, g e' e g, g e' e g, g e' e
+		g, g h h g g h h g g h h
+		es es es es es es es es es es es es
+		d d d d d d d d d d d d
+		g8 g h h dis, dis %140
+		e e g g h,^\critnote h
+		<cis e> q q q q q
+		q q q q q q
+		q q q q q q
+		q q q q q q %145
+		d\p a d a d a
+		d a d a d a
+		e' a, e' a, e' a,
+		e' a, e' a, e' a,
+		cis a cis a cis a %150
+		cis a cis a cis a
+		d a d a d a
+		d a d a d a
+		c!16\f d e d c8 c c c
+		h16 c d c h8 h h h %155
+		a16 h c h a8 a a a
+		g16 a h a g8 g g g
+		c16 d e d c8 c c c
+		f16 g a g f8 f f f
+		h,16 c d c h8 h h h %160
+		e16 f g f e8 e e e
+		a,16 h c h a8 a' a a
+		d,16 e f e d8 d' d d
+		g,,16 a h a g8 g' g g
+		c, e f g a h %165
+		c <e, g,> q q q q
+		d[ d d d] c8.(\trillE h32 c)
+		h2\fermata r4
+		c8\p g c g c g
+		c g c g c g %170
+		f' d f d f d
+		f d f d f d
+		e! c e c e c
+		f c f c f c
+		es c es c es c %175
+		h! g'16\f g as as g g fis fis f f
+		e!8 es16 es f f es es d d c c
+		h!8 g'( fis f e d)
+		c4 e! g
+		c g e %180
+		c8 c c c c c
+		d d d d d d
+		d d d d d d
+		<g g,> q q q q q
+		q q q q q q %185
+		<e g,> q q q q q
+		c c, r c' d e
+		f f, r f' f e
+		d4 r8 d e fis?
+		g g, g g' f f, %190
+		e16 e g' g c c g g c c g g
+		f f a a c c a a c c a a
+		e e g g c c g g c c g g
+		es es es es es es es es es es es es
+		e8 e g^\critnote g f f %195
+		c16( d e d) c8 c c c
+		h16( c d c) h8 h h h
+		b16( c d c) b8 b b b
+		a16( b? c b?) a8 a a a
+		as16( b? c b?) as8 as as as %200
+		g g a' a g g
+		a a, g g f f
+		e e''16 d c8 c c c
+		h16( c d c) h8 h h h
+		b16( c d c) b8 b b b %205
+		a16( b? c b?) a8 a a a
+		f16( g a g) f8 f f f
+		g g f f e e
+		d d c c h h
+		c4 h'2 %210
+		c4 e,2
+		f4 a2
+		h!4 g2
+		g8 g g g g g
+		a^\critnote a g g fis fis %215
+		g e, e e f f
+		e4 h''2
+		c4 e,2
+		f4 a2
+		h!4 g2 %220
+		g8 g, g g g g
+		f f g g a a
+		e e e e f f
+		e4 g' h
+		c g h, %225
+		c r r\fermata \bar "|." %226 FINIS
 	}
 }

@@ -945,11 +945,11 @@ EtResurrexitOrgano = {
 		g, g g g g g
 		c4 r8 c e' d
 		c c, c' h a16 g fis e %130
-		d4 r8 d d' d
-		d d, c' h a16 g fis e
+		d4 r8 c^\critnote e' d
+		c^\critnote c, c' h a16 g fis e
 		d4 r8 d es es
 		d d, d' d c! c
-		h h h h h h %135
+		h! h h h h h %135
 		c c c c c c
 		d d d d d d
 		es es es es es es
@@ -973,9 +973,9 @@ EtResurrexitOrgano = {
 		a16 h c h a8 a a a
 		g16 a h a g8 g' g g
 		c,16 d e d c8 c' c c,
-		f16 g a g f!8 f' f f,
+		f16 g a g f8 f' f f,
 		h,16 c d c h8 h' h h, %160
-		e16 fis g fis e8 e' e e,
+		e16 f g f e8 e' e e,
 		a,16 h c h a8 a' a a,
 		d16 e f e d8 d' d d,
 		g16 a h a g8 g, g g'
@@ -988,7 +988,7 @@ EtResurrexitOrgano = {
 		h!16 c d c h4 r
 		h16 c d c h4 r
 		b16 c d c b4 r
-		a16 b? c b? a4 r
+		a!16 b? c b? a4 r
 		as16 b? c b? as8 as as as %175
 		g g'\f-! as-! g-! fis-! f-!
 		e!-! es16-! es-! f-! f-! es-! es-! d-! d-! c-! c-!
@@ -1024,10 +1024,10 @@ EtResurrexitOrgano = {
 		f16 g a g f8 f f f
 		g g gis gis a a
 		f f g g g, g
-		c4 gis'2 %210
-		a4 r cis,
+		c4 r-\critnote gis' %210
+		a r cis,
 		d r fis
-		g h,2
+		g^\critnote r h,
 		c8 c h h c c
 		a a g g fis fis %215
 		g g g g g g
@@ -1050,41 +1050,41 @@ EtResurrexitBassFigures = \figuremode {
 	q2 q8 q \bassFigureExtendersOff %120
 	<6>2.
 	r
+	\bo <[7 4]>4 \bc <[\t 3]>2
+	\bo <[7 4]>4 \bc <[\t 3]>2
+	r2. %125
 	r
-	<7>
-	<9 4>4 <8 3>2 %125
+	\bo <[8 6]>4 \bc <[7 5]>2
 	r2.
-	r
-	r
-	r
-	<4+ 2> \bassFigureExtendersOn %130
+	r2 \bo <[6]>8 \bc q
+	\bo <[6 5]>4. <\t \t>8 \bc <[6\\ \l]>4 %130
+	<7 _+>2. \bassFigureExtendersOn
 	q
-	q
-	q4 \bassFigureExtendersOff r8 <_+> <6\\ [5-]>4
+	q4 \bassFigureExtendersOff r <6\\ [5-]>
 	<_+>2 <\t>4
-	<6 _!>2. %135
+	<6>2. %135
 	r
 	<6 4>
 	<6\\ 5->
-	<4>2 <_+>4
-	<_!>2. %140
+	\bo <[6!] 4>2 \bc <[5] _+>4
+	r2. %140
 	r
-	<_+>
-	<\t>
+	<[7] _+>
+	<\t \t>
 	q
 	q %145
 	<_+>
 	<\t>
-	<_+>
 	<7 _+>
+	<\t \t>
 	<\t \t> %150
-	<6>
+	<6 [5]>
 	<_+>
 	r
 	<4+ 2>
 	<6> %155
 	<6\\>
-	r4 <7!>2
+	r2 <7!>4
 	r2.
 	<7>
 	q %160
@@ -1098,7 +1098,7 @@ EtResurrexitBassFigures = \figuremode {
 	<7 5>2.
 	<_->
 	<\t> %170
-	<6>
+	<[7-]>
 	<\t>
 	<4! 2>
 	<6>
@@ -1111,9 +1111,9 @@ EtResurrexitBassFigures = \figuremode {
 	q2 q8 q \bassFigureExtendersOff
 	<6>2.
 	r
-	r
-	r4 <7>2 %185
-	<9>4 <6>2
+	\bo <[7 4]>4 \bc <[\t 3]>2
+	\bo <[7 4]>4 \bc <[\t 3]>2 %185
+	r2.
 	r2 r8 <6 5->
 	r2 r8 <6\\>
 	<_!>4. <_+>8 <\t> <6 5!>
@@ -1122,35 +1122,35 @@ EtResurrexitBassFigures = \figuremode {
 	<3>
 	<6 4>
 	<6\\ 5->
-	<4>2 <3>4 %195
+	\bo <[6!] 4>2 \bc <[5] 3>4 %195
 	r2.
 	<6>
 	<4 2>
 	<6>
 	<6\\ [5-]> %200
-	r4 <6 5> <_!>
-	<6> <4> <3>
+	r4 <[7]> <_!>
+	<[7]>8 <6> \bo <[6] 4>4 \bc <[5] 3>
 	r2.
-	<6>
+	<6 [5]>
 	<4 2> %205
 	<6>
-	<5>4 <6>2
-	<6 5>4 <7> <3>
-	<6> <4> <3>
-	r <7>2 %210
+	<5>2 <6>4
+	<6 4> <7> <3>
+	<6> \bo <[6] 4> \bc <[5] 3>
+	r2 <7>4 %210
 	<_!>2 <7->4
-	<_+>2 <7->4
-	<_!> <7>2
-	r2.
-	<6>4 q <7-> %215
-	<4>2 <3>4
-	<_!>2 <7>4
 	r2 <7->4
-	<_+>2 <7->4
-	r2 <7>4 %220
-	<_!>2.
-	<6>4 q <7->
-	<6 4>2 <5 3>4
+	<_!>2 <[6 5]>4
+	r <[6]>2
+	<6>4 <6 [4]> <7-> %215
+	\bo <[6! 4]>2 <7 6>8 \bc <[\t 5]>
+	r2 <7>4
+	r2 <7->4
+	r2 <7->4
+	r2 <[6 5]>4 %220
+	r <[6]>2
+	<6>4 <6 [4]> <7->
+	<6! 4>2 <5 3>4
 	r <[6]> <7>
 	r2 <7>4 %225
 	r2. %226 FINIS

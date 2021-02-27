@@ -479,6 +479,115 @@ EtResurrexitViolinoI = {
 		\clef treble
 		\key c \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #118
+		c4-!\fE e-! g-!
+		c4.( g8) e'-! c-!
+		g'4. a16( g) f( e d c) %120
+		h( c d c) h8 g, h d
+		g16( fis g a) h( c d e) \once \slurDashed f( e f d)
+		c4( h8) g-! \once \slurDashed f'16( e f d)
+		c4( h8) d'16 c h a g f
+		e( f g f) e8 c, e g %125
+		c16( h c d) c c g g c c e e
+		g( f e f) f( g f e) \once \slurDashed d( e d c)
+		h a h c d c h a g g' g f
+		e8 c'16 c c( c,) c'-! c-! c( c,) c'-! h-!
+		a( a,) a'-! a-! a( a,) a'-! a-! a( a,) a'-! g-! %130
+		fis8 c'16-! c-! c( c,) c'-! c-! c( c,) c'-! h-!
+		a( a,) a'-! a-! a( a,) a'-! a-! a( a,) a'-! g-!
+		fis8 a16-! a-! a( a,) a'-! a-! a( a,) a'-! g-!
+		fis e d cis d e fis g a g fis d
+		g fis e d c h a g fis g a g %135
+		c, c e e g g c c e e g g
+		h,, h d d g g h h d d g g
+		b-! fis-! g( a) b-! fis-! g( a) b-! fis-! g( a)
+		h h h h d d d d fis, fis fis fis
+		g g g g h h h h dis, dis dis dis %140
+		e e e e g g g g h, h h h
+		a8\fp a' a a a a
+		a,\fp cis' cis cis cis cis
+		a,\fp e'' e e e e
+		a,,,\fpE cis' cis cis cis cis %145
+		d4.\p a8 fis' d
+		a'4. h16( a) g( fis e d)
+		cis( d e d) cis4 r
+		\once \slurDashed a,16( h cis h) a4 r
+		e''4. a,8 g' e %150
+		h'4. cis16( h) a( g fis e)
+		fis( g a g) fis4 r
+		d,16( e fis e) d8 d' d d
+		d\f d'16-! d-! d( d,) d'-! d-! d( d,) d'-! d-!
+		d( d,) d'-! d-! d( d,) d'-! d-! d( d,) d'-! d-! %155
+		d( d,) d'-! d-! d( d,) d'-! d-! d( d,) d'-! d-!
+		h( c d c) h h a a g g f! f
+		e4 r r
+		a16( h c h) a a g g f f e e
+		d4 r r %160
+		g16( a h a) g g f f e e d d
+		c4 r r
+		f16( g a g) f f e e d d c c
+		h( c d c) h h a a g g f f
+		e e g g a a h h c c d d %165
+		e e f f g g a a h h c c
+		h8[ h h h] c8.(\trill h32 c)
+		d2\fermata r4
+		c4\p c, es16( f es d)
+		c8 es r g-! h!( c) %170
+		d4 d, as'16( b as g)
+		f8 as r as-! h!( d)
+		c( e,!) r c-! e( g)
+		g( f) r c-! f( c')
+		g( fis) r fis-! fis-! fis-! %175
+		g g,16\f g as as g g fis fis f f
+		e!8 es16 es f f es es d d c c
+		h!8 g( as a b h)
+		c4-! e!-! g-!
+		c4.( g8) e'-! c-! %180
+		g'4. a16( g) f( e d c)
+		h( c d c) h8 g, h d
+		g16( fis g a) \once \slurDashed h( c d e) f( e f d)
+		c4( h8) g-! f'16( e f d)
+		c4( h8) d'16 c h a g f %185
+		\once \slurDashed e( f g f) e e c c e e g g
+		c( c,) c'-! c-! c( c,) c'-! c-! c( c,) c'-! b?-!
+		a( a,) a'-! a-! a( a,) a'-! a-! h h cis? cis
+		d( d,) d'-! d-! d( d,) d'-! d-! d d c c
+		h h g g d d g g h h d d %190
+		c h a g f e d c h c d c
+		f, f a a c c f f a a c c
+		e,, e g g c c e e g g c c
+		es,( h!) c-! d-! es( h!) c-! d-! es( h!) c-! d-!
+		e e e e g g g g h, h h h %195
+		c8 e,16 d c8 c c c
+		h16( c d c) h8 h h h
+		b16( c d c) b8 b b b
+		a16( b? c b?) a8 a a a
+		as16( b? c b?) as8 as as as %200
+		g g a' a g g
+		f f e e d d
+		c8 c'16 h c h a g f e d c
+		h8 d'16 c d c h a g f e d
+		c8 e'16 d e d c h a g f e %205
+		f8 f'16 e f e d c h a g f
+		a' gis a gis a g f e d c h a
+		g g g' g h h d d c c e, e
+		f f d' d e, e c' c d, d h' h
+		c4 d2 %210
+		c4 b2
+		a4 c!2
+		h!4 f2
+		e8 e d d e e
+		f f g g a a %215
+		e16 c' e, c' e, c' e, c' d, h' d, h'
+		c4 d2
+		c4 b2
+		a4 c!2
+		h!4 f!2 %220
+		e16 e c c d d c c d d e e
+		f f f f g g g g a a a a
+		e c' e, c' e, c' e, c' d, h' d, h'
+		c h a g f e d c f g g g
+		e g c g c g e c d,8 h' %225
+		c4 r r\fermata \bar "|." %226 FINIS
 	}
 }
 

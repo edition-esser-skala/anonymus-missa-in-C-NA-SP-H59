@@ -290,5 +290,93 @@ EtResurrexitClarinoII = {
 		\clef treble
 		\key c \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #118
+		e4\fE r r
+		c e g
+		e2 e4 %120
+		g g g
+		g g r
+		r r8 g16 g g8 g
+		g4 r8 g16 g g8 d'
+		c4 e,8 c e e %125
+		e4 r c'
+		e d r
+		g,2 g4
+		c r8 e,16 e e8 c'
+		c4 r8 c16 c c8 c %130
+		d4 r8 d16 d d8 d
+		d4 r8 d16 d d8 d
+		d4 r8 d16 d d8 g,
+		d'4 r r
+		g,2. %135
+		c
+		d
+		R
+		d8 d16 d d2
+		g,4 r r %140
+		R2.*12 %152
+		d'8\pE d16 d d8 d d d
+		d4\fE r r
+		d8 d16 d d8 d d d %155
+		d4 r r
+		g,2 g4
+		c r r
+		R2.*6 %164
+		e,4 r r %165
+		c' r r
+		d d d
+		g,2\fermata r4
+		c,4\p r r
+		c r r %170
+		g' r r
+		g r r
+		c, r r
+		c r r
+		R2. %175
+		g'8 g16\f g g4 r
+		g,8 g16 g g4 r
+		R2.
+		c4 e g
+		c8.[ c,16 e8. e16 g8. g16] %180
+		e2 e4
+		g g8 g16 g g8 g
+		g4 g r
+		r r8 d'16 d d8 d
+		d4 r8 d16 d d8 d %185
+		c e,16 e c8 c c c
+		c4 r r
+		R2.
+		d'4 d d
+		g, r8 g16 g g8 g %190
+		c4 r r
+		R2.
+		c,4 r r
+		R2.
+		g'2 g4 %195
+		e8 c16 c c4 r
+		g'8_\critnote g16 g g4 r
+		c,8 c16 c c4 r
+		c8 c16 c c4 r
+		c8 c16 c c4 r %200
+		R2.*2
+		c4 e e
+		g r g
+		c c c %205
+		c r r
+		c, r r
+		r d' c
+		d e, g
+		e r r %210
+		R2.*3
+		c4 r r
+		c r r %215
+		c'2 g4
+		e r r
+		R2.*3 %220
+		c8 c16 c c8 c c c
+		c4 r r
+		c'2 g4
+		c r d
+		c r g %225
+		e r r\fermata \bar "|." %226 finis
 	}
 }
