@@ -590,3 +590,85 @@ EtResurrexitViolinoII = {
 		<e c'> r r\fermata \bar "|." %226 FINIS
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoSanctus
+		r8 e\p e e r f f f
+		r e e e r f f f
+		c16(\f e g e) g([ e g e)] a,( f' a f) a([ f a f)]
+		h,( d f d) f([ d f d)] c8 e g e
+		r e\p e e r d d d %5
+		r e e e r d\f r d
+		e e e e c c fis fis
+		g-! f'!-!\p e( f) d-! d-! cis( d)
+		e( e,) e'-! g-! f-! e-! d-! c-!
+		h( d) f-! a-! g-! f-! e-! d-! %10
+		c-! c,-! e-! g-! f-! e-! d-! c-!
+		h g f' a g f e d
+		\once \slurDashed c(\f e) \parOn e-\parenthesize-! \parOff e-\parenthesize-! f8.(\trill e32 f) g8.(\trill f32 g)
+		c,16 a' c, a' c,[ a' c, a'] f a f a f[ a f a]
+		e c' e, c' e,[ c' e, c'] f, d' f, d' f,[ d' f, d'] %15
+		\tempoOsanna e4 r r2
+		R1
+		g,,4 g'8 fis e d c h
+		a4 a'8 g fis e d c
+		h4 d e f %20
+		e2 c'
+		c4 h d2
+		c4 g2 g4
+		g fis a2
+		g4 g2 g4 %25
+		g2 e
+		f f4 f?
+		g2 g
+		f a
+		b? b %30
+		c4 a g2
+		g c
+		f, h!
+		e, a
+		g g %35
+		g fis
+		g c
+		d h
+		c a
+		h gis %40
+		a4 c8 h a g f e
+		dis2 fis
+		g!4 h8 a g fis e d
+		cis2 e
+		f!4 a8 g f e d c %45
+		h2 d
+		e e
+		d2. g4~
+		g e f! d
+		e2. a4~ %50
+		a fis g! e
+		g2( fis4) d
+		f d e c
+		a' a8 g f4 e
+		d f e d %55
+		c2 c
+		g' f
+		c8( e) g(\p e) g( e) g( e)
+		c( f) a( f) a( f) a( f)
+		\slurDashed g,( d') f( d) f(-\critnote d) f( d) %60
+		a( c) e( c) e( c) e( c)
+		g'16\f[ g g g] g g g g g[ g g g] g g g g
+		a[ a a a] a a a a a[ a a a] a a a a
+		<f g,>[ q q q] q q q q q[ q q q] q q q q
+		\slurDashed c8( e) g(\p e) g( e) g( e) %65
+		c( f) a( f) a( f) a( f)
+		g,( d') f( d) f( d) f( d)
+		a( c) e( c) e( c) e( c) \slurSolid
+		g'16[\f g g g] g g g g g[ g g g g] g g g
+		a[ a a a] a a a a a[ a a a] a a a a %70
+		<f g,>[ q q q] q q q q q[ q q q] q q q q
+		e8( g) g-! g-! g( f) f-! f-!
+		e( g) g-! g-! g( f) f-! f-!
+		<e g,>2 q
+		q r\fermata \bar "|." %75 finis
+	}
+}

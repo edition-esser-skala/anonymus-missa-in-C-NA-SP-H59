@@ -1042,6 +1042,152 @@ EtResurrexitBassoLyrics = \lyricmode {
 	men. %226 FINIS
 }
 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \autoBeamOff \tempoSanctus
+		R1*2
+		\mvTr e4\fE^\tuttiE e8 e f4 f
+		g g, c r
+		R1 %5
+		r2 fis4 g
+		c,2 d
+		g,4 r r2
+		c'\pE c4 c
+		h2 h4 r %10
+		c,2 c4 c
+		g2 g4 r
+		c'2\fE h4 b
+		a2 f4 f
+		g2( g,) %15
+		\tempoOsanna c4 c'8([ h)] a([ g)] f([ e)]
+		d4 d'8([ c)] h([ a g f)]
+		e2 h
+		c d
+		g g %20
+		c,4 c e e
+		f2( g)
+		c,4 r r2
+		R1*2 %25
+		r4 c'8([ h)] a([ g)] f([ e)]
+		d4 d'8([ c)] h([ a g f)]
+		e4 e c2
+		f4 r r2
+		R1 %30
+		r2 g
+		c f,
+		b e,
+		a( d,)
+		g r %35
+		R1
+		r4 c8([ h)] a([ g)] f([ e)]
+		d4 h'8([ a)] g([ f e d)]
+		c4 a'8([ g)] f([ e)] d([ c)]
+		h4 gis'8([ f!)] e([ d c h)] %40
+		a2 c
+		h dis
+		e g!
+		a( cis,)
+		d f!4 f %45
+		g2( h,)
+		c4^\critnote c8([ d)] e4 c
+		g' g,8([ a)] h4( g)
+		d' d8([ e)] f!4 d
+		a' a,8([ h)] c4( a) %50
+		e' e8([ fis)] g!4 e
+		a2 d,
+		g c,4 c'
+		f, d8([ e)] f4 fis
+		g( g,8[ a] h4 g) %55
+		c2 f4 f
+		g2( g,)
+		c r
+		R1*3 %61
+		e1^\critnote
+		f
+		g
+		c,2 r %65
+		R1*3
+		e,1
+		f %70
+		g
+		c2 g'4 g
+		c2( g)
+		c, r
+		R1\fermata \bar "|." %75 finis
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	Do -- mi -- nus De -- us %3
+	Sa -- ba -- oth,
+	%5
+	De -- us
+	Sa -- ba --
+	oth.
+	Ple -- ni sunt
+	coe -- li, %10
+	coe -- li et
+	ter -- ra
+	glo -- ri -- a,
+	glo -- ri -- a
+	tu -- %15
+	a. O -- san -- na
+	in ex -- cel --
+	sis, o --
+	san -- na
+	in ex -- %20
+	cel -- sis, in ex --
+	cel --
+	sis,
+
+	o -- san -- na %26
+	in ex -- cel --
+	sis, o -- san --
+	na,
+	%30
+	o --
+	san -- na
+	in ex --
+	cel --
+	sis, %35
+
+	o -- san -- na
+	in ex -- cel --
+	sis, o -- san -- na
+	in ex -- cel -- %40
+	sis, o --
+	san -- na
+	in ex --
+	cel --
+	sis, in ex -- %45
+	cel --
+	\xE sis, o -- san -- na
+	in ex -- cel --
+	sis, o -- san -- na
+	in ex -- cel -- %50
+	sis, o -- san -- na
+	in ex --
+	cel -- sis, o --
+	san -- na in ex --
+	cel -- %55
+	sis, \x in ex --
+	cel --
+	sis,
+
+	in %62
+	ex --
+	cel --
+	sis, %65
+
+	in %69
+	ex -- %70
+	cel --
+	sis, in ex --
+	cel --
+	sis. %74 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

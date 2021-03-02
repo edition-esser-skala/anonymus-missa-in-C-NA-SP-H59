@@ -1066,6 +1066,147 @@ EtResurrexitSopranoLyrics = \lyricmode {
 	men. %226 FINIS
 }
 
+SanctusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \autoBeamOff \tempoSanctus
+		\mvTr g'2\pE^\tuttiE g
+		g8([ e')] d([ c)] c([ h)] a([ g)]
+		c4\fE c8 c d4 d
+		d g e r
+		g,2\p gis8([ f'!)] e([ d)] %5
+		c4 c c\fE h
+		a2. a4
+		g4^\critnote r r2
+		e'\pE c4 g
+		g4.( a8) g4 r %10
+		e'2 c4 g
+		g4.( a8) g4 r
+		c2\fE d4 e
+		g( f) e d
+		c2( h) %15
+		\tempoOsanna c4 r r2
+		R1*6 %22
+		g4( g'8[ fis)] e([ d)] c([ h)]
+		a4 a'8([ g)] fis([ e d c)]
+		h4 d e( f) %25
+		e2 c
+		c4( h d2)
+		c4 g'8([ f)] e([ d)] c([ b)]
+		a2 f'
+		f4( e g2) %30
+		f4 r f2
+		e( es)
+		d d4 d
+		cis2( c)
+		h4 g'8([ fis)] e([ d)] c([ h)] %35
+		a4 a'8([ g)] fis([ e d c)]
+		h4 c e e
+		f2 d
+		e c
+		d4 d h2 %40
+		c4 r e2
+		fis4 fis8([ e)] dis([ cis)] h([ a)]
+		g!2 h4 h
+		e4 e8([ d)] cis([ h)] a([ g)]
+		f!2 a4 a %45
+		d4 d8([ c)] h([ a)] g([ f)]
+		e4 g c2~
+		c4 ais h g
+		a2 d
+		d4( h) c( a) %50
+		h2( e)
+		cis d
+		h c
+		a4 f'8([ e)] d4 c
+		h a g f %55
+		e2 a
+		c,( d)
+		c4 r r2
+		R1*3 %61
+		g''1
+		a
+		h,
+		c2^\critnote r %65
+		R1*3
+		g1
+		a %70
+		f
+		e2 d'4 d
+		e2( d)
+		c r
+		R1\fermata \bar "|." %75 finis
+	}
+}
+
+SanctusSopranoLyrics = \lyricmode {
+	San -- ctus,
+	san -- ctus, san -- ctus
+	Do -- mi -- nus De -- us
+	Sa -- ba -- oth,
+	Do -- mi -- nus %5
+	De -- us, De -- us
+	Sa -- ba --
+	oth.
+	Ple -- ni sunt
+	coe -- li, %10
+	coe -- li et
+	ter -- ra
+	glo -- ri -- a,
+	glo -- ri -- a
+	tu -- %15
+	a.
+
+	O -- san -- na %23
+	in ex -- cel --
+	sis, ex -- cel -- %25
+	sis, o --
+	san --
+	na, o -- san -- na
+	in ex --
+	cel -- %30
+	sis, o --
+	san --
+	na in ex --
+	cel --
+	sis, o -- san -- na %35
+	in ex -- cel --
+	sis, o -- san -- na
+	in ex --
+	cel -- sis,
+	in ex -- cel -- %40
+	sis, o --
+	san -- na in ex --
+	cel -- sis, o --
+	san -- na in ex --
+	cel -- sis, o -- %45
+	san -- na in ex --
+	cel -- sis, o --
+	_ _ _
+	san -- na
+	in ex -- %50
+	cel --
+	sis, o --
+	san -- na
+	in ex -- cel -- _
+	_ _ _ _ %55
+	sis, ex --
+	cel --
+	sis,
+
+	in %62
+	ex --
+	cel --
+	sis, %65
+
+	in %69
+	ex -- %70
+	cel --
+	sis, in ex --
+	cel --
+	sis. %74 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

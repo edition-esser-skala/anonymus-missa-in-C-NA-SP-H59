@@ -476,3 +476,58 @@ EtResurrexitOboeII = {
 		e r r\fermata \bar "||" %226 FINIS
 	}
 }
+
+SanctusOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoSanctus
+		e'2\p f
+		e8 g, f e f2
+		e4\fE r f'2
+		e4 e8 d c4 r
+		r2 gis\pE %5
+		a a4\fE g
+		c2 a
+		h4 r r h\pE
+		c2 c
+		d d %10
+		c r
+		R1
+		r4 e,\fE f g
+		a r r2
+		e' f %15
+		\tempoOsanna e4 r r2
+		R1*6 %22
+		c4 g2 g4
+		g fis a2
+		g4 g2 g4 %25
+		g2 e
+		f f4. f?8
+		g2 g
+		f a
+		b? b %30
+		c4 r^\critnote r2
+		R1*23 %54
+		d4 f e d %55
+		c2 c
+		g f
+		e r
+		R1
+		h'2\pE h %60
+		\once \slurDashed h( c4) r
+		c2\f c
+		a a
+		g g
+		c c\p %65
+		a a
+		h h4 d
+		\once \slurDashed d2( c4) r
+		e2\f e
+		f f
+		d d
+		e f
+		e f
+		e c
+		c r\fermata \bar "|."
+	}
+}

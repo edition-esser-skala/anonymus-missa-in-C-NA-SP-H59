@@ -590,3 +590,85 @@ EtResurrexitViola = {
 		c r r\fermata \bar "|." %226 FINIS
 	}
 }
+
+SanctusViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 2/2 \tempoSanctus
+		r8 g\p g g r <g d'> q q
+		r g g g r h h h
+		c\f c c c c c c c
+		<g d'> q q q c e g e
+		c\p g g g r e e e %5
+		r c c c r a'\fE r g
+		e' e e e c c c c
+		h g\pE g g <g f'>2
+		r8 <g e'> q q r q q q
+		r <g f'> q q r q q q %10
+		r <g e'> q q r q q q
+		r <g f'> q q r q q q
+		e'\fE c' h c h c b c
+		a c a c f, f f f
+		g g g g <f g,> q q q %15
+		\tempoOsanna <e g,>4 c'8 h a g f e
+		d4 d'8 c h a g f
+		e4 e h2
+		c4 a d d
+		g h, c d %20
+		c c'8 h a g f e
+		d4 d'8 c h a g f
+		e4 r h'2
+		c d
+		g,4 h c d %25
+		c e,8 d c h a g
+		f4 f'8 e d c h a
+		g2 b?
+		c4 f'8 e d c b a
+		g4 g8 f e d c b %30
+		a4 d' h! a8 h
+		c4 g8 c a4 g8 a
+		b4 f8 b gis4 fis8 gis
+		a4 g8 a fis4 e8 fis
+		g2 h, %35
+		c d
+		g4 e'8 d c h a g
+		f4 d'8 c h a g e
+		e4 c'8 h a g f e
+		d4 h'8 a gis f! e d %40
+		c4 c e e
+		h dis'8 cis h a g! fis
+		e2 r4 h'
+		cis cis8 h a g f! e
+		d2 r4 a' %45
+		h h8 a g f e d
+		c4 r g'2
+		g4^\critnote g, r2
+		r a'
+		a4 a, r2 %50
+		r h'
+		e, fis4 a
+		d,2 e4 g
+		a2 a
+		g g %55
+		g f4 a
+		g2 f
+		e8( c) e(\p c) e( c) e( c)
+		\slurDashed f( c) f( c) f( c) f( c)
+		d( h) d( h) d( h) d( h) %60
+		c( a) c( a) c( a) c( a) \slurSolid
+		e'\f e e e e e e e
+		f f f f f f f f
+		g g g g g g g g
+		e( c) e(\p c) e( c) e( c) %65
+		\slurDashed f( c) f( c) f( c) f( c)
+		d( h) d( h) d( h) d( h)
+		c( a) c( a) c( a) c( a) \slurSolid
+		e'\f e e e e e e e
+		f f f f f f f f %70
+		g g g g g g g g
+		c,( e) e-! e-! e( d) d-! d-!
+		c( e) e-! e-! e( d) d-! d-!
+		c2 <g e' c'>
+		q r\fermata \bar "|." %75 finis
+	}
+}

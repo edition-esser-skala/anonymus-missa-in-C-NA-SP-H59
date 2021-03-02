@@ -1055,6 +1055,154 @@ EtResurrexitAltoLyrics = \lyricmode {
 	men. %226 FINIS
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \autoBeamOff \tempoSanctus
+		R1*2
+		\mvTr g'4\fE^\tuttiE g8 g a4 a
+		g g g r
+		R1 %5
+		r2 d4 d
+		g2 fis
+		g4 r r2
+		e\pE e4 e
+		f2 f4 r %10
+		e2 e4 e
+		f2 f4 r
+		e2\fE f4 g
+		a2 g4 f
+		e2( d) %15
+		\tempoOsanna e4 r r2
+		R1
+		r4 g8([ fis)] e([ d)] c([ h)]
+		a4 a'8([ g)] fis([ e d c)]
+		h4 d e( f) %29
+		e2 c'
+		c4( h d2)
+		c4 g g g
+		g( fis) a2
+		g g4 g %25
+		g2( e)
+		f f4 f?
+		g1
+		f2 a
+		b b %30
+		c4( a) g2
+		g c4 c
+		f,2 h!
+		e, a
+		g1~ %35
+		g2 fis
+		g c
+		d h
+		c a
+		h( gis) %40
+		a4 c8([ h)] a([ g)] f([ e)]
+		dis2 fis
+		g!4( h8[ a)] g([ fis)] e([ d)]
+		cis2 e
+		f!4 a8[( g)] f([ e d c)] %45
+		h2 d
+		e e
+		d2. g4
+		g( e) f! d
+		e2 e4 a %50
+		a fis g! e
+		g2( fis4 d
+		f d) e c
+		a' a8([ g)] f4 e
+		d( f e d) %55
+		c2 c4 c
+		e2( d)
+		e4 r r2
+		R1*3 %61
+		c'1
+		a
+		f
+		e2 r %65
+		R1*3
+		c1
+		a %70
+		d
+		e2 g4 g
+		g2( f)
+		e r
+		R1\fermata \bar "|." %75 finis
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	Do -- mi -- nus De -- us %3
+	Sa -- ba -- oth,
+	%5
+	De -- us
+	Sa -- ba --
+	oth.
+	Ple -- ni sunt
+	coe -- li, %10
+	coe -- li et
+	ter -- ra
+	glo -- ri -- a,
+	glo -- ri -- a
+	tu -- %15
+	a.
+
+	O -- san -- na
+	in ex -- cel --
+	sis, ex -- cel -- %20
+	sis, o --
+	san --
+	na, o -- san -- na
+	in __ ex --
+	cel -- sis, ex -- %25
+	cel --
+	sis, in ex --
+	cel --
+	sis, o --
+	san -- na %30
+	in __ ex --
+	cel -- sis, o --
+	san -- na
+	in ex --
+	cel -- %35
+	_
+	sis, o --
+	san -- na
+	in ex --
+	cel -- %40
+	sis, o -- san -- na
+	in ex --
+	cel -- sis, o --
+	san -- na
+	in ex -- cel -- %45
+	sis, o --
+	san -- na
+	in ex --
+	cel -- sis, o --
+	san -- na, o -- %50
+	san -- na in ex --
+	cel --
+	sis, o --
+	san -- na in ex --
+	cel -- %55
+	sis, in ex --
+	cel --
+	sis,
+
+	in %62
+	ex --
+	cel --
+	sis, %65
+
+	in %69
+	ex -- %70
+	cel --
+	sis, in ex --
+	cel --
+	sis. %74 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

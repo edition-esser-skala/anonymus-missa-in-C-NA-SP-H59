@@ -1059,6 +1059,148 @@ EtResurrexitTenoreLyrics = \lyricmode {
 	men. %226 FINIS
 }
 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 2/2 \autoBeamOff \tempoSanctus
+		R1*2
+		\mvTr c4\fE^\tuttiE c8 c a4 a %3
+		h d c r
+		R1 %5
+		r2 a4 g
+		e'2 c
+		h4 r r2
+		c\pE c4 c
+		d2 d4 r %10
+		c2 c4 c
+		d2 d4 r
+		c2\fE c4 c
+		c2 a4 a
+		g1 %15
+		\tempoOsanna g4 r r2
+		R1*4 %20
+		c,4( c'8[ h)] a([ g)] f([ e)]
+		d4 d'8([ c)] h([ a g f)]
+		e4 r h'2
+		c d
+		g,4 h c( d) %25
+		c e8([ d)] c([ h a g)]
+		f4 f'8([ e)] d([ c)] h([ a)]
+		g4 g c2
+		a4 f'8([ e)] d([ c)] b([ a)]
+		g4 g'8([ f)] e([ d c b)] %30
+		a4 d h a8([ h)]
+		c4 c a( g8[ a)]
+		b4 b gis gis
+		a gis8([ a)] fis4 e8([ fis)]
+		g2 h! %35
+		c( d)
+		g,4 e'8([ d)] c([ h)] a([ g)]
+		f4 d'8([ c)] h([ a g f)]
+		e4 c'8([ h)] a([ g)] f([ e)]
+		d4 h'8([ a)] gis([ f! e d)] %40
+		c2 r
+		h'4 dis8([ cis?)] h([ a g! fis)]
+		e2^\critnote r4 h'
+		cis4.( h8 a[ g f! e])
+		d2 r4 a' %45
+		h4.( a8 g[ f e d )]
+		c4 r r g'
+		g g r2
+		r r4 a
+		a a r2 %50
+		r h
+		e,4 e fis a
+		d,2 e4 g
+		a2 a
+		g g %55
+		g( f4 a
+		g1)
+		g4 r r2
+		R1*3 %61
+		c1
+		c
+		g
+		g2 r %65
+		R1*3
+		c1
+		c %70
+		g
+		g2 h4 h
+		c2( h)
+		c r
+		R1\fermata \bar "|." %75 finis
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	Do -- mi -- nus De -- us %3
+	Sa -- ba -- oth,
+	%5
+	De -- us
+	Sa -- ba --
+	oth.
+	Ple -- ni sunt
+	coe -- li, %10
+	coe -- li et
+	ter -- ra
+	glo -- ri -- a,
+	glo -- ri -- a
+	tu -- %15
+	a.
+
+	O -- san -- na %21
+	in ex -- cel --
+	sis, o --
+	san -- na
+	in ex -- cel -- %25
+	sis, o -- san --
+	na, o -- san -- na
+	in ex -- cel --
+	sis, o -- san -- na
+	in ex -- cel -- %30
+	sis, o -- san -- na
+	in ex -- cel --
+	sis, o -- san -- na
+	in ex -- cel -- sis,
+	in ex -- %35
+	cel --
+	sis, o -- san -- na
+	in ex -- cel --
+	sis, o -- san -- na
+	in ex -- cel -- %40
+	sis,
+	in ex -- cel --
+	sis, ex --
+	cel --
+	sis, ex -- %45
+	cel --
+	sis, o --
+	san -- na,
+	o --
+	san -- na, %50
+	o --
+	san -- na in ex --
+	cel -- sis, o --
+	san -- na
+	in ex -- %55
+	cel --
+
+	sis,
+
+	in %62
+	ex --
+	cel --
+	sis, %65
+
+	in %69
+	ex -- %70
+	cel --
+	sis, in ex --
+	cel --
+	sis. %74 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

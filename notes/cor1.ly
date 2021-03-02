@@ -516,3 +516,55 @@ EtResurrexitCornoI = {
 		c r r\fermata \bar "|." %226 FINIS
 	}
 }
+
+SanctusCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoSanctus
+		g'1\pE
+		g2 r
+		c\fE d
+		g4. f8 e4 c
+		c\pE r r2 %5
+		c d4\fE g
+		g2 fis
+		g r
+		e\pE e
+		f r %10
+		e2. f8 e
+		d2 g,
+		c1\fE
+		c2 r
+		e d %15
+		\tempoOsanna c4 r r2
+		R1*9 %25
+		e1
+		f
+		e2 c4 c
+		c r r2
+		R1*7 %36
+		c1
+		d
+		e4 r r2
+		R1*6 %45
+		d1
+		e2 r
+		R1*8 %55
+		c2 f
+		e d
+		c r
+		R1*3 %61
+		e1^\critnote
+		f
+		d
+		c2 r %65
+		R1*3
+		e1
+		f %70
+		d^\critnote
+		e4 g2 f4
+		e2 d
+		c2 e,
+		e r\fermata \bar "|." %75 finis
+	}
+}

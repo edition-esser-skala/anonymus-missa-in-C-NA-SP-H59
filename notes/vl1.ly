@@ -591,6 +591,83 @@ EtResurrexitViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoSanctus
+		g'2\p g
+		g8 e'( d c) c( h a g)
+		c-!\f c-! c'( h) a d, f a
+		h,( d) g-! f-! e-! c-! g-! e-!
+		g2(\p gis8) f'!( e d) %5
+		d( c) c-! c-! a'-!\f d,,-! c'( h)
+		a-! c-! e-! a-! fis,( a) d-! c-!
+		h d'\p-\parenthesize-! cis( d) h-! h-! ais?( h)
+		c( c,) c'-! h-! a-! g-! f-! e-!
+		d( f) d'-! c-! h-! a-! g-! f-! %10
+		e-! e,-! c'-! h-! a-! g-! f-! e-!
+		f g, d'' c h a g f
+		e(\fE c') c-! c-! d8.(\trill c32 d) e8.(\trill d32 e)
+		g16([ f e f)] f8 r b16([ a gis a)] a4
+		g16[ g g g] g g g g h[ h h h] h h h h %15
+		\tempoOsanna c4 r r2
+		R1*6 %22
+		g,4 g'8 fis e d c h
+		a4 a'8 g fis e d c
+		h4 d e f %25
+		e2 c~
+		c4 h d2~
+		d8 c g' f e d c b
+		a2 f'~
+		f4 e g2 %30
+		f4 r f2
+		e es
+		d r4 d
+		cis( cis') c c
+		h g8 fis e d c h %35
+		a4 a'8 g fis e d c
+		h4 c e2
+		f d
+		e c
+		d h %40
+		a4 r e'2
+		fis4 fis8 e dis cis h a
+		g!2 h
+		e4 e8 d cis h a g
+		f!2 a %45
+		d4 d8 c h a g f
+		e4 g c2~
+		c4 ais( h) g-!
+		a2 d~
+		d4 h c a %50
+		h2 e
+		cis d
+		h c
+		a4 f'8 e d4 c
+		h a g f %55
+		e2 a
+		c, d\trill
+		c4 c'\p c'( h)
+		a d, f( a)
+		\once \slurDashed h,( d) g f %60
+		f2( e4) r
+		c'16\f c c c c[ c c c] c c c c c[ c c c]
+		d d d d d[ d d d] d d d d d[ d d d]
+		h h h h h[ h h h] h h h h h[ h h h]
+		c4 c,,\p c'( h) %65
+		a d, \once \slurDashed f( a)
+		h,( d) g f
+		\once \slurDashed f2( e4) r
+		c''16\f c c c c[ c c c] c, c c c c[ c c c]
+		d[ d d d] d d d d d'[ d d d] d d d d %70
+		g,,[ g g g] g g g g h'[ h h h] h h h h
+		c2 h
+		c h
+		c <c, e, g,>
+		q r\fermata \bar "|." %75 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
