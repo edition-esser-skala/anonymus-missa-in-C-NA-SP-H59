@@ -680,6 +680,8 @@ tempoCredo = \tempoMarkup "Allegro"
 	tempoEtResurrexit = \tempoMarkup "[Allegro]"
 tempoSanctus = \tempoMarkup "Andante"
 	tempoOsanna = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Allegro moderato"
+	tempoBenedictusB = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"

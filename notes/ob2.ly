@@ -531,3 +531,84 @@ SanctusOboeII = {
 		c r\fermata \bar "|."
 	}
 }
+
+BenedictusOboeII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoBenedictus
+		a'4 b c a8 r
+		r4 d8^\critnote b f'4 e8 r
+		c2 d4 r8 d16 b
+		a4 b a r
+		b2 a %5
+		c a
+		b a
+		c a
+		d^\critnote r4 a8 b
+		a4 r r2 %10
+		r b8 b16 c b c b c
+		a4 b c8 a c, es
+		r4 d'8^\critnote b f'4 e
+		c2 d4 d8 b
+		a4 b a r %15
+		r2 f
+		f f
+		f f
+		f f
+		r d'4 es %20
+		d r r e
+		d8 b d16 c b a b4 r
+		r r8 e! d4 es
+		d r r2
+		r f,4 f_\critnote %25
+		a b r2
+		R1*7 %33
+		r2 c
+		d4 r r2 %35
+		r c
+		d4 r r2
+		R1
+		b2 g
+		a4 b a b %40
+		a2 r
+		R1*2
+		a4 b a8 a c es
+		r4 d8 b f'4 e8 r %45
+		c2 d4 b
+		a b a r
+		g2 a
+		b a
+		b a %50
+		b a
+		b\fermata r4 f'8 e
+		f2 r^\critnote
+		f8 f4 e8 f4 r
+		r2^\critnote f4 e %55
+		f r r2
+		r c4 c^\critnote
+		e f g8 e a g
+		e f r4 r2
+		R1 %60
+		r4 a,8 b a2
+		r r4 a \noBreak
+		b8 b b b a4 r\fermata \bar "|"
+		\key c \major \tempoBenedictusB e4 r r8 g f e \noBreak
+		h'4 r r8 d c h %65
+		c4 g8 f e4 r
+		c'^\critnote d8 c a4 r
+		h2 h
+		c8 e fis d h2
+		c h4 a %70
+		h8 g h4 r8 h c d
+		c4 r r2
+		h8 d c d e4 r
+		d d8 c h4 c8 d
+		c4 r r2 %75
+		R1*3
+		c4 e d^\critnote d
+		e r r8 g, f e %80
+		h'4 r r8 h c d
+		c e e f e4 f
+		e r r2\fermata \bar "|." %83 finis
+	}
+}

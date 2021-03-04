@@ -531,3 +531,84 @@ SanctusOboeI = {
 		e r\fermata \bar "|." %75 finis
 	}
 }
+
+BenedictusOboeI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoBenedictus
+		f'4 e16 f g f f4 c8 r
+		r4 g'8^\critnote b a4 g8 r
+		a4 g16 a b a g4 r8 b16 g
+		f4 g f r
+		e2 f %5
+		g f
+		e f
+		g f
+		g^\critnote r4 f8 e
+		f4 r r2 %10
+		r e8 e e e
+		f4 e16 f g f f4 c
+		r g'8^\critnote b a4 g
+		a g16 a b a g4 d
+		f g f r %15
+		r2 d
+		c d
+		es d
+		c d
+		r f8 g b a %20
+		b4 r r g
+		f8 d f16 es d c b4 r
+		r r8 g' f b b a
+		b4 r r2
+		r a,4 b %25
+		c d r2
+		R1*7 %33
+		r2 a'
+		b4 r r2 %35
+		r a
+		b4 r r2
+		R1
+		d,2 e!
+		f4 e f e %40
+		f2 r
+		R1*2
+		f4 e16 f g f f4 c8 r
+		r4 g'8^\critnote b a4 g8 r %45
+		a4 g16 a b a g4 d
+		f g f r
+		e2 f
+		e f
+		e f %50
+		e f
+		g\fermata r4 a8 g
+		f2 r^\critnote
+		a8^\critnote a4 g8 f4 r
+		r2^\critnote a4 g %55
+		f r r2
+		r e4 f
+		g a b8 g c b
+		gis a r4 r2
+		R1 %60
+		r4 f8 e f2
+		r r4 c \noBreak
+		e8 e e e f4 r\fermata \bar "||"
+		\key c \major \tempoBenedictusB c4 c8 e g2 \noBreak
+		g4 h,8 d f2 %65
+		e4 e8 d c4 r
+		f f8 e d4 r
+		d2 d
+		e4 fis^\critnote g2
+		fis g4 fis %70
+		g8 g, h d g4. f!8
+		e4 r r2
+		h'8 g16 f e8 d cis?4 r
+		f8 f16 e d8 c h4 g'8 f
+		e4 r r2 %75
+		R1*3
+		e8 g c4 c h
+		c8 g, c e g2 %80
+		g8 g, h d f2
+		e8 c' c h c4 h
+		c r r2\fermata \bar "|." %83 finis
+	}
+}

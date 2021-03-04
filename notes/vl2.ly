@@ -672,3 +672,93 @@ SanctusViolinoII = {
 		q r\fermata \bar "|." %75 finis
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoBenedictus
+		a4 b c8 a c es
+		d4 d16 c b a a4 g8 b
+		c2 d4 d
+		a16 c a c b c b c a c f e d c b a
+		b c b c b c b c a c a c a c a c %5
+		g b g b g b g b a c a c a c a c
+		b c b c b c b c a c a c a c a c
+		g c g c g c g c c4 r16 c c c
+		d4 f a16 c a c b c b c
+		a4 r b2 %10
+		a4 r b,8 b16 c b c b c
+		a4 b c8 a c es
+		d4 d16 c b a a4 g8 b
+		c2 d
+		c16 f a f c e g e f4 r %15
+		c16 f c f c f c f d f d f d f d f
+		c es c es c es c es d f d f d f d f
+		c f c f c f c f d f d f d f d f
+		c es c es c es c es d4 r16 b b b
+		g'4 b d,8 d es es %20
+		d4 d r8 b b b
+		d4 es d r
+		r8 b'16 b b8 b d, d es es
+		d4 r f2~
+		f4. d8 f16 f f f f f f f %25
+		f f f f f f f f f f f f f f f f
+		f f f f f8 d' as4 g8 es
+		ges4 f8 d g4 g
+		d c d es
+		f8 d f as g4 g16 f es d %30
+		d4 c b16 g' es g b, g' es g
+		b, f' d f b, f' d f b,8 b a a
+		b4 r es2
+		d8 b' b b c, a' a a
+		d, f d d es2 %35
+		d8 d d d c c a a
+		b16 d f d b d f d b es g es b es g es
+		b d f d b d f d a c f c a c f c
+		b8 <d b'>16 q q8 q b <b g'>16 q q8 q
+		a'8 r b r a r b r %40
+		a f f f <f g,> q q q
+		q r q r q r q r
+		<e g,>2 q
+		a,4 b a8 a c es
+		d4 d16 c b a a4 g8 b %45
+		c f c f b, g' b, g'
+		a,16 c a c b c b c a c f e d c b a
+		g b c b g b c b a c f c a c f c
+		c e g e c e g e c f a f c f a f
+		g, b c b g b c b a c f c a c f c %50
+		c e g e c e g e f4 r16 a a a
+		b4 f'\fermata a,16 c a c b c b c
+		a4 r r8 f'16 f f8 f
+		f f,4 e8 <f a,>4 r
+		r8 f16 f f8 f f4 e %55
+		f r c2
+		c4 r8 a c16 c c c c c c c
+		c c c c c c c c c c c c c c c c
+		c c c c c8 a' es4 d8 b
+		des4 c f r8 d %60
+		a16 c a c g b g b a4 r
+		b'2 a4 r \noBreak
+		b,2 a4 r\fermata \bar "||"
+		\key c \major \tempoBenedictusB <g e' c'>4 r r8 g' f e
+		<g, d' h'>4 r r8 d' c h %65
+		c g''16 f e f d e c8 c d e
+		f a16 g f g e f d8 fis? g a
+		g d'16 c h c a h g8 h,, c d
+		<e g,> e'16 g fis8 d g h16 a g fis e d
+		c h a g fis e d c h8 g' a, fis' %70
+		g4 r r8 h, c d
+		e e' f d e16 d e f e8 e
+		d g16 f e f d e cis8 cis, d e
+		f d'4 c8 h h, c d
+		e c'4 h8 a a, h c %75
+		d h'4 a8 g g, a h
+		c a'4 g8 f d e f
+		g h c d h h, c d
+		c c' e c c,-\critnote d' g,, d''
+		e4 r r8 g, f e %80
+		<h' d, g,>4 r r8 h, c d
+		c e' g f e e, f d
+		<e g,>4 r r2\fermata \bar "|." %83 finis
+	}
+}

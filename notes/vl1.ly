@@ -668,6 +668,96 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoBenedictus
+		f4 e16 f g f f4 c8 a'
+		c4 b16 a g f f4 e8 c'
+		a'4 g16 a b a g4 d8 b'32 a b g
+		f4 g f r8 c
+		b' b r c b16 a g f e f g f %5
+		e8 e r c f c a'16 g a f
+		b8 b r c b16 a g f e f g f
+		e f g a b8 e, f16 g a b c8 r
+		g16 a b c d8 r c8. d16 f,8 e
+		f16 g a g f e d c h c h c h c h c %10
+		h c d c b a g f e8 e e e
+		f4 e16 f g f f4 c8 a'
+		c4 b16 a g f f4 e8 c'
+		a'4 g16 a b a g4 d16 g b d
+		f,8 f g g f16 a d c b a g f %15
+		es8 es r f es16 d c b a b c b
+		a8 a r f b f d'16 c d b
+		es8 es r f es16 d c b a b c b
+		a b c d es8 a, b16 c d es f8 r
+		c16 d es f g8 g f8. g16 b,8 a %20
+		b16 c d es f8 r c16 d e! f g8 g
+		g16 f d f f es d c b c d es f8 r
+		c16 d e! f g8 g f16 b d, f f es d c
+		b4 r8 d es c f es
+		cis d r f a,8. b32 c b8 f' %25
+		c8. d32 es d8 f es c f es
+		cis d r as' h,8. c32 d c8 ges'
+		a,!8. b32 c b8 f' f4 es16 d c b
+		b4 a8 f b4 a16 b c b
+		b4 f8 d' f4 es16 d c b %30
+		b4 a es8 g' es b
+		f f' d b f4. es8
+		d16 b'' d c b a g f e! f e f e f e f
+		e! f g f es d c b a b c b a g f es
+		d b'' d c b a g f e f e f e f e f %35
+		e! f g f es d c b a b c b a g f es
+		d8 d'' c16 b a b g fis g a b a b g
+		f b d c b a g f es d es f g f g es
+		d f b a g f es d e g b g e g b e,
+		f c' a f e c' g e f c' a f e c' g e %40
+		f a f c a f' c a h f' d h f d' h f
+		g, f'' d h f d' h f g, f'' d h f d' h f
+		e f g a c b a g f e d c h c d e
+		f4 e16 f g f f4 c8 a'
+		c4 b16 a g f f4 e8 c' %45
+		a'4 g16 a b a g4 d16 d' b g
+		f8 f g g f4 r8 c
+		b' b r c b16 a g f e f g f
+		e8 e r c f c a'16 g a f
+		b8 b r c b16 a g f e f g f %50
+		e f g a b8 e, f16 g a b c8 r
+		g16 a b c d4\fermata c8. d16 f,8 e
+		f16 g a b c8 r g16 a h? c d8 d
+		d16 c a c c b a g f g a b c8 r
+		g16 a h? c d8 d d16 c a c c b a g %55
+		f4 r8 a, b g c b
+		gis a r c e,8. f32 g f8 c'
+		g8. a32 b a8 c b g c b
+		gis a r es'' fis,8. g32 a g8 des'
+		e,8. f32 g f8 es es16 d c b a g fis g %60
+		c8. d16 f,8 e f16 f' a g f e d c
+		h c h c h c h c h c d c b a g f \noBreak
+		e8 e e e f4 r\fermata \bar "||"
+		\key c \major \tempoBenedictusB c''8 g, c e g2
+		g8 g, h d f2 %65
+		e8 g16 f e f d e c8 g' c b?
+		a a16 g f g e f d8 a' d c
+		h8 d16 c h c a h g8 g, g' f
+		e c'16 h a g fis a g8 h16 a g fis e d
+		c h a g fis e d c h8 g' a, fis' %70
+		g g h d g4. f!8
+		e g a h c16 h c d c8 c
+		h g16 f e f d e cis?8 e a g
+		f f16 e d e c d h8 d g f
+		e e16 d c d h c a8 c f e %75
+		d d16 c h c a h g8 h e d
+		c c16 h a h g a f8 a d c
+		h d'16 c h c a h g8 h d f,
+		e g c e, d c' d, h'
+		c g, c e g2 %80
+		g8 g, h d f2
+		e8 c' d, h' e, c' d, h'
+		c,4 r r2\fermata \bar "|."
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

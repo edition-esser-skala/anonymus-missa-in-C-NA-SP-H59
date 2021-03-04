@@ -672,3 +672,93 @@ SanctusViola = {
 		q r\fermata \bar "|." %75 finis
 	}
 }
+
+BenedictusViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 4/4 \tempoBenedictus
+		c2 c4 r
+		b2 c4 c,8 r
+		c'4 b16 c d c b4 d16 c d b
+		a4 b a8 f f f
+		g'2 a %5
+		e2 f4. g16 a
+		b2 a
+		e c4 r16 c c c
+		d4 as' a b
+		a r g,2 %10
+		a4 r g2
+		c c
+		b c4 c,8 r
+		c'4 b16 c d c b4 d8 b
+		a4 g a r %15
+		es'2 d4. c16 b
+		a2 b4. c16 d
+		es2 d
+		a b4 r8 b
+		b4 des d es %20
+		d r r8 des16 des des8 des
+		d4 c d r
+		r8 des16 des des8 des d4 c
+		b8 f b r c2
+		d4. d8 c8. d32 es d8 d %25
+		a8. b32 c b8 d c2
+		d4 d d g
+		c, d g2
+		f4 f, d' es8 c
+		d b d d g4. es8 %30
+		f2 g,16 es' b es g, es' b es
+		f, d' b d f, d' b d c8 c f, f
+		f4 r a2
+		b8 d d d f, es' es es
+		b d b b a2 %35
+		b8 b b b f' f f f
+		d16 b d b d b d b es b es b es b es b
+		d b d b d b d b c a c a c a c a
+		b8 <b d>16 q q8 q <e! g,> <e g,>16 q q8 q
+		f8 c e c f c e c %40
+		f a, a a h h h h
+		<h d> r q r q r q r
+		c2 d4 e
+		c2 c4 r
+		b2 c4 c,8 r %45
+		c'4 b16 c d c b4 d8 b
+		a4 b a8 f f f
+		g'2 a
+		e f
+		g a %50
+		e f4 r8 f
+		f4 as\fermata f8 f g g
+		f4 r r8 as16 as as8 as
+		a a b b a4 r
+		r8 as16 as as8 as a f16 a a g f e %55
+		f4 r g8 e a g
+		e f r a g8. a32 b a8 f
+		e8. f32 g f8 f g e a g
+		e f r4 a h8 r
+		g4 a8 f f4 r8 d %60
+		c4 b a r
+		g2 a4 r \noBreak
+		\once \tieDashed c,2~ c4 r\fermata \bar "||"
+		\key c \major \tempoBenedictusB <g' e'>8 q q q q2 \noBreak
+		<g f'>8 q q q q2 %65
+		<g e'>4 c8 d e c d e
+		f4 f, r8 d' e fis?
+		g4 g, r8 g' a h
+		c c d c h g h g
+		a g fis d g e c d %70
+		g, <h d> q q q2
+		g8 <g e'> q q e' e c c
+		<f g,>4 r r8 a, a' a,
+		d4 d' r8 g,, g' g,
+		c4 c' r8 f,, f' f, %75
+		h4 h' r8 e,, e' e,
+		a4 a' r8 d,, d' d,
+		g4 g' r8 g, g' g,
+		c c a' a f f g g
+		<e g,> q q q q2 %80
+		<f g,>8 q q q q2
+		<e g,>4 <d g,> <e g,> <h' d, g,>
+		<c e, g,> r r2\fermata \bar "|." %83 finis
+	}
+}

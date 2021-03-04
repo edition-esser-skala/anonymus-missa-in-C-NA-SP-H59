@@ -568,3 +568,92 @@ SanctusCornoI = {
 		e r\fermata \bar "|." %75 finis
 	}
 }
+
+BenedictusCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoBenedictus
+		c'4 d c r
+		R1
+		e2 f4 r8 \pao d
+		c4 d c r
+		d2 e %5
+		f e4 r
+		d2 e
+		f e4 r8 c
+		c4 r e d
+		c r f2 %10
+		e4 r d2
+		c4 r r2
+		R1
+		e2 r
+		c4 d c r %15
+		R1*2
+		c1
+		c2 c4 r
+		r \pao d c2 %20
+		c4 r r \pao d
+		c1
+		r2 c^\critnote
+		c4 r c2
+		c4 r r2 %25
+		r c
+		c4 r r2
+		R1
+		r2 c
+		c4 r r2 %30
+		R1
+		c2 r
+		r c
+		c4 r r2
+		r c %35
+		c4 r r2
+		R1
+		c4 r e2
+		f4 r d2
+		c4 r g2 %40
+		c4 r fis?2
+		fis1
+		f
+		e4 r r2
+		r g, %45
+		e' f
+		e4 d c r
+		g1
+		g2 g4 r
+		g2 g4 r %50
+		g2 c4 r
+		r2\fermata e4 d
+		c2 r
+		e4 d c r
+		r2 e4 d %55
+		c r g2
+		g r
+		r g
+		c4 r r2
+		R1 %60
+		e4 d c r
+		f2 e4 r \noBreak
+		g,2 e4 r\fermata \bar "||"
+		\tempoBenedictusB c'4^\markup \remark "in C" r e2 \noBreak
+		f4 r d2 %65
+		e4. d8 c4 r
+		R1
+		\pao d4 r r8 g4 f8
+		e4 r r2
+		\pao d4 r d8 g4 fis8 %70
+		g4 r g2
+		e4 r8 f e f e e
+		d4 r e2
+		f4 r \pa d2
+		e4 \pd r \pa c2 %75
+		d4 \pd r r2
+		c4 r r2
+		f f^\critnote
+		e d
+		c4 e2 e4 %80
+		f4 d2 d4
+		e d e d
+		c2 r\fermata \bar "|." %83 finis
+	}
+}
