@@ -762,3 +762,73 @@ BenedictusViolinoII = {
 		<e g,>4 r r2\fermata \bar "|." %83 finis
 	}
 }
+
+AgnusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoAgnus
+		h8\p h h h c c
+		h h h h h h
+		c4 r e
+		d~ d8 e d c
+		h g g' g g g %5
+		fis fis fis fis fis fis
+		g g g g g g
+		a a fis fis g g
+		e e h h a a
+		h h h h c c %10
+		h h h h h h
+		c4 r e8 c
+		h4( a8) d fis fis
+		cis16(\f d e d) cis( d e fis) a( g fis e)
+		fis( g a g) fis( g a h) cis( d cis d) %15
+		d8 d, d d g g
+		g4 fis8 e d4
+		g,8 g a d cis cis
+		d a\p a a d d
+		cis cis cis cis cis cis %20
+		<d a> q q q q q
+		h g'4 fis e8
+		e( d) d d d d
+		d4\f r r
+		fis8\p fis d d cis cis %25
+		d a a a a a
+		h h h h c! c
+		h4 r h'8 g
+		fis8.(\trill g32 fis) e8 a\f cis16( a) e( cis)
+		h8 h h' h a a %30
+		g h, h h h h
+		g g' g g g g
+		fis fis fis fis e e
+		e r e r dis r
+		e e\p e e e e %35
+		dis dis dis dis dis dis
+		e e e e e e
+		dis a'4 g fis8
+		fis( e) e e e e
+		<g g,>4\f r r %40
+		g8\p g e e dis dis
+		e g g\f g g g
+		a a a a a a
+		g g g g g g
+		fis fis fis fis f f %45
+		e e e e g-\critnote g
+		f4 a8 g f e
+		e4 d r
+		c8\p c c c c c
+		h h h h h h %50
+		g g g g g g
+		c f4 e d8
+		d( c) c c c c
+		c4\fE r r
+		e8\pE e c c h h %55
+		c4 r r
+		es8\f es es es es es
+		es a! c a fis! c
+		es4( d c)
+		h!8( d) h(\p d) c( es) %60
+		h!( d) h( d) c( fis!)
+		<g g,>4 d d
+		d2 r4\fermata \bar "||" %63 finis
+	}
+}

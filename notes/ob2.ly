@@ -612,3 +612,52 @@ BenedictusOboeII = {
 		e r r2\fermata \bar "|." %83 finis
 	}
 }
+
+AgnusOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoAgnus
+		h'2\pE c4
+		h2 r4
+		R2.
+		h8.( c32 h) a4 r
+		R2.*3 %7
+		r4 a h
+		r h a
+		h2 r4 %10
+		R2.*6 %16
+		r4 r d\fE
+		h a cis
+		d r r
+		cis2.\pE %20
+		d
+		r8 g4 fis e8
+		e( d) r4 r
+		R2.
+		fis4\pE d cis %25
+		d2 r4
+		h2 c!4
+		h r g'8 e
+		d8.( e32 d) cis4 r
+		dis2.\fE %30
+		e
+		R2.*15 %46
+		r4 a,8(\fE g f? e)
+		e4 d r
+		c'2.\pE
+		h %50
+		g2 c4
+		c8 f?4 e d8
+		d( c) r c c4
+		c\fE r r-\critnote
+		e\pE c h %55
+		c r r
+		R2.
+		c\fE
+		c4 h! c
+		h! r r %60
+		g\pE r8 h! c4
+		h! h h
+		h2 r4\fermata \bar "||" %63 finis
+	}
+}

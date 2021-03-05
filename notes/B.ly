@@ -1322,6 +1322,71 @@ BenedictusBassoLyrics = \lyricmode {
 	sis. %83 finis
 }
 
+AgnusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \autoBeamOff \tempoAgnus
+		R2.*13 %13
+		\mvTr a'2\fE^\tuttiE a,4
+		d2 d4 %15
+		fis2 g4
+		a( a,) h
+		g( a2)
+		d4 r r
+		R2.*10 %29
+		dis2\fE dis4 %30
+		e e r
+		ais,2 ais'4
+		h( a) g
+		a( h h,)
+		e r r %35
+		R2.*6 %41
+		r4 e\fE e
+		fis fis h,
+		e e a
+		d d, g %45
+		c c, e
+		f( d) f
+		g g, r
+		R2.*8 %56
+		r8 as\fE c([ b)] as g
+		fis2 fis4
+		g2.
+		g4 r r %60
+		R2.*2
+		R2.\fermata \bar "||" %63 finis
+	}
+}
+
+AgnusBassoLyrics = \lyricmode {
+	Mi -- se -- %14
+	re -- re, %15
+	mi -- se --
+	re -- re
+	no --
+	bis.
+
+	Mi -- se -- %30
+	re -- re,
+	mi -- se --
+	re -- re
+	no --
+	bis. %35
+
+	A -- gnus %42
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta, qui %45
+	tol -- lis pec --
+	ca -- ta
+	mun -- di,
+
+	\xE qui tol -- lis pec -- %57
+	ca -- \x ta,
+	mun --
+	di: %60 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

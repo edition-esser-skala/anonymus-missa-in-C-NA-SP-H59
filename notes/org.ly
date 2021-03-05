@@ -1505,6 +1505,142 @@ BenedictusBassFigures = \figuremode {
 	r1 %83 finis
 }
 
+AgnusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoAgnus
+		\mvTr g'2\p-\tuttiE d4
+		e e d
+		c r c
+		d d, r
+		h'8 h h h c c %5
+		d d d d d d
+		e e e e e e
+		fis4 d g
+		c, d d
+		g,8 g' g g d d %10
+		e e e e d d
+		c4 r c'
+		d d, r
+		a'8\fE a a a a, a
+		d d d d d d %15
+		fis fis fis fis g g
+		a a a, a h h
+		g g a a a a
+		d, \mvTr d'\pE-\tasto d d d d
+		e, e' e e a, a %20
+		d, d' d d d d
+		g, g a a a a
+		d, d' d d d d
+		gis,4\fE r r
+		a2\pE a4 %25
+		d,8 d' d d a a
+		h h h h a a
+		g4 r g
+		a8 a' a a\fE a a
+		dis, dis dis dis dis dis %30
+		e e e e e e
+		ais, ais ais ais ais ais
+		h h' a! a g g
+		a a h h h, h
+		e, \mvTr e'\pE-\tasto e e e e %35
+		fis fis fis fis h, h
+		e, e' e e e e
+		a,4 h h
+		e,8 e' e e e e
+		ais,4\fE r r %40
+		h2\pE h4
+		e,8 e' e\fE e e e
+		fis fis fis fis h, h
+		e e e e a, a
+		d d d d g, g %45
+		c c, c' c e^\critnote e
+		f4 d f
+		g8 g, g' f-! e-! d-!
+		\mvTr c\pE-\tasto c c c c c
+		d d d d g, g %50
+		c c c c c c
+		f4 g g,
+		c8 c c c c c
+		fis,!4\fE r r
+		g\pE g g %55
+		c8 \clef treble g''[\fE es' d c h!]
+		c \clef bass as,[ c b as g]
+		fis!4 fis fis
+		g2.
+		<g g,>\pE %60
+		q
+		g4 g, g
+		g2 r4\fermata \bar "||" %63 finis
+	}
+}
+
+AgnusBassFigures = \figuremode {
+	r2 <[7]>4
+	r2 <4+ [_!]>4
+	<6>2.
+	\bo <[6] 4>4 \bc <[5] _+>2
+	<6>4 <6\\>2 %5
+	<9>4 <8>2
+	<7>8 <6\\> \bo <[\t 5-]>4 \bc <[\t 4]>
+	<6> \bo <[7!]> \bc <[_!]>
+	<6> \bo <[6] 4> \bc <[5] _+>
+	r2 <7>4 %10
+	r2 <4+ _!>4
+	<6>2 <\t>4
+	\bo <[6] 4>4 \bc <[5] 3>2
+	<7 _+>2.
+	r %15
+	<6>4 <[5! _+]>2
+	\bo <9 [7] _+>4 \bassFigureExtendersOn <8 6 _+>8 \bc <7 [5] _+> \bassFigureExtendersOff <5 3>4
+	<[7]>8 <6> \bo <[6] 4>4 \bc <[5] _+>
+	r2.
+	r %20
+	r
+	r
+	r
+	r
+	\bo <[6] 4>2 \bc <[5] _+>4 %25
+	r2 <7 _+>4
+	r2 <[4+ _!]>4
+	<6>2 <\t>4
+	\bo <[6] 4> \bc <[5] _+>2
+	<6>2 <5>4 %30
+	<_!>2.
+	<[7 5 _+]>
+	<_+>4 <\t> <6>
+	<6 5 _!> \bo <[6] 4> \bc <[5] _+>
+	r2. %35
+	r
+	r
+	r
+	r
+	r %40
+	\bo <[6] 4>2 \bc <[5] _+>4
+	r2.
+	<6\\>2 <\t>4
+	r2 <7 _+>4
+	r2 <7!>4 %45
+	r2.
+	r4 <[_!]> \bo <[8] 6>8 \bc <[7] 5>
+	\bo <[6] 4>4 \bc <[5] 3>2
+	r2.
+	r %50
+	r
+	r
+	r
+	r
+	\bo <[6] 4>2 <7! 3>4 %55
+	r2.
+	r8 \bo <[5-] 3>2 \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff
+	<7- 5 _!>2.
+	<[7+] 6- 4>4 <5 _!> <7+ 2>
+	<[8] _!>2 \bo <[7+ 6- 4]>4 %60
+	<8 5 _!>2 <7+ 6- 4>4
+	\bc <[8 5 _!]>2.
+	r %63 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

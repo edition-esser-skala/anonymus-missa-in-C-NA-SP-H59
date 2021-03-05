@@ -657,3 +657,60 @@ BenedictusCornoII = {
 		e2 r\fermata \bar "|." %83 finis
 	}
 }
+
+AgnusCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAgnus
+		c'2\p g4
+		e r r
+		R2.
+		e8 c' g4 r
+		g c,2 %5
+		d'4 r r
+		R2.*2
+		r4 e, g
+		e2 r4 %10
+		R2.*3
+		d'2.\f
+		g,2 r4 %15
+		R2.
+		r4 d' g,
+		r g d'
+		g, r r
+		d'\p_\critnote r r %20
+		d2.
+		g,4 r r
+		R2.*2
+		g2 d'4 %25
+		g,2 r4
+		R2.*3
+		e2.\f %30
+		e4 r r
+		R2.
+		e2.
+		r4 e2
+		e4 r r %35
+		R2.*6 %41
+		e2.\fE
+		e4 r r
+		r r d'
+		g, r c, %45
+		c2 r4
+		d'2.
+		c4 c, r
+		c2.\p
+		c2 r4 %50
+		c2 r4
+		R2.
+		c4 r r
+		d'\fE r r
+		c,2.\pE %55
+		c4 r r
+		R2.*3
+		c2\pE r4 %60
+		c2 r4
+		c2.
+		c2 r4\fermata \bar "|" %63 finis
+	}
+}

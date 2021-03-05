@@ -762,3 +762,73 @@ BenedictusViola = {
 		<c e, g,> r r2\fermata \bar "|." %83 finis
 	}
 }
+
+AgnusViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 3/4 \tempoAgnus
+		g'8\p g g g fis fis
+		g g g g f f
+		e4 r e8 c
+		h8.( c32 h) a8 c h a
+		g g g g g g %5
+		a a a a a a
+		a a b b a a
+		a a a a h h
+		c c d d c c
+		h d d d a a %10
+		g g g g f f
+		e4 r c'8 e
+		d4 d8 d a' a
+		a,16(\f h cis h) a( h cis d) fis( e d cis)
+		d( e fis e) d( e fis g) e( fis e fis) %15
+		a,8 a c! c h h
+		cis cis cis cis d d
+		h h a a g g
+		fis fis\p fis fis fis fis
+		g g g g g g %20
+		fis fis fis fis fis fis
+		e e cis cis cis cis
+		d d fis fis fis fis
+		f4\f r r
+		a8\p a a a g g %25
+		fis fis fis' fis g g
+		fis fis fis fis fis fis
+		e4 r g
+		a8 a, a' a\fE e e
+		fis fis fis fis fis fis %30
+		g g g g g g
+		cis, cis cis cis cis cis
+		dis dis dis dis h h
+		a r g r fis r
+		g g\p g g g g a %35
+		a a a a a
+		g g g g g g
+		c! c dis dis dis dis
+		h h g g g g
+		<cis e>4\fE r r %40
+		e8\pE e h h a a
+		g h h\f h h h
+		h h h h h h
+		h h h h a a
+		a a a a g g %45
+		g g g g e' e
+		f4 r d
+		g g,8 a g f
+		e\p e e e e e
+		g g g g g g %50
+		e e e e e e
+		c'4 h d
+		c c8 c c c
+		<c es>4\fE r r
+		g8\pE g g g f f %55
+		e4 r r
+		r8 as\fE c b as g
+		fis!4 a a
+		g8 g g g g g
+		g( h!) g(\p h) g( c) %60
+		g( h!) g( h) g( c)
+		h4 <g d'> q
+		q2 r4\fermata \bar "||" %63 finis
+	}
+}

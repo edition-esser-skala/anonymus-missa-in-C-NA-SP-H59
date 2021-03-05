@@ -758,6 +758,76 @@ BenedictusViolinoI = {
 	}
 }
 
+AgnusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoAgnus
+		d'4\p( h8) d c a
+		g2\fz gis4\pE
+		a8( h c d dis e)
+		g,8.(\trill a32 g) fis4 r8. d16
+		d'4( dis) e-! %5
+		e8. cis16 d4 cis16( d e d)
+		d8(\cresc cis) g'4. cis,8\f
+		d4\p c h
+		a8.( h32 c) g4 fis
+		g8 g g g fis fis %10
+		g g g g gis gis
+		a( h c d dis e)
+		g,4( fis8) d d' d
+		g2\f cis,4
+		a'2 fis4 %15
+		d8 d ais ais h h
+		h4 a8 g fis4
+		fis16( e g e) d8 d e e
+		d4 r8 fis'-!\p d( h)
+		a4 r8 e'-! cis( g) %20
+		fis4. d'8( a fis)
+		e h'4 a g8
+		g( fis) r a'( fis d)
+		h4~\f h16( cis d cis) e( d cis h)
+		a4\p fis e16( d e fis) %25
+		d8 d d d cis cis
+		d d d d dis dis
+		e( fis g a h e)
+		d8.(\trill e32 d) cis8 a\fE a' a
+		h16( c!) h-! ais-! h( fis) h-! h-! h( fis) h-! h-! %30
+		h( c) h-! ais-! h( g) h-! h-! h( g) h-! h-!
+		cis( d) cis-! h-! cis( g) g-! g-! cis( e,) e-! e-!
+		dis( fis) h,-! h-! dis( fis) h-! h-! h g e h
+		r c( a fis)-\critnote r h( g e) r a( fis dis)
+		e4 r8 g'-!\pE e( c?) %35
+		h4 r8 fis'-! dis( a)
+		g4 r8 e'-! h( g)
+		fis c'4 h a8
+		a( g) r h'( g e)
+		cis4~\fE cis16( dis e dis) fis( e dis cis) %40
+		h4\pE g fis16( e fis g)
+		e h''(\f ais h) a( g fis g) fis( e dis e)
+		dis8 dis dis dis dis dis
+		e e h h cis cis
+		d d a a h h %45
+		c! c g e' c g'
+		a a, f'( e d c)
+		c4 h r
+		g4.\p e'8( c a)
+		g4. d'8( h f) %50
+		e4. c'8( g e)
+		d a'4 g f8
+		f( e) r g'( e c)
+		a4~\f a16( h c h) d( c h a)
+		g4\p e d %55
+		c8 g'\fE es' d c h!
+		c c c c c c
+		c c c c c c
+		c4( h! fis)
+		g r8 d'-!\pE es( fis,) %60
+		g4 r8 d-! es( c)
+		g4 g g
+		g2 r4\fermata \bar "||" %63 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

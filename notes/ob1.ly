@@ -612,3 +612,52 @@ BenedictusOboeI = {
 		c r r2\fermata \bar "|." %83 finis
 	}
 }
+
+AgnusOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoAgnus
+		d'2\pE fis4
+		g2 r4
+		R2.
+		g8.( a32 g) fis4 r
+		R2.*3 %7
+		r4 fis g
+		r g fis
+		g2 r4 %10
+		R2.*6 %16
+		r4 r fis\fE
+		fis16( e g e) d4 e\trill
+		d r r
+		e2.\pE %20
+		fis
+		r8 h4 a g8
+		g( fis) r4 r
+		R2.
+		a4\pE fis e16( d e fis) %25
+		d2 r4
+		d2 dis4
+		e8( fis g a h g)
+		fis8.( g32 fis) e4 r
+		h'2.\fE %30
+		g
+		R2.*15 %46
+		r4 f8(\fE e d c)
+		c4 h r
+		e2.\pE
+		f? %50
+		g2 e4
+		d8 a'4 g f8
+		f( e) r g e c
+		\once \tieDashed a'4~\fE a16( h c h) d( c h a)
+		g4\pE e d %55
+		c r r
+		R2.
+		c\fE
+		es?4 d fis!
+		g r r %60
+		g\pE r8 d es fis!
+		g4 g g
+		g2 r4\fermata \bar "||" %63 finis
+	}
+}

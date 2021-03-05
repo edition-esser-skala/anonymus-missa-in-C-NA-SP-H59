@@ -1345,6 +1345,89 @@ BenedictusSopranoLyrics = \lyricmode {
 	sis. %83 finis
 }
 
+AgnusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoAgnus
+		R2.*9 %9
+		\mvTr d'2(\pE^\tuttiE c16[ h]) c([ a)] %10
+		g4 g gis
+		a8([ h)] c d dis e
+		g,!8.([ a32 g)] fis4 r
+		cis'2\fE cis4
+		a'2^\critnote fis4 %15
+		d(^\critnote ais) h
+		h( a8[ g)] fis4
+		fis16[( e g e] d4 cis)
+		d r r
+		R2.*6 %25
+		a'2(\pE g16[ fis)] g([ e)]
+		d4 d dis
+		e8([ fis)]g a h e
+		d8.([ e32 d)] cis4 r
+		h2\fE a4 %30
+		g!8[( h)] e4 r
+		e4.( g8) fis([ e)]
+		dis2 e4
+		\appoggiatura d16 c!8[ h16 a] g4 fis
+		e r r %35
+		R2.*6 %41
+		r4 e'\fE e
+		dis dis dis
+		e h cis
+		d a h %45
+		c! g c
+		a( f'8[ e)] d([ c)]
+		c4 h r
+		R2.*7 %55
+		r8 \mvTr g\fE^\critnote es'([ d)] c h!
+		c2 c4
+		c c c
+		c( h! fis!)
+		g r r %60
+		R2.*2
+		R2.\fermata \bar "||" %63 finis
+	}
+}
+
+AgnusSopranoLyrics = \lyricmode {
+	A -- gnus %10
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se --
+	re -- re, %15
+	mi -- se --
+	re -- re
+	no --
+	bis.
+
+	A -- gnus %26
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se -- %30
+	re -- re,
+	mi -- se --
+	re -- re
+	no -- _ _
+	bis. %35
+
+	A -- gnus %42
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta, qui %45
+	tol -- lis pec --
+	ca -- ta
+	mun -- di,
+
+	qui tol -- lis pec -- %56
+	ca -- ta,
+	pec -- ca -- ta
+	mun --
+	di: %60 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
