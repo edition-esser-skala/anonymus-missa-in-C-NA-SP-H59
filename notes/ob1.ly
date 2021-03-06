@@ -661,3 +661,78 @@ AgnusOboeI = {
 		g2 r4\fermata \bar "||" %63 finis
 	}
 }
+
+DonaOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDona
+			\set Score.currentBarNumber = #64
+		e'2.\fE
+		e %65
+		f2 d4
+		e2.
+		f
+		e
+		d2 d4 %70
+		e2 r4
+		a f d
+		h g' g
+		g r r
+		g2.\p %75
+		g
+		a
+		a
+		g2\f fis4
+		g2 fis4 %80
+		g2 r4
+		r r c
+		h a2
+		g2 r4
+		R2.*3 %87
+		e2.
+		e
+		f %90
+		e2 gis?8 gis!
+		a gis a gis a g
+		f e f e fis? fis!
+		g fis g fis g f
+		e2 r4 %95
+		R2.
+		e4 d2
+		c4 r r
+		e2.\pE
+		e %100
+		f
+		f
+		e4\fE d2
+		e4 d2
+		g gis4 %105
+		a r r
+		e2 d4
+		c r r
+		e2.\p
+		e %110
+		f
+		f
+		e4\fE f2
+		e4 f2
+		g gis4 %115
+		a r r
+		e2 d4
+		e2.
+		e
+		f2 d4 %120
+		e2.
+		e
+		f2 d4
+		c r gis'?8 gis!
+		a gis a gis a g %125
+		f4 f8 e fis? fis!
+		g4 g8 fis g f
+		e4 g h
+		c g h
+		c c h %130
+		c r h
+		c r r\fermata \bar "|." %132 FINIS
+	}
+}

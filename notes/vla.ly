@@ -832,3 +832,80 @@ AgnusViola = {
 		q2 r4\fermata \bar "||" %63 finis
 	}
 }
+
+DonaViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/4 \tempoDona
+			\set Score.currentBarNumber = #64
+		c4\fE c' r8. c,16
+		a4 a' r8. a16 %65
+		f4 d g
+		c8 c, c c c c
+		c c c c c c
+		c c e e c c
+		g' a h g a h %70
+		c g e g e c
+		f e d e f fis
+		g8.[ g16 d8. d16 h8. h16]
+		g4 r r
+		g8(\pE h) g( h) g( h) %75
+		g( h) g( h) g( h)
+		fis( a) fis( a) fis( a)
+		fis( a) fis( a) fis( a)
+		g4\fE r8 g' d' d,
+		g4 r8 g d' d, %80
+		g h, h h g g
+		e' e e e e e
+		d d d d c c
+		<h d>16 q q q q q q q q q q q
+		<h e> q q q q q q q q q q q %85
+		e e e e e e e e c c c c
+		h h h h h h h h <d g,> q q q
+		<e c> q q q q q q q q q q q
+		q q q q q q q q q q q q
+		f f f f f f f f f f f f %90
+		e4 r e
+		a8 a a a a a
+		d, d d d d d
+		g g g g g g
+		c, c c c c c %95
+		f f f f f f
+		g g g g f g
+		g,( e') g,( e') g,(\pE e')
+		g,( e') g,( e') g,( e')
+		g,( e') g,( e') g,( e') %100
+		g,( h) g( h) g( h)
+		g( h) g( h) g( h)
+		e16\fE e g, g f' f g, g f' f g, g
+		e' e g, g f' f g, g f' f g, g
+		c c c c c c c c c c c c %105
+		c c c c c c c c f f f f
+		g g g g g g g g f f f f
+		g,8( e') g,( e') g,(\pE e')
+		g,( e') g,( e') g,( e')
+		g,( e') g,( e') g,( e') %110
+		g,( h) g( h) g( h)
+		g( h) g( h) g( h)
+		e16\fE e g, g f' f g, g f' f g, g
+		e' e g, g f' f g, g f' f g, g
+		c c c c c c c c c c c c %115
+		c c c c c c c c f f f f
+		g g g g g g g g f f f f
+		e4 c' r8. c,16
+		a4 a' r8. a16
+		f8 f d d g g %120
+		c c, c' c c c
+		a a, a' a a a
+		f f d d g g
+		c,4 r e
+		a r a, %125
+		d r d
+		g r g,
+		c16 c c' c e e c c h h g g
+		c, c c' c e e c c h h g g
+		c8 c a a f f %130
+		e4 r <h' d, g,>
+		<c e, g,> r r\fermata \bar "|." %132 FINIS
+	}
+}

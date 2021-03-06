@@ -460,3 +460,80 @@ BenedictusClarinoI = {
 		c r r2\fermata \bar "|." %83 finis
 	}
 }
+
+DonaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDona
+			\set Score.currentBarNumber = #64
+		c'4\fE c c
+		c e r %65
+		\pao d2 d4
+		\pao c c r
+		c c c
+		c r r
+		d2 f4 %70
+		e c c
+		c r r
+		d g g
+		g \pao g, r
+		R2. %75
+		d'4\pE d d
+		d r r
+		d d d
+		d\fE \pao d r
+		d8 d16 d \pao d4 r %80
+		g2.
+		e2 c4
+		d g fis
+		g g r
+		g g r %85
+		g2 fis4
+		g d d
+		c c c
+		c c c
+		d2 d4 %90
+		\pao c r e
+		e r \pao e
+		d r d
+		\pao d r d
+		c8 c c c c c %95
+		c4 r f
+		e d2
+		c8 e,16 e e4 r
+		g\p r r
+		g r8 g16 g g8 g %100
+		g4 r r
+		g r8 g16 g g8 g
+		\pa c\f g16 g g8 g d' d
+		c g16 g g8 g g' g \pd
+		e e e e e e %105
+		c4 r r
+		e2 d4
+		c8 e,16 e e4 r
+		g\p r r
+		g r8 g16 g g8 g %110
+		g4 r r
+		g r8 g16 g g8 g
+		\pa c\f g16 g g8 g d' d
+		c g16 g g8 g g' g \pd
+		e e e e e e %115
+		c4 r r
+		e2 d4
+		c8 c16 c c4 r
+		c8 c16 c c4 r
+		f2 d4 %120
+		c8 e16 e e8 e e e
+		e4 r r
+		r r d
+		c r \pa e
+		e \pd r \pao e %125
+		d r d
+		\pao d r \pao d
+		e8 g4 g8 g[ f]
+		e g4 g8 g[ f]
+		e4 d2\trill %130
+		c4 r d
+		e r r\fermata \bar "|." %132 FINIS
+	}
+}

@@ -832,3 +832,80 @@ AgnusViolinoII = {
 		d2 r4\fermata \bar "||" %63 finis
 	}
 }
+
+DonaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDona
+			\set Score.currentBarNumber = #64
+		<e g,>16\fE q q q q q q q q q q q
+		<e c'> q q q q q q q q q q q %65
+		<d c'> q q q q q q q <d h'> q q q
+		c'8 c d16( c h c) e( c h c)
+		<a c,> q q q q q q q q q q q
+		<g c,> q q q q q q q q q q q
+		<h d,> q q q q q q q q q q q %70
+		c g a h c d e f g a h c
+		a g f e f e d c d c h c
+		h4 <g' h, d,> q
+		q r r
+		h,,8(\p d) h( d) h( d) %75
+		h( d) h( d) h( d)
+		c( d) c( d) c( d)
+		c( d) c( d) c( d)
+		<d h'>\f q4 q8 <d c'>[ q]
+		<d h'> q4 q8 <d c'>[ q] %80
+		h'16 h h h h h h h g g g g
+		g g g g e e e e a' a a a
+		<g h,> q q q <g a,> q q q <fis a,> q q q
+		<g h,> q q q q q q q q q q q
+		<h, g> q q q q q q q q q q q %85
+		<a g> q q q q q q q <a fis> q q q
+		<g h,> q q q <f g,> q q q q q q q
+		<e g,> q q q q q q q q q q q
+		<e c'> q q q q q q q q q q q
+		<d c'> q q q q q q q <d h'> q q q %90
+		c' c e, e g g c c e e d d
+		c c h h c c h h cis? cis cis! cis
+		d d cis cis d d cis cis d d c c
+		h h ais ais h h ais ais h h d d
+		c c c c c, c c c c' c c c %95
+		c4 f16 e d c h a g f
+		<e g,> q q q <d g,>-\critnote q q q q q q q
+		e8( g) e( g) e(\pE g)
+		e( g) e( g) e( g)
+		e( g) e( g) e( g) %100
+		f( g) f( g) f( g)
+		f( g) f( g) f( g)
+		<e g,>[\fE q] <f g,> q4 q8
+		<e g,>[ q] <f g,> q4 q8
+		e16 e e e e e e e c c c c %105
+		c c c c a' a a a d d d d
+		<c g> q q q q q q q <h g> q q q
+		e,8( g) e( g) e(\p g)
+		e( g) e( g) e( g)
+		e( g) e( g) e( g) %110
+		f( g) f( g) f( g)
+		f( g) f( g) f( g)
+		<e g,>[\fE q] <f g,> q4 q8
+		<e g,>[ q] <f g,> q4 q8
+		e16 e e e e e e e c c c c %115
+		c c c c a' a a a d d d d
+		<c g> q q q q q q q <h g> q q q
+		<c e,> q q q q q q q q q q q
+		q q q q q q q q q q q q
+		<c d,> q q q q q q q <h d,> q q q %120
+		<c e> q q q q q q q q q q q
+		q q q q q q q q q q q q
+		<d f> q q q q q q q q q q q
+		e e c, c e e g g h^\critnote h e e
+		c c h h c c h h cis? cis cis! cis %125
+		d d cis cis d d cis cis d d c c
+		h h ais ais h h ais ais h h d d
+		c g g g f e d c h a g f'
+		e g g g f e d c h a g f'
+		e e e' e d d d d <d g> q q q %130
+		<c e>4 r <f, g,>
+		<e g,> r r\fermata \bar "|." %132 FINIS
+	}
+}

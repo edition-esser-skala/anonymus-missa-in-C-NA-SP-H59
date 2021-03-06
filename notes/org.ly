@@ -1641,13 +1641,151 @@ AgnusBassFigures = \figuremode {
 	r %63 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+DonaOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoDona
+			\set Score.currentBarNumber = #64
+		\mvTr c4\fE-\tutti c' r8. c,16
+		a4 a' r8. a16 %65
+		f4 d g
+		c8 c, c c c c
+		c c c c c c
+		c c e g e c
+		g g'16 a h8 g a h %70
+		c g e g e c
+		f e d e f d
+		g h d, g h, d
+		g,4 g' r
+		g\pE r r %75
+		g r r
+		d r r
+		d r r
+		g,8\f g' h g d' d,
+		g, g' h g d' d, %80
+		g g g g h, h
+		c c c c c' c
+		d d d d d, d
+		g4 g,8 g' h g
+		e e, r e' g e %85
+		c c a a d d
+		g a h g a h
+		c4 c, r8. c16
+		a4 a' r8. a16
+		f4 d g %90
+		c, r e
+		a r a,
+		d r d
+		g r g,
+		c8 c c c e e %95
+		f f, f' f f f
+		g g g g g, g
+		c4 c, r
+		c'\p r r
+		c r r %100
+		h r r
+		h r r
+		c\f r8 g^\critnote g' g,
+		c c, r g'^\critnote g' g,
+		c c c c e e %105
+		f f f f f f
+		g g g g g, g
+		c4 c, r
+		c'\p r r
+		c r r %110
+		h r r
+		h r r
+		c\f r8 g^\critnote g' g,
+		c4 r8 g^\critnote g' g,
+		c c c c e e %115
+		f f f, f f' f
+		g g g g g, g
+		c c'16 h c d e d c h a gis
+		a8 a16 gis a h c h a g f e
+		f4 g g, %120
+		c8 c, r c''16 d e d c h
+		a8 a, r a'16 h c h a g
+		f8 f d d g g
+		c,4 r e
+		a r a, %125
+		d r d
+		g r g,
+		c8 c' e c h g
+		c, c' e c h g
+		c c, f ,f' g g, %130
+		c4 r g
+		c r r\fermata \bar "|." %132 FINIS
+	}
+}
+
+DonaBassFigures = \figuremode {
+	r2. %64
+	r %65
+	<6 [5]>4 <[7 4]> <7>
+	\bo <[4]> \bc <[3]>2
+	<6 4>2.
+	<5 3>
+	<7> %70
+	r
+	\bo <[6 5]>2 r8 \bc <[_+ \l]>
+	r2.
+	r
+	<1> %75
+	q
+	q
+	q
+	<5 3>2 <[7] _+>4
+	r2 q4 %80
+	r2 <6 [_+]>4
+	<5> <[5+]> <6>
+	<[6 4]> <5 \t> <\t _+>
+	r2.
+	r %85
+	<6 [5]>4 <[7 4]> <[7] _+>
+	r <6> r8 <6 5!>
+	r2.
+	r
+	<6 [5]>4 <[7 4]> <7> %90
+	r2 <7 _+>4
+	<_!>2 <7 _+>4
+	<_!>2 <7 _+>4
+	r2 <7>4
+	r2 <6>4 %95
+	<5>2 <6>4
+	<[6 4]> <5 \t> <\t 3>
+	r2.
+	r
+	r %100
+	<6 5>
+	<\t \t>
+	r4. <7>
+	r q
+	r2 <6 [5-]>4 %105
+	<5>4. <[5+]>8 <6>4
+	\bo <[6] 4>2 \bc <[5] 3>4
+	r2.
+	r
+	r %110
+	<6 5>
+	<\t \t>
+	r4. <[7]>
+	r q
+	r2 <6 [5-]>4 %115
+	<5>4. <[5+]>8 <6>4
+	\bo <[6] 4>2 \bc <[5] 3>4
+	<5 3>2 \bassFigureExtendersOn q8. q16
+	<5\! 3\!>2 <5 3>8. q16 \bassFigureExtendersOff
+	<[6 5]>4 <4> <3> %120
+	<5 3>2 \bassFigureExtendersOn q8. q16
+	<5\! 3\!>2 <5 3>8. q16 \bassFigureExtendersOff
+	\bo <[6 5]>4 \bc <[7 4]> <7>
+	r2 <7 _+>4
+	<_!>2 <7 _+>4 %125
+	<_!>2 <7 _+>4
+	r2 <7>4
+	r2 <6>4
+	r2 q4
+	r <6 5> <7> %130
+	r2 <7>4
+	r2. %132 FINIS
+}

@@ -405,3 +405,73 @@ BenedictusTimpani = {
 		c r r2\fermata \bar "|." %83 finis
 	}
 }
+
+DonaTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoDona
+			\set Score.currentBarNumber = #64
+		c8.\fE c16 c8 c c c
+		c4 r r %65
+		g g g
+		c c r
+		c8 c16 c c8 c c c
+		c4 r r
+		g g g %70
+		c c r
+		R2.
+		g4 g g
+		g g r
+		R2.*4 %78
+		g4\fE r r
+		g r r %80
+		g8 g g g g g
+		c4 r r
+		R2.
+		g8 g16 g g8 g g g
+		g4 r r %85
+		R2.
+		g4 r8 g16 g g8 g
+		c c16 c c8 c c c
+		c4 r r
+		r r g %90
+		c r r
+		R2.*3
+		c8 c16 c c8 c c c %95
+		c4 r r
+		g r8 g16 g g8 g
+		c c16 c c4 r
+		c\pE r r
+		c r r %100
+		g r r
+		g r r
+		c\f r8 g16 g g8 g
+		c g16 g g8 g g g
+		c4 r r %105
+		R2.
+		r4 r g
+		c8 c16 c c4 r
+		c\p r r
+		c r r %110
+		g r r
+		g r r
+		c8\f c16 c g4 r8 g
+		c c16 c g4 r8 g
+		c4 r r %115
+		R2.
+		g4 r g
+		c8 c16 c c8 c c c
+		c c16 c c4 r
+		r r g %120
+		c8 c16 c c8 c c c
+		c4 r r
+		r r g
+		c r r
+		R2.*3 %127
+		c4 r8 g16 g g8 g
+		c4 r8 g16 g g8 g
+		c4 r g %130
+		c r g
+		c r r\fermata \bar "|." %132 FINIS
+	}
+}

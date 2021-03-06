@@ -714,3 +714,74 @@ AgnusCornoI = {
 		c2 r4\fermata \bar "||" %63 finis
 	}
 }
+
+DonaCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDona
+			\set Score.currentBarNumber = #64
+		c'2.\fE
+		c4 r r %65
+		d2.
+		e4 c r
+		c2.
+		c4 r r
+		g'2 f4 %70
+		e c c
+		c r r
+		g' g g
+		g2 r4
+		g2.\pE %75
+		g4 g g
+		fis r r
+		fis2.
+		g2\fE fis4
+		g2 fis4 %80
+		g r r
+		R2.*2
+		r4 g2
+		r4 g2 %85
+		g fis4
+		g d d
+		c r r
+		c2.
+		d^\critnote %90
+		e4 r r
+		R2.*5 %96
+		e4 d2
+		c4 c r
+		g2.\pE
+		g2 r4 %100
+		g2.
+		g2 r4
+		e'\fE g2
+		e4 g2
+		e4 e e %105
+		c r r
+		e2 d4
+		c c r
+		g2.\pE
+		g2 r4 %110
+		g2.
+		g2 r4
+		e'4\fE g2
+		e4 g2
+		e4 e e %115
+		c r r
+		e2 d4
+		c c r
+		r c c
+		g'2 d4 %120
+		c e e
+		e r r
+		d f d
+		c r r
+		R2.*2 %126
+		g4 g'2
+		e g8 f
+		e2 g8 f
+		e4 d2 %130
+		c4 r d
+		e r r\fermata \bar "|." %132 FINIS
+	}
+}

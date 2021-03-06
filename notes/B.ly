@@ -1387,13 +1387,149 @@ AgnusBassoLyrics = \lyricmode {
 	di: %60 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+DonaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoDona
+			\set Score.currentBarNumber = #64
+		\mvTr c2\fE^\tuttiE c'4
+		a2 a4 %65
+		f( d) g
+		c c, r
+		c2 c4
+		c( e) c
+		g'2. %70
+		c,4 c c
+		f4. f8 d4
+		g r r
+		R2.*2 %75
+		r4 g\pE g
+		fis fis r
+		r fis fis
+		g2\fE d4
+		g2 d4 %80
+		g2 h,4
+		c2 c'4
+		d2( d,4)
+		g g g
+		e2 e4 %85
+		c( a d)
+		g8([ a)] h([ g)] a([ h)]
+		c2 c4
+		a2 a4
+		f8 f d4( g) %90
+		c, r e
+		a r a,
+		d r d
+		g r g,
+		c c e %95
+		f2 f4
+		g2( g,4)
+		c r r
+		R2.
+		r4 c'\pE c %100
+		h h r
+		r h h
+		c2\fE g4
+		c2 g4
+		c2 e,4 %105
+		f2 f4
+		g2( g,4)
+		c r r
+		R2.
+		r4 c'\pE c %110
+		h h r
+		r h h
+		c2\fE g4
+		c2 g4
+		c2 e,4 %115
+		f2 f4
+		g2( g,4)
+		c c' c
+		a2 a4
+		f8^\critnote f g2 %120
+		c4 c, c'
+		a2 a4
+		f8 f g4( g,)
+		c r e
+		a r a, %125
+		d r d
+		g r g,
+		c c'^\critnote g
+		c2 g4^\critnote
+		c8 c f,4(^\critnote g) %130
+		c, r g'
+		c, r r\fermata \bar "|." %132 FINIS
+	}
+}
+
+DonaBassoLyrics = \lyricmode {
+	Do -- na %64
+	no -- bis %65
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa -- %70
+	cem, do -- na
+	no -- bis pa --
+	cem.
+
+	Do -- na %76
+	no -- bis,
+	no -- bis
+	pa -- cem,
+	do -- na %80
+	no -- bis
+	pa -- cem,
+	pa --
+	cem, do -- na
+	no -- bis %85
+	pa --
+	cem, do -- na
+	no -- bis
+	pa -- cem,
+	pa -- cem, pa -- %90
+	cem, pa --
+	cem, pa --
+	cem, pa --
+	cem, pa --
+	cem, do -- na %95
+	no -- bis
+	pa --
+	cem.
+
+	Do -- na %100
+	no -- bis,
+	\xE no -- bis
+	pa -- cem,
+	do -- na
+	no -- bis %105
+	pa -- cem,
+	\x pa --
+	cem.
+
+	Do -- na %110
+	no -- bis,
+	no -- bis
+	pa -- cem,
+	do -- na
+	no -- bis %115
+	\xE pa -- cem, \x
+	pa --
+	cem, do -- na
+	no -- bis,
+	no -- bis pa -- %120
+	cem, do -- na
+	no -- bis,
+	\xE no -- bis \x pa --
+	cem, pa --
+	cem, pa -- %125
+	cem, pa --
+	cem, pa --
+	cem, do -- na
+	no -- bis,
+	no -- bis pa -- %130
+	cem, pa --
+	cem. %132 FINIS
+}
