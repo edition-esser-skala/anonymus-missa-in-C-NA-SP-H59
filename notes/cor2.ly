@@ -711,7 +711,7 @@ AgnusCornoII = {
 		c2\pE r4 %60
 		c2 r4
 		c2.
-		c2 r4\fermata \bar "|" %63 finis
+		c2 r4\fermata \bar "||" %63 finis
 	}
 }
 

@@ -280,7 +280,7 @@
 	}
 	\bookpart {
 		\header {
-			title = "Q U O N I A M"
+			subtitle = "Q U O N I A M"
 		}
 		\tocSubsection "2.3" "Quoniam"
 		\score {
@@ -300,7 +300,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
+						\set Staff.instrumentName = \markup \center-column { "cor (C)" "1, 2" }
 						\partCombine \QuoniamCornoI \QuoniamCornoII
 					>>
 					\new Staff <<
@@ -882,7 +882,7 @@
 		\header {
 			subtitle = "D O N A   N O B I S   P A C E M"
 		}
-		\tocSection "6.2" "Dona nobis pacem"
+		\tocSubsection "6.2" "Dona nobis pacem"
 		\score {
 			<<
 				\new StaffGroup <<
