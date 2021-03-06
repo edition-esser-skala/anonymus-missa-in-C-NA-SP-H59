@@ -1,4 +1,4 @@
-# Johann Michael Haydn (?): Missa in C MH deest (D-NATk NA/SP (H-59))
+# Anonymus: Missa in C (D-NATk NA/SP (H-59))
 
 Engraving files for LilyPond 2.22.0
 

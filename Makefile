@@ -1,5 +1,5 @@
 # change the following variables according to the current project
-project = HaydnM_Missa_in_C_MH_deest
+project = Anonymus_Missa_in_C_NASP_H59
 notes = ob1 ob2 cor1 cor2 clno1 clno2 timp vl1 vl2 vla S A T B org
 scores = full_score ob1 ob2 cor12 ottoni vl1 vl2 vla coro b org
 
