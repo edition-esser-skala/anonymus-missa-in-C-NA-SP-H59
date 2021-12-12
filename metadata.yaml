@@ -1,15 +1,18 @@
-composer: Anonymus
-title: Missa in C
-id: (D-NATk NA/SP (H-59))
+composer:
+  last: Anonymus
+title: Missa
 genre: mass
 scoring: S, A, T, B (coro), 2 ob, 2 cor (C/F/G), 2 clno (C), timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-NATk
     shelfmark: NA/SP (H-59)
-    type: manuscript copy
-    date: unknown
     rism: 455039980
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H59/
-github: anonymus-missa-in-C-NA_SP-H59
+    license: public domain
+    principal: true
 imslp: Missa_in_C_major,_D-NATk_NA/SP_(H-59)_(Anonymous)
+parts:
+  cor12: Corno I, II in C/F/G
+  ottoni: Clarino I, II in C\\Timpani in C–G
